@@ -1,0 +1,229 @@
+No.,Species,Year,Asset,Platform,Station,Surface,Euphotic_zone
+1,Oscillatoria sp.,2022,GBS,PPS,PPS1,9,3
+2,Anabeana sp.,2022,GBS,PPS,PPS1,0,0
+3,Pediastrum sp.,2022,GBS,PPS,PPS1,0,0
+4,Volvox sp.,2022,GBS,PPS,PPS1,1,13
+5,Staurastrum sp.,2022,GBS,PPS,PPS1,0,0
+6,Closterium sp.,2022,GBS,PPS,PPS1,0,0
+7,Cyclotella sp.,2022,GBS,PPS,PPS1,0,85
+8,Lauderia sp.,2022,GBS,PPS,PPS1,7,29
+9,Thalassiosira sp.,2022,GBS,PPS,PPS1,33,92
+10,Planktoniella sol,2022,GBS,PPS,PPS1,3,10
+11,P. blanda,2022,GBS,PPS,PPS1,0,18
+12,Paralia sp.,2022,GBS,PPS,PPS1,0,11
+13,Corethron sp.,2022,GBS,PPS,PPS1,1,2
+14,Melosira sp.,2022,GBS,PPS,PPS1,0,17
+15,Coscinodiscus gigas ,2022,GBS,PPS,PPS1,31,259
+16,C. excentricu,2022,GBS,PPS,PPS1,12,32
+17,C. concinnus,2022,GBS,PPS,PPS1,0,11
+18,Actinoptychus undulatus,2022,GBS,PPS,PPS1,1,3
+19,Asteromphalus sp.,2022,GBS,PPS,PPS1,0,0
+20, Palmeria sp.,2022,GBS,PPS,PPS1,0,0
+21,Guinadia sp.,2022,GBS,PPS,PPS1,1,15
+22,Dactyliosolen sp.,2022,GBS,PPS,PPS1,5,60
+23,Rhizosolenia sp.(1),2022,GBS,PPS,PPS1,5,3
+24,R. imbricate,2022,GBS,PPS,PPS1,54,24
+25,R. robusta,2022,GBS,PPS,PPS1,0,5
+26,Bacteriastrum sp.,2022,GBS,PPS,PPS1,6,1
+27,Chaetoceros sp.,2022,GBS,PPS,PPS1,11,46
+28,C. laciniosum,2022,GBS,PPS,PPS1,6,19
+29,Bellerochea sp.,2022,GBS,PPS,PPS1,2,0
+30,Ditylum brightwellii,2022,GBS,PPS,PPS1,0,20
+31,Eucampia sp.,2022,GBS,PPS,PPS1,1,0
+32,Hemiaulus sinensis,2022,GBS,PPS,PPS1,61,1
+33,Cymatosira sp.,2022,GBS,PPS,PPS1,0,0
+34,Helicotheca tamesis,2022,GBS,PPS,PPS1,1,33
+35,Odontella sinensis,2022,GBS,PPS,PPS1,1,3
+36,O. mobiliensis,2022,GBS,PPS,PPS1,1,1
+37,Bidduphia sp.,2022,GBS,PPS,PPS1,0,0
+38,Triceratium sp.,2022,GBS,PPS,PPS1,0,0
+39,Asterionellopsis sp.,2022,GBS,PPS,PPS1,0,0
+40,Centronella sp.,2022,GBS,PPS,PPS1,1,1
+41,Thalassionema frauenfeldii,2022,GBS,PPS,PPS1,27,519
+42,T. nitzschioides,2022,GBS,PPS,PPS1,19,47
+43,Thalassiothrix sp.,2022,GBS,PPS,PPS1,3,0
+44,Trachyneis sp.,2022,GBS,PPS,PPS1,0,0
+45,Amphora sp. ,2022,GBS,PPS,PPS1,1,4
+46,Diploneis sp.,2022,GBS,PPS,PPS1,1,6
+47,Lyrella sp.,2022,GBS,PPS,PPS1,0,0
+48,Navicula sp.,2022,GBS,PPS,PPS1,3,26
+49,Plurosigma sp.,2022,GBS,PPS,PPS1,2,30
+50,Gyrosigma sp.,2022,GBS,PPS,PPS1,3,35
+51,Meunier sp.,2022,GBS,PPS,PPS1,0,0
+52,Bacillaria paxillifera,2022,GBS,PPS,PPS1,0,0
+53,Cylindrotheca sp.,2022,GBS,PPS,PPS1,0,0
+54,Nitzchia sp.,2022,GBS,PPS,PPS1,1,6
+55,Pseudonitzchia sp.,2022,GBS,PPS,PPS1,3,0
+56,Campylodiscus sp.,2022,GBS,PPS,PPS1,1,4
+57,Entomoneis sp. ,2022,GBS,PPS,PPS1,0,12
+58,Surirella sp.,2022,GBS,PPS,PPS1,3,47
+59,Prorocentrum sp (1),2022,GBS,PPS,PPS1,20,42
+60,Prorocentrum  micans,2022,GBS,PPS,PPS1,2,5
+61,Dinophysis caudata,2022,GBS,PPS,PPS1,0,3
+62,Ornithocercus sp.,2022,GBS,PPS,PPS1,0,7
+63,Amphisolenia bidentata,2022,GBS,PPS,PPS1,0,0
+64,Ceratium tripo,2022,GBS,PPS,PPS1,13,22
+65,C. fusus,2022,GBS,PPS,PPS1,2,0
+66,C. furca,2022,GBS,PPS,PPS1,11,8
+67,Pyrophacus sp.,2022,GBS,PPS,PPS1,0,0
+68,Alexandrium sp.,2022,GBS,PPS,PPS1,1,2
+69,Gonyaulax sp.,2022,GBS,PPS,PPS1,14,5
+70,Corythodinium sp.,2022,GBS,PPS,PPS1,3,6
+71,Oxytoxum sp. ,2022,GBS,PPS,PPS1,3,4
+72,Podolampas bipes,2022,GBS,PPS,PPS1,3,3
+73,Protoperdinium sp. (1),2022,GBS,PPS,PPS1,14,15
+74,Protoperidinium  depressum,2022,GBS,PPS,PPS1,4,3
+75,Dictyocha octonaria,2022,GBS,PPS,PPS1,0,27
+76,D. fibula,2022,GBS,PPS,PPS1,0,0
+77,Oscillatoria sp.,2022,GBS,PPS,PPS2,5,11
+78,Anabeana sp.,2022,GBS,PPS,PPS2,0,11
+79,Pediastrum sp.,2022,GBS,PPS,PPS2,0,0
+80,Volvox sp.,2022,GBS,PPS,PPS2,0,9
+81,Staurastrum sp.,2022,GBS,PPS,PPS2,0,0
+82,Closterium sp.,2022,GBS,PPS,PPS2,0,0
+83,Cyclotella sp.,2022,GBS,PPS,PPS2,2,47
+84,Lauderia sp.,2022,GBS,PPS,PPS2,0,5
+85,Thalassiosira sp.,2022,GBS,PPS,PPS2,22,52
+86,Planktoniella sol,2022,GBS,PPS,PPS2,0,10
+87,P. blanda,2022,GBS,PPS,PPS2,1,10
+88,Paralia sp.,2022,GBS,PPS,PPS2,0,2
+89,Corethron sp.,2022,GBS,PPS,PPS2,0,7
+90,Melosira sp.,2022,GBS,PPS,PPS2,2,0
+91,Coscinodiscus gigas ,2022,GBS,PPS,PPS2,10,266
+92,C. excentricu,2022,GBS,PPS,PPS2,6,284
+93,C. concinnus,2022,GBS,PPS,PPS2,0,25
+94,Actinoptychus undulatus,2022,GBS,PPS,PPS2,0,9
+95,Asteromphalus sp.,2022,GBS,PPS,PPS2,0,1
+96, Palmeria sp.,2022,GBS,PPS,PPS2,0,0
+97,Guinadia sp.,2022,GBS,PPS,PPS2,0,6
+98,Dactyliosolen sp.,2022,GBS,PPS,PPS2,3,16
+99,Rhizosolenia sp.(1),2022,GBS,PPS,PPS2,0,0
+100,R. imbricate,2022,GBS,PPS,PPS2,34,16
+101,R. robusta,2022,GBS,PPS,PPS2,0,1
+102,Bacteriastrum sp.,2022,GBS,PPS,PPS2,1,6
+103,Chaetoceros sp.,2022,GBS,PPS,PPS2,3,23
+104,C. laciniosum,2022,GBS,PPS,PPS2,2,4
+105,Bellerochea sp.,2022,GBS,PPS,PPS2,0,3
+106,Ditylum brightwellii,2022,GBS,PPS,PPS2,0,1
+107,Eucampia sp.,2022,GBS,PPS,PPS2,0,0
+108,Hemiaulus sinensis,2022,GBS,PPS,PPS2,40,6
+109,Cymatosira sp.,2022,GBS,PPS,PPS2,0,0
+110,Helicotheca tamesis,2022,GBS,PPS,PPS2,0,0
+111,Odontella sinensis,2022,GBS,PPS,PPS2,0,0
+112,O. mobiliensis,2022,GBS,PPS,PPS2,0,0
+113,Bidduphia sp.,2022,GBS,PPS,PPS2,0,0
+114,Triceratium sp.,2022,GBS,PPS,PPS2,0,0
+115,Asterionellopsis sp.,2022,GBS,PPS,PPS2,0,0
+116,Centronella sp.,2022,GBS,PPS,PPS2,0,0
+117,Thalassionema frauenfeldii,2022,GBS,PPS,PPS2,19,239
+118,T. nitzschioides,2022,GBS,PPS,PPS2,2,172
+119,Thalassiothrix sp.,2022,GBS,PPS,PPS2,0,0
+120,Trachyneis sp.,2022,GBS,PPS,PPS2,0,0
+121,Amphora sp. ,2022,GBS,PPS,PPS2,0,14
+122,Diploneis sp.,2022,GBS,PPS,PPS2,0,4
+123,Lyrella sp.,2022,GBS,PPS,PPS2,0,0
+124,Navicula sp.,2022,GBS,PPS,PPS2,2,21
+125,Plurosigma sp.,2022,GBS,PPS,PPS2,4,23
+126,Gyrosigma sp.,2022,GBS,PPS,PPS2,0,22
+127,Meunier sp.,2022,GBS,PPS,PPS2,0,0
+128,Bacillaria paxillifera,2022,GBS,PPS,PPS2,0,10
+129,Cylindrotheca sp.,2022,GBS,PPS,PPS2,0,12
+130,Nitzchia sp.,2022,GBS,PPS,PPS2,0,1
+131,Pseudonitzchia sp.,2022,GBS,PPS,PPS2,0,0
+132,Campylodiscus sp.,2022,GBS,PPS,PPS2,0,3
+133,Entomoneis sp. ,2022,GBS,PPS,PPS2,0,10
+134,Surirella sp.,2022,GBS,PPS,PPS2,1,19
+135,Prorocentrum sp (1),2022,GBS,PPS,PPS2,29,12
+136,Prorocentrum  micans,2022,GBS,PPS,PPS2,4,4
+137,Dinophysis caudata,2022,GBS,PPS,PPS2,1,0
+138,Ornithocercus sp.,2022,GBS,PPS,PPS2,1,0
+139,Amphisolenia bidentata,2022,GBS,PPS,PPS2,0,0
+140,Ceratium tripo,2022,GBS,PPS,PPS2,37,36
+141,C. fusus,2022,GBS,PPS,PPS2,1,0
+142,C. furca,2022,GBS,PPS,PPS2,23,4
+143,Pyrophacus sp.,2022,GBS,PPS,PPS2,0,0
+144,Alexandrium sp.,2022,GBS,PPS,PPS2,5,0
+145,Gonyaulax sp.,2022,GBS,PPS,PPS2,13,16
+146,Corythodinium sp.,2022,GBS,PPS,PPS2,5,11
+147,Oxytoxum sp. ,2022,GBS,PPS,PPS2,3,0
+148,Podolampas bipes,2022,GBS,PPS,PPS2,4,8
+149,Protoperdinium sp. (1),2022,GBS,PPS,PPS2,10,14
+150,Protoperidinium  depressum,2022,GBS,PPS,PPS2,2,3
+151,Dictyocha octonaria,2022,GBS,PPS,PPS2,0,16
+152,D. fibula,2022,GBS,PPS,PPS2,1,14
+153,Oscillatoria sp.,2022,GBS,PPS,PPS3,11,3
+154,Anabeana sp.,2022,GBS,PPS,PPS3,0,12
+155,Pediastrum sp.,2022,GBS,PPS,PPS3,0,0
+156,Volvox sp.,2022,GBS,PPS,PPS3,0,0
+157,Staurastrum sp.,2022,GBS,PPS,PPS3,0,0
+158,Closterium sp.,2022,GBS,PPS,PPS3,0,0
+159,Cyclotella sp.,2022,GBS,PPS,PPS3,7,13
+160,Lauderia sp.,2022,GBS,PPS,PPS3,0,1
+161,Thalassiosira sp.,2022,GBS,PPS,PPS3,33,11
+162,Planktoniella sol,2022,GBS,PPS,PPS3,1,0
+163,P. blanda,2022,GBS,PPS,PPS3,0,0
+164,Paralia sp.,2022,GBS,PPS,PPS3,0,0
+165,Corethron sp.,2022,GBS,PPS,PPS3,0,0
+166,Melosira sp.,2022,GBS,PPS,PPS3,0,0
+167,Coscinodiscus gigas ,2022,GBS,PPS,PPS3,0,13
+168,C. excentricu,2022,GBS,PPS,PPS3,19,45
+169,C. concinnus,2022,GBS,PPS,PPS3,0,0
+170,Actinoptychus undulatus,2022,GBS,PPS,PPS3,0,1
+171,Asteromphalus sp.,2022,GBS,PPS,PPS3,0,1
+172, Palmeria sp.,2022,GBS,PPS,PPS3,0,2
+173,Guinadia sp.,2022,GBS,PPS,PPS3,0,0
+174,Dactyliosolen sp.,2022,GBS,PPS,PPS3,0,0
+175,Rhizosolenia sp.(1),2022,GBS,PPS,PPS3,4,1
+176,R. imbricate,2022,GBS,PPS,PPS3,59,14
+177,R. robusta,2022,GBS,PPS,PPS3,7,1
+178,Bacteriastrum sp.,2022,GBS,PPS,PPS3,6,0
+179,Chaetoceros sp.,2022,GBS,PPS,PPS3,12,23
+180,C. laciniosum,2022,GBS,PPS,PPS3,5,1
+181,Bellerochea sp.,2022,GBS,PPS,PPS3,0,4
+182,Ditylum brightwellii,2022,GBS,PPS,PPS3,0,0
+183,Eucampia sp.,2022,GBS,PPS,PPS3,0,0
+184,Hemiaulus sinensis,2022,GBS,PPS,PPS3,96,19
+185,Cymatosira sp.,2022,GBS,PPS,PPS3,0,0
+186,Helicotheca tamesis,2022,GBS,PPS,PPS3,0,0
+187,Odontella sinensis,2022,GBS,PPS,PPS3,0,6
+188,O. mobiliensis,2022,GBS,PPS,PPS3,0,0
+189,Bidduphia sp.,2022,GBS,PPS,PPS3,0,0
+190,Triceratium sp.,2022,GBS,PPS,PPS3,0,0
+191,Asterionellopsis sp.,2022,GBS,PPS,PPS3,0,0
+192,Centronella sp.,2022,GBS,PPS,PPS3,0,0
+193,Thalassionema frauenfeldii,2022,GBS,PPS,PPS3,30,26
+194,T. nitzschioides,2022,GBS,PPS,PPS3,2,26
+195,Thalassiothrix sp.,2022,GBS,PPS,PPS3,0,0
+196,Trachyneis sp.,2022,GBS,PPS,PPS3,0,0
+197,Amphora sp. ,2022,GBS,PPS,PPS3,1,0
+198,Diploneis sp.,2022,GBS,PPS,PPS3,0,0
+199,Lyrella sp.,2022,GBS,PPS,PPS3,0,0
+200,Navicula sp.,2022,GBS,PPS,PPS3,2,3
+201,Plurosigma sp.,2022,GBS,PPS,PPS3,4,3
+202,Gyrosigma sp.,2022,GBS,PPS,PPS3,4,3
+203,Meunier sp.,2022,GBS,PPS,PPS3,0,0
+204,Bacillaria paxillifera,2022,GBS,PPS,PPS3,0,0
+205,Cylindrotheca sp.,2022,GBS,PPS,PPS3,0,0
+206,Nitzchia sp.,2022,GBS,PPS,PPS3,3,0
+207,Pseudonitzchia sp.,2022,GBS,PPS,PPS3,0,0
+208,Campylodiscus sp.,2022,GBS,PPS,PPS3,1,0
+209,Entomoneis sp. ,2022,GBS,PPS,PPS3,0,1
+210,Surirella sp.,2022,GBS,PPS,PPS3,2,1
+211,Prorocentrum sp (1),2022,GBS,PPS,PPS3,10,18
+212,Prorocentrum  micans,2022,GBS,PPS,PPS3,6,0
+213,Dinophysis caudata,2022,GBS,PPS,PPS3,0,0
+214,Ornithocercus sp.,2022,GBS,PPS,PPS3,3,4
+215,Amphisolenia bidentata,2022,GBS,PPS,PPS3,1,0
+216,Ceratium tripo,2022,GBS,PPS,PPS3,35,11
+217,C. fusus,2022,GBS,PPS,PPS3,6,2
+218,C. furca,2022,GBS,PPS,PPS3,50,14
+219,Pyrophacus sp.,2022,GBS,PPS,PPS3,0,1
+220,Alexandrium sp.,2022,GBS,PPS,PPS3,0,0
+221,Gonyaulax sp.,2022,GBS,PPS,PPS3,12,12
+222,Corythodinium sp.,2022,GBS,PPS,PPS3,11,8
+223,Oxytoxum sp. ,2022,GBS,PPS,PPS3,3,11
+224,Podolampas bipes,2022,GBS,PPS,PPS3,1,0
+225,Protoperdinium sp. (1),2022,GBS,PPS,PPS3,9,8
+226,Protoperidinium  depressum,2022,GBS,PPS,PPS3,0,1
+227,Dictyocha octonaria,2022,GBS,PPS,PPS3,1,17
+228,D. fibula,2022,GBS,PPS,PPS3,0,4

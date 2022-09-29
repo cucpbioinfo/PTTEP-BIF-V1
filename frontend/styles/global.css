@@ -1,0 +1,78 @@
+* {
+  font-family: 'IBM Plex Sans Thai', sans-serif !important;
+}
+.ant-breadcrumb-link {
+  color: white;
+  font-size: 14px;
+}
+.ant-breadcrumb > span:last-child {
+  font-weight: 500;
+  font-family: IBM Plex Sans Thai, sans-serif;
+}
+.ant-input-affix-wrapper:not(.ant-input-affix-wrapper-disabled):hover {
+  border-color: #132c33 !important;
+  box-shadow: none !important;
+}
+.ant-input-affix-wrapper:focus,
+.ant-input-affix-wrapper-focused {
+  border-color: #132c33 !important;
+  box-shadow: none !important;
+}
+
+.ant-layout-header {
+  background: transparent !important;
+  height: auto;
+}
+.ant-btn-primary:active,
+.ant-btn:focus {
+  background-color: white !important;
+  border-color: #126e82 !important;
+  color: #126e82 !important;
+}
+/* .above-the-fold-input .ant-select-selection-search-input, .above-the-fold-input .ant-select-selector  {
+    height: 100%!important;
+}
+.above-the-fold-input, .ant-select-selector {
+    border-radius: 0!important;
+    border: 0!important;
+}
+.ant-input:placeholder-shown {
+    text-overflow: ellipsis;
+} */
+.ant-input-suffix {
+  display: flex;
+  flex: none;
+  align-items: center;
+}
+
+.ant-drawer-content-wrapper {
+  width: 100vw !important;
+}
+
+.ant-select {
+  min-width: 120px;
+  width: 100%;
+}
+
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: #126e82;
+  /* font-weight: bold; */
+}
+.ant-tabs-tab:hover {
+  color: #51c4d3;
+}
+.ant-tabs-top > .ant-tabs-nav .ant-tabs-ink-bar,
+.ant-tabs-top > div > .ant-tabs-nav .ant-tabs-ink-bar {
+  background-color: #126e82 !important;
+}
+.ant-collapse-header {
+  align-items: center;
+  font-size: 16px;
+}
+
+.ant-message-error {
+  display: flex !important;
+}
+.ant-message-success {
+  display: flex !important;
+}

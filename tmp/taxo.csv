@@ -1,0 +1,666 @@
+major group,kingdom,subkingdom,infrakingdom,superphylum,phylum,subphylum,infraphylum,superclass,class,subclass,infraclass,superorder,order,suborder,infraorder,superfamily,family,subfamily,supergenus,genus,subgenus,species name,subspecies name,Accepted as,picture
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Bacillariophycanae ,Achnanthales ,-,-,-,Cocconeidaceae,-,-,Cocconeis ,-,Cocconeis sp.1,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Bacillariophycanae ,Achnanthales ,-,-,-,Cocconeidaceae,-,-,Cocconeis ,-,Cocconeis sp.2,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Coscinodiscanae,Asterolamprales ,-,-,-,Asterolampraceae,-,-,Asterolampra ,-,Asterolampra marylandica ,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Coscinodiscanae,Asterolamprales ,-,-,-,Asterolampraceae,-,-,Asterolampra ,-,Asterolampra sp.1,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Coscinodiscanae,Asterolamprales,-,-,-,Asterolampraceae,-,-,Asteromphalus ,-, Asteromphalus cleveanus ,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Coscinodiscanae,Asterolamprales,-,-,-,Asterolampraceae,-,-,Asteromphalus ,-,Asteromphalus elegans ,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Coscinodiscanae,Asterolamprales,-,-,-,Asterolampraceae,-,-,Asteromphalus ,-, Asteromphalus flabellatus ,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Coscinodiscanae,Asterolamprales,-,-,-,Asterolampraceae,-,-,Asteromphalus ,-,Asteromphalus sp.1 ,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Coscinodiscanae,Asterolamprales,-,-,-,Asterolampraceae,-,-,Asteromphalus ,-,Asteromphalus sp.2,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Coscinodiscanae,Asterolamprales,-,-,-,Asterolampraceae,-,-,Asteromphalus ,-,Asteromphalus sp.3,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Coscinodiscanae,Aulacoseirales ,-,-,-,Aulacoseiraceae,-,-,Aulacoseira,-,Aulacoseira sp.,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Bacillariophycidae,-,Bacillariophycanae,Bacillariales,-,-,-,Bacillariaceae,-,-,Bacillaria ,-,Bacillaria paxillifer ,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Bacillariophycidae,-,Bacillariophycanae,Bacillariales,-,-,-,Bacillariaceae,-,-,Bacillaria ,-,Bacillaria sp.,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Bacillariophycidae,-,Bacillariophycanae,Bacillariales,-,-,-,Bacillariaceae,-,-,Cylindrotheca ,-,Cylindrotheca closterium ,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Bacillariophycidae,-,Bacillariophycanae,Bacillariales,-,-,-,Bacillariaceae,-,-,Cylindrotheca ,-,Cylindrotheca sp.1,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Bacillariophycidae,-,Bacillariophycanae,Bacillariales,-,-,-,Bacillariaceae,-,-,Cylindrotheca ,-,Cylindrotheca sp.2,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Bacillariophycidae,-,Bacillariophycanae,Bacillariales,-,-,-,Bacillariaceae,-,-,Nitzschia ,-, Nitzschia lorenziana ,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Bacillariophycidae,-,Bacillariophycanae,Bacillariales,-,-,-,Bacillariaceae,-,-,Nitzschia ,-, Nitzschia longissima ,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Bacillariophycidae,-,Bacillariophycanae,Bacillariales,-,-,-,Bacillariaceae,-,-,Nitzschia ,-, Nitzschia sp.1 ,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Bacillariophycidae,-,Bacillariophycanae,Bacillariales,-,-,-,Bacillariaceae,-,-,Nitzschia ,-, Nitzschia sp.2,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Bacillariophycidae,-,Bacillariophycanae,Bacillariales,-,-,-,Bacillariaceae,-,-,Nitzschia ,-, Nitzschia sp.3,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Bacillariophycidae,-,Bacillariophycanae,Bacillariales,-,-,-,Bacillariaceae,-,-,Nitzschia ,-, Nitzschia sp.4,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Bacillariophycidae,-,Bacillariophycanae,Bacillariales,-,-,-,Bacillariaceae,-,-,Nitzschia ,-, Nitzschia sp.5,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Bacillariophycidae,-,Bacillariophycanae,Bacillariales,-,-,-,Bacillariaceae,-,-,Nitzschia ,-, Nitzschia sp.6,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Bacillariophycidae,-,Bacillariophycanae,Bacillariales,-,-,-,Bacillariaceae,-,-,Nitzschia ,-, Nitzschia sp.7,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Bacillariophycidae,-,Bacillariophycanae,Bacillariales,-,-,-,Bacillariaceae,-,-,Nitzschia ,-, Nitzschia sp.8,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Bacillariophycidae,-,Bacillariophycanae,Bacillariales,-,-,-,Bacillariaceae,-,-,Pseudo-nitzschia,-,Pseudo-nitzschia sp.1,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Bacillariophycidae,-,Bacillariophycanae,Bacillariales,-,-,-,Bacillariaceae,-,-,Pseudo-nitzschia,-,Pseudo-nitzschia sp.2,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Bacillariophycidae,-,Bacillariophycanae,Bacillariales,-,-,-,Bacillariaceae,-,-,Tryblionella,-,Tryblionella sp.,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Biddulphianae,Hemiaulales,-,-,-,Bellerocheaceae,-,-,Bellerochea,-,Bellerochea sp.,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Biddulphianae,Biddulphiales ,-,-,-,Biddulphiaceae,-,-,Biddulphia,-,Biddulphia sp.1,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Biddulphianae,Biddulphiales ,-,-,-,Biddulphiaceae,-,-,Biddulphia,-,Biddulphia sp.2,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Chaetocerotanae,Chaetocerotanae incertae sedis,-,-,-,Chaetocerotaceae,-,-,Bacteriastrum,-,Bacteriastrum furcatum ,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Chaetocerotanae,Chaetocerotanae incertae sedis,-,-,-,Chaetocerotaceae,-,-,Bacteriastrum,-,Bacteriastrum hyalinum ,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Chaetocerotanae,Chaetocerotanae incertae sedis,-,-,-,Chaetocerotaceae,-,-,Bacteriastrum,-,Bacteriastrum comosum ,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Chaetocerotanae,Chaetocerotanae incertae sedis,-,-,-,Chaetocerotaceae,-,-,Bacteriastrum,-,Bacteriastrum sp.1,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Chaetocerotanae,Chaetocerotanae incertae sedis,-,-,-,Chaetocerotaceae,-,-,Bacteriastrum,-,Bacteriastrum sp.2,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Chaetocerotanae,Chaetocerotanae incertae sedis,-,-,-,Chaetocerotaceae,-,-,Bacteriastrum,-,Bacteriastrum sp.3,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Chaetocerotanae,Chaetocerotanae incertae sedis,-,-,-,Chaetocerotaceae,-,-,Bacteriastrum,-,Bacteriastrum sp.4,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Chaetocerotanae,Chaetocerotanae incertae sedis,-,-,-,Chaetocerotaceae,-,-,Chaetoceros,-,Chaetoceros messanense ,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Chaetocerotanae,Chaetocerotanae incertae sedis,-,-,-,Chaetocerotaceae,-,-,Chaetoceros,-, Chaetoceros lorenzianus ,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Chaetocerotanae,Chaetocerotanae incertae sedis,-,-,-,Chaetocerotaceae,-,-,Chaetoceros,-, Chaetoceros compressus ,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Chaetocerotanae,Chaetocerotanae incertae sedis,-,-,-,Chaetocerotaceae,-,-,Chaetoceros,-, Chaetoceros coarctatus ,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Chaetocerotanae,Chaetocerotanae incertae sedis,-,-,-,Chaetocerotaceae,-,-,Chaetoceros,-, Chaetoceros aequatorialis ,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Chaetocerotanae,Chaetocerotanae incertae sedis,-,-,-,Chaetocerotaceae,-,-,Chaetoceros,-, Chaetoceros affinis ,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Chaetocerotanae,Chaetocerotanae incertae sedis,-,-,-,Chaetocerotaceae,-,-,Chaetoceros,-,Chaetoceros atlanticus ,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Chaetocerotanae,Chaetocerotanae incertae sedis,-,-,-,Chaetocerotaceae,-,-,Chaetoceros,-,Chaetoceros diversus ,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Chaetocerotanae,Chaetocerotanae incertae sedis,-,-,-,Chaetocerotaceae,-,-,Chaetoceros,-,Chaetoceros didymus ,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Chaetocerotanae,Chaetocerotanae incertae sedis,-,-,-,Chaetocerotaceae,-,-,Chaetoceros,-,Chaetoceros peruvianus ,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Chaetocerotanae,Chaetocerotanae incertae sedis,-,-,-,Chaetocerotaceae,-,-,Chaetoceros,-,Chaetoceros pseudocurvisetus,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Chaetocerotanae,Chaetocerotanae incertae sedis,-,-,-,Chaetocerotaceae,-,-,Chaetoceros,-,Chaetoceros eibenii,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Chaetocerotanae,Chaetocerotanae incertae sedis,-,-,-,Chaetocerotaceae,-,-,Chaetoceros,-,Chaetoceros costatus,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Chaetocerotanae,Chaetocerotanae incertae sedis,-,-,-,Chaetocerotaceae,-,-,Chaetoceros,-,Chaetoceros tenuissimus ,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Chaetocerotanae,Chaetocerotanae incertae sedis,-,-,-,Chaetocerotaceae,-,-,Chaetoceros,-,Chaetoceros sp.1,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Chaetocerotanae,Chaetocerotanae incertae sedis,-,-,-,Chaetocerotaceae,-,-,Chaetoceros,-,Chaetoceros sp.2,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Chaetocerotanae,Chaetocerotanae incertae sedis,-,-,-,Chaetocerotaceae,-,-,Chaetoceros,-,Chaetoceros sp.3,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Chaetocerotanae,Chaetocerotanae incertae sedis,-,-,-,Chaetocerotaceae,-,-,Chaetoceros,-,Chaetoceros sp.4,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Chaetocerotanae,Chaetocerotanae incertae sedis,-,-,-,Chaetocerotaceae,-,-,Chaetoceros,-,Chaetoceros sp.5,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Chaetocerotanae,Chaetocerotanae incertae sedis,-,-,-,Chaetocerotaceae,-,-,Chaetoceros,-,Chaetoceros sp.6,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Chaetocerotanae,Chaetocerotanae incertae sedis,-,-,-,Chaetocerotaceae,-,-,Chaetoceros,-,Chaetoceros sp.7,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Chaetocerotanae,Chaetocerotanae incertae sedis,-,-,-,Chaetocerotaceae,-,-,Chaetoceros,-,Chaetoceros sp.8,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Chaetocerotanae,Chaetocerotanae incertae sedis,-,-,-,Chaetocerotaceae,-,-,Chaetoceros,-,Chaetoceros sp.9,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Chaetocerotanae,Chaetocerotanae incertae sedis,-,-,-,Chaetocerotaceae,-,-,Chaetoceros,-,Chaetoceros sp.10,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Chaetocerotanae,Chaetocerotanae incertae sedis,-,-,-,Chaetocerotaceae,-,-,Chaetoceros,-,Chaetoceros sp.11,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Chaetocerotanae,Chaetocerotanae incertae sedis,-,-,-,Chaetocerotaceae,-,-,Chaetoceros,-,Chaetoceros sp.12,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Chaetocerotanae,Chaetocerotanae incertae sedis,-,-,-,Chaetocerotaceae,-,-,Chaetoceros,-,Chaetoceros sp.13,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Chaetocerotanae,Chaetocerotanae incertae sedis,-,-,-,Chaetocerotaceae,-,-,Chaetoceros,-,Chaetoceros sp.14,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Fragilariophycidae,-,Fragilariophycanae,Climacospheniales ,-,-,-,Climacospheniaceae ,-,-,Climacosphenia,-,Climacosphenia sp.,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Corethranae,Corethrales,-,-,-,Corethraceae,-,-,Corethron,-,Corethron criophilum ,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Corethranae,Corethrales,-,-,-,Corethraceae,-,-,Corethron,-,Corethron sp. ,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Coscinodiscanae,Coscinodiscales,-,-,-,Coscinodiscaceae,-,-,Coscinodiscus,-,Coscinodiscus gigas ,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Coscinodiscanae,Coscinodiscales,-,-,-,Coscinodiscaceae,-,-,Coscinodiscus,-,Coscinodiscus sp.1,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Coscinodiscanae,Coscinodiscales,-,-,-,Coscinodiscaceae,-,-,Coscinodiscus,-,Coscinodiscus sp.2,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Coscinodiscanae,Coscinodiscales,-,-,-,Coscinodiscaceae,-,-,Coscinodiscus,-,Coscinodiscus sp.3,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Coscinodiscanae,Coscinodiscales,-,-,-,Coscinodiscaceae,-,-,Coscinodiscus,-,Coscinodiscus sp.4,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Coscinodiscanae,Coscinodiscales,-,-,-,Coscinodiscaceae,-,-,Coscinodiscus,-,Coscinodiscus sp.5,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Coscinodiscanae,Coscinodiscales,-,-,-,Coscinodiscaceae,-,-,Coscinodiscus,-,Coscinodiscus sp.6,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Coscinodiscanae,Coscinodiscales,-,-,-,Coscinodiscaceae,-,-,Coscinodiscus,-,Coscinodiscus sp.7,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Coscinodiscanae,Coscinodiscales,-,-,-,Coscinodiscaceae,-,-,Coscinodiscus,-,Coscinodiscus sp.8,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Coscinodiscanae,Coscinodiscales,-,-,-,Coscinodiscaceae,-,-,Coscinodiscus,-,Coscinodiscus sp.9,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Coscinodiscanae,Coscinodiscales,-,-,-,Coscinodiscaceae,-,-,Coscinodiscus,-,Coscinodiscus sp.10,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Coscinodiscanae,Coscinodiscales,-,-,-,Coscinodiscaceae,-,-,Coscinodiscus,-,Coscinodiscus sp.11,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Coscinodiscanae,Coscinodiscales,-,-,-,Coscinodiscaceae,-,-,Coscinodiscus,-,Coscinodiscus sp.12,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Coscinodiscanae,Coscinodiscales,-,-,-,Coscinodiscaceae,-,-,Coscinodiscus,-,Coscinodiscus sp.13,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Coscinodiscanae,Coscinodiscales,-,-,-,Coscinodiscaceae,-,-,Palmeria,-,Palmeria hardmanniana ,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Coscinodiscanae,Coscinodiscales,-,-,-,Gossleriellaceae,-,-,Gossleriella,-,Gossleriella tropica,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Coscinodiscanae,Coscinodiscales,-,-,-,Gossleriellaceae,-,-,Gossleriella,-,Gossleriella sp.,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Coscinodiscanae,Coscinodiscales,-,-,-,Heliopeltaceae ,-,-,Actinoptychus,-,Actinoptychus sp.1,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Coscinodiscanae,Coscinodiscales,-,-,-,Heliopeltaceae ,-,-,Actinoptychus,-,Actinoptychus sp.2,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Coscinodiscanae,Coscinodiscales,-,-,-,Heliopeltaceae ,-,-,Actinoptychus,-,Actinoptychus sp.3,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Coscinodiscanae,Coscinodiscales,-,-,-,Hemidiscaceae,-,-,Hemidiscus,-,Hemidiscus cuneiformis,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Coscinodiscanae,Coscinodiscales,-,-,-,Hemidiscaceae,-,-,Hemidiscus,-,Hemidiscus sp.,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Coscinodiscanae,Coscinodiscales,-,-,-,Hemidiscaceae,-,-,Pseudoguinardia,-,Pseudoguinardia recta,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Cymatosirophycanae,Cymatosirales ,-,-,-,Cymatosiraceae,-,-,Cymatosira,-,Cymatosira sp.1,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Bacillariophycidae,-,Bacillariophycanae,Cymbellales,-,-,-,Cymbellaceae,-,-,Cymbella,-,Cymbella sp.,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Fragilariophycidae,-,Fragilariophycanae,Fragilariales,-,-,-,Fragilariaceae,-,-,Asterionellopsis,-,Asterionellopsis glacialis ,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Fragilariophycidae,-,Fragilariophycanae,Fragilariales,-,-,-,Fragilariaceae,-,-,Bleakeleya,-,Bleakeleya sp.,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Bacillariophyceae incertae sedis,-,-,-,-,-,-,-,-,-,Diatoma ,-,Diatoma sp.1,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Bacillariophyceae incertae sedis,-,-,-,-,-,-,-,-,-,Diatoma ,-,Diatoma sp.2,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Fragilariophycidae ,-,Fragilariophycanae,Fragilariales,-,-,-,Fragilariaceae,-,-,Fragilaria,-,Fragilaria sp.1,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Fragilariophycidae ,-,Fragilariophycanae,Fragilariales,-,-,-,Fragilariaceae,-,-,Fragilaria,-,Fragilaria sp.2,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Fragilariophycidae ,-,Fragilariophycanae,Fragilariales,-,-,-,Fragilariaceae,-,-,Meridion ,-,Meridion sp.1,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Biddulphianae,Hemiaulales ,-,-,-,Hemiaulaceae,-,-,Cerataulina,-,Cerataulina sp.,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Biddulphianae,Hemiaulales ,-,-,-,Hemiaulaceae,-,-,Climacodium,-,Climacodium frauenfeldianum ,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Biddulphianae,Hemiaulales ,-,-,-,Hemiaulaceae,-,-,Climacodium,-,Climacodium biconcavum,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Biddulphianae,Hemiaulales ,-,-,-,Hemiaulaceae,-,-,Eucampia,-,Eucampia zodiacus,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Biddulphianae,Hemiaulales ,-,-,-,Hemiaulaceae,-,-,Eucampia,-,Eucampia cornuta,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Biddulphianae,Hemiaulales ,-,-,-,Hemiaulaceae,-,-,Eucampia,-,Eucampia sp.,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Biddulphianae,Hemiaulales ,-,-,-,Hemiaulaceae,-,-,Hemiaulus,-,Hemiaulus membranaceus ,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Biddulphianae,Hemiaulales ,-,-,-,Hemiaulaceae,-,-,Hemiaulus,-,Hemiaulus indicus ,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Biddulphianae,Hemiaulales ,-,-,-,Hemiaulaceae,-,-,Hemiaulus,-,Hemiaulus sinensis ,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Biddulphianae,Hemiaulales ,-,-,-,Hemiaulaceae,-,-,Hemiaulus,-,Hemiaulus hauckii ,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Biddulphianae,Hemiaulales ,-,-,-,Hemiaulaceae,-,-,Hemiaulus,-,Hemiaulus sp.1,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Biddulphianae,Hemiaulales ,-,-,-,Hemiaulaceae,-,-,Hemiaulus,-,Hemiaulus sp.2,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Biddulphianae,Hemiaulales ,-,-,-,Hemiaulaceae,-,-,Hemiaulus,-,Hemiaulus sp.3,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Biddulphianae,Hemiaulales ,-,-,-,Hemiaulaceae,-,-,Eucampia,-,Eucampia zodiacus,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Chaetocerotanae,Leptocylindrales,-,-,-,Leptocylindraceae,-,-,Leptocylindrus,-,Leptocylindrus mediterraneus,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Chaetocerotanae,Leptocylindrales,-,-,-,Leptocylindraceae,-,-,Leptocylindrus,-,Leptocylindrus danicus ,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Chaetocerotanae,Leptocylindrales,-,-,-,Leptocylindraceae,-,-,Leptocylindrus,-,Leptocylindrus sp.,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Fragilariophycidae,-,Fragilariophycanae,Licmophorales ,-,-,-,Licmophoraceae,-,-,Licmophora,-,Licmophora flabellata,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Fragilariophycidae,-,Fragilariophycanae,Licmophorales ,-,-,-,Licmophoraceae,-,-,Licmophora,-,Licmophora dalmatica ,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Fragilariophycidae,-,Fragilariophycanae,Licmophorales ,-,-,-,Licmophoraceae,-,-,Licmophora,-,Licmophora sp.,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Lithodesmiophycanae,Lithodesmiales,-,-,-,Lithodesmiaceae,-,-,Ditylum,-,Ditylum brightwellii ,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Lithodesmiophycanae,Lithodesmiales,-,-,-,Lithodesmiaceae,-,-,Ditylum,-,Ditylum sp.1,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Lithodesmiophycanae,Lithodesmiales,-,-,-,Lithodesmiaceae,-,-,Ditylum,-,Ditylum sp.2,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Lithodesmiophycanae,Lithodesmiales,-,-,-,Lithodesmiaceae,-,-,Helicotheca ,-,Helicotheca tamesis ,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Lithodesmiophycanae,Lithodesmiales,-,-,-,Lithodesmiaceae,-,-,Helicotheca ,-,Helicotheca sp.,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Lithodesmiophycanae,Lithodesmiales,-,-,-,Lithodesmiaceae,-,-,Lithodesmium,-,Lithodesmium undulatum,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Lithodesmiophycanae,Lithodesmiales,-,-,-,Lithodesmiaceae,-,-,Lithodesmium,-,Lithodesmium sp.1,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Lithodesmiophycanae,Lithodesmiales,-,-,-,Lithodesmiaceae,-,-,Lithodesmium,-,Lithodesmium sp.2,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Bacillariophycidae,-,Bacillariophycanae ,Lyrellales ,-,-,-,Lyrellaceae,-,-,Lyrella ,-,Lyrella lyra,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Bacillariophycidae,-,Bacillariophycanae ,Mastogloiales,-,-,-,Mastogloiaceae,-,-,Mastogloia,-,Mastogloia sp.,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Coscinodiscanae,Melosirales,-,-,-,Melosiraceae,-,-,Melosira,-,Melosira dubia,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Coscinodiscanae,Melosirales,-,-,-,Melosiraceae,-,-,Melosira,-,Melosira sp.,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Coscinodiscanae,Melosirales,-,-,-,Stephanopyxidaceae,-,-,Stephanopyxis ,-,Stephanopyxis palmeriana,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Coscinodiscanae,Melosirales,-,-,-,Stephanopyxidaceae,-,-,Stephanopyxis ,-,Stephanopyxis sp.,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Bacillariophycidae,-,Bacillariophycanae,Naviculales,-,-,-,Diploneidaceae,-,-,Diploneis,-,Diploneis sp.1,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Bacillariophycidae,-,Bacillariophycanae,Naviculales,-,-,-,Diploneidaceae,-,-,Diploneis,-,Diploneis sp.2,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Bacillariophycidae,-,Bacillariophycanae,Naviculales,-,-,-,Diploneidaceae,-,-,Diploneis,-,Diploneis sp.3,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Bacillariophycidae,-,Bacillariophycanae,Naviculales,-,-,-,Diploneidaceae,-,-,Diploneis,-,Diploneis sp.4,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Bacillariophycidae,-,Bacillariophycanae,Naviculales,-,-,-,Diploneidaceae,-,-,Diploneis,-,Diploneis sp.5,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Bacillariophycidae,-,Bacillariophycanae,Naviculales,-,-,-,Naviculaceae,-,-,Haslea,-,Haslea wawrikae,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Bacillariophycidae,-,Bacillariophycanae,Naviculales,-,-,-,Naviculaceae,-,-,Haslea,-,Haslea sp.,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Bacillariophycidae,-,Bacillariophycanae,Naviculales,-,-,-,Naviculaceae,-,-,Meuniera,-,Meuniera sp.1,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Bacillariophycidae,-,Bacillariophycanae,Naviculales,-,-,-,Naviculaceae,-,-,Meuniera,-,Meuniera sp.2,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Bacillariophycidae,-,Bacillariophycanae,Naviculales,-,-,-,Naviculaceae,-,-,Navicula,-,Navicula sp.1,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Bacillariophycidae,-,Bacillariophycanae,Naviculales,-,-,-,Naviculaceae,-,-,Navicula,-,Navicula sp.2,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Bacillariophycidae,-,Bacillariophycanae,Naviculales,-,-,-,Naviculaceae,-,-,Navicula,-,Navicula sp.3,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Bacillariophycidae,-,Bacillariophycanae,Naviculales,-,-,-,Naviculaceae,-,-,Navicula,-,Navicula sp.4,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Bacillariophycidae,-,Bacillariophycanae,Naviculales,-,-,-,Naviculaceae,-,-,Navicula,-,Navicula sp.5,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Bacillariophycidae,-,Bacillariophycanae,Naviculales,-,-,-,Naviculaceae,-,-,Navicula,-,Navicula sp.6,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Bacillariophycidae,-,Bacillariophycanae,Naviculales,-,-,-,Naviculaceae,-,-,Navicula,-,Navicula sp.7,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Bacillariophycidae,-,Bacillariophycanae,Naviculales,-,-,-,Naviculaceae,-,-,Trachyneis,-,Trachyneis sp.1,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Bacillariophycidae,-,Bacillariophycanae,Naviculales,-,-,-,Naviculaceae,-,-,Trachyneis,-,Trachyneis sp.2,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Bacillariophycidae,-,Bacillariophycanae,Naviculales,-,-,-,Pinnulariaceae,-,-,Pinnularia,-,Pinnularia sp.,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Bacillariophycidae,-,Bacillariophycanae,Naviculales,-,-,-,Pleurosigmataceae,-,-,Gyrosigma,-,Gyrosigma sp.1,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Bacillariophycidae,-,Bacillariophycanae,Naviculales,-,-,-,Pleurosigmataceae,-,-,Gyrosigma,-,Gyrosigma sp.2,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Bacillariophycidae,-,Bacillariophycanae,Naviculales,-,-,-,Pleurosigmataceae,-,-,Gyrosigma,-,Gyrosigma sp.3,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Bacillariophycidae,-,Bacillariophycanae,Naviculales,-,-,-,Pleurosigmataceae,-,-,Pleurosigma,-,Pleurosigma sp.1,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Bacillariophycidae,-,Bacillariophycanae,Naviculales,-,-,-,Pleurosigmataceae,-,-,Pleurosigma,-,Pleurosigma sp.2,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Bacillariophycidae,-,Bacillariophycanae,Naviculales,-,-,-,Pleurosigmataceae,-,-,Pleurosigma,-,Pleurosigma sp.3,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Bacillariophycidae,-,Bacillariophycanae,Naviculales,-,-,-,Pleurosigmataceae,-,-,Pleurosigma,-,Pleurosigma sp.4,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Bacillariophycidae,-,Bacillariophycanae,Naviculales,-,-,-,Pleurosigmataceae,-,-,Pleurosigma,-,Pleurosigma sp.5,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Bacillariophycidae,-,Bacillariophycanae,Naviculales,-,-,-,Stauroneidaceae,-,-,Stauroneis,-,Stauroneis salina,-,"Staurophora salina (W.Smith) Mereschkowsky, 1903",-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae ,-,Coscinodiscanae,Paraliales,-,-,-,Paraliaceae ,-,-,Paralia,-,Paralia sulcata,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae ,-,Coscinodiscanae,Paraliales,-,-,-,Paraliaceae ,-,-,Paralia,-,Paralia sp.,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Fragilariophycidae,-,Fragilariophycanae,Rhabdonematales ,-,-,-,Rhabdonemataceae,-,-,Rhabdonema,-,Rhabdonema sp.,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Rhizosolenianae,Rhizosoleniales,-,-,-,Rhizosoleniaceae,-,-,Dactyliosolen,-,Dactyliosolen fragilissimus ,-,"Rhizosolenia fragilissima f. fragilissima Bergon, 1903",-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Rhizosolenianae,Rhizosoleniales,-,-,-,Rhizosoleniaceae,-,-,Dactyliosolen,-,Dactyliosolen blavyanus,-,"Guinardia blavyana var. blavyana H. Peragallo, 1892",-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Rhizosolenianae,Rhizosoleniales,-,-,-,Rhizosoleniaceae,-,-,Guinardia,-,Guinardia striata,-,"Eucampia striata Stolterfoth, 1879",-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Rhizosolenianae,Rhizosoleniales,-,-,-,Rhizosoleniaceae,-,-,Guinardia,-,Guinardia flaccida ,-,"Rhizosolenia flaccida Castracane, 1886",-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Rhizosolenianae,Rhizosoleniales,-,-,-,Rhizosoleniaceae,-,-,Guinardia,-,Guinardia sp.,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Rhizosolenianae,Rhizosoleniales,-,-,-,Rhizosoleniaceae,-,-,Proboscia,-,Proboscia alata ,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Rhizosolenianae,Rhizosoleniales,-,-,-,Rhizosoleniaceae,-,-,Pseudosolenia,-,Pseudosolenia calcar-avis,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Rhizosolenianae,Rhizosoleniales,-,-,-,Rhizosoleniaceae,-,-,Rhizosolenia,-,Rhizosolenia styliformis,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Rhizosolenianae,Rhizosoleniales,-,-,-,Rhizosoleniaceae,-,-,Rhizosolenia ,-,Rhizosolenia praebergonii,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Rhizosolenianae,Rhizosoleniales,-,-,-,Rhizosoleniaceae,-,-,Rhizosolenia,-,Rhizosolenia clevei var. communis ,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Rhizosolenianae,Rhizosoleniales,-,-,-,Rhizosoleniaceae,-,-,Rhizosolenia,-,Rhizosolenia bergonii,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Rhizosolenianae,Rhizosoleniales,-,-,-,Rhizosoleniaceae,-,-,Rhizosolenia,-,Rhizosolenia cylindrus,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Rhizosolenianae,Rhizosoleniales,-,-,-,Rhizosoleniaceae,-,-,Rhizosolenia,-,Rhizosolenia hyalina ,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Rhizosolenianae,Rhizosoleniales,-,-,-,Rhizosoleniaceae,-,-,Rhizosolenia,-,Rhizosolenia acuminata ,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Rhizosolenianae,Rhizosoleniales,-,-,-,Rhizosoleniaceae,-,-,Rhizosolenia,-,Rhizosolenia sp.3 ,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Rhizosolenianae,Rhizosoleniales,-,-,-,Rhizosoleniaceae,-,-,Rhizosolenia,-,Rhizosolenia formosa ,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Rhizosolenianae,Rhizosoleniales,-,-,-,Rhizosoleniaceae,-,-,Rhizosolenia,-,Rhizosolenia pungens,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Rhizosolenianae,Rhizosoleniales,-,-,-,Rhizosoleniaceae,-,-,Rhizosolenia,-,Rhizosolenia imbricata,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Rhizosolenianae,Rhizosoleniales,-,-,-,Rhizosoleniaceae,-,-,Rhizosolenia,-,Rhizosolenia phuketensis,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Rhizosolenianae,Rhizosoleniales,-,-,-,Rhizosoleniaceae,-,-,Rhizosolenia,-,Rhizosolenia imbricata,-,Rhizosolenia imbricata var. striata ,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Rhizosolenianae,Rhizosoleniales,-,-,-,Rhizosoleniaceae,-,-,Rhizosolenia,-,Rhizosolenia sp.1,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Rhizosolenianae,Rhizosoleniales,-,-,-,Rhizosoleniaceae,-,-,Rhizosolenia,-,Rhizosolenia sp.2,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Bacillariophycidae,-,Bacillariophycanae,Rhopalodiales ,-,-,-,Rhopalodiaceae,-,-,Epithemia,-,Epithemia sp.1,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Bacillariophycidae,-,Bacillariophycanae,Rhopalodiales ,-,-,-,Rhopalodiaceae,-,-,Epithemia,-,Epithemia sp.2,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Bacillariophycidae,-,Bacillariophycanae,Rhopalodiales ,-,-,-,Rhopalodiaceae,-,-,Epithemia,-,Epithemia sp.3,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Fragilariophycidae,-,Fragilariophycanae ,Striatellales,-,-,-,Striatellaceae,-,-,Grammatophora,-,Grammatophora sp.,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Fragilariophycidae,-,Fragilariophycanae ,Striatellales,-,-,-,Striatellaceae,-,-,Striatella,-,Striatella sp.,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Bacillariophycidae,-,Bacillariophycanae,Surirellales,-,-,-,Entomoneidaceae,-,-,Entomoneis ,-,Entomoneis sp.1,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Bacillariophycidae,-,Bacillariophycanae,Surirellales,-,-,-,Entomoneidaceae,-,-,Entomoneis ,-,Entomoneis sp.2,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Bacillariophycidae,-,Bacillariophycanae,Surirellales,-,-,-,Entomoneidaceae,-,-,Entomoneis ,-,Entomoneis sp.3,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Bacillariophycidae,-,Bacillariophycanae,Surirellales,-,-,-,Surirellaceae,-,-,Campylodiscus,-,Campylodiscus sp.1,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Bacillariophycidae,-,Bacillariophycanae,Surirellales,-,-,-,Surirellaceae,-,-,Campylodiscus,-,Campylodiscus sp.2,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Bacillariophycidae,-,Bacillariophycanae,Surirellales,-,-,-,Surirellaceae,-,-,Campylodiscus,-,Campylodiscus sp.3,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Bacillariophycidae,-,Bacillariophycanae,Surirellales,-,-,-,Surirellaceae,-,-,Surirella ,-,Surirella sp.1,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Bacillariophycidae,-,Bacillariophycanae,Surirellales,-,-,-,Surirellaceae,-,-,Surirella ,-,Surirella sp.2,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Fragilariophycidae,-,Fragilariophycanae,Tabellariales,-,-,-,Tabellariaceae,-,-,Tabellaria,-,Tabellaria fenestrata,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Fragilariophycidae,-,Fragilariophycanae,Tabellariales,-,-,-,Tabellariaceae,-,-,Tabellaria,-,Tabellaria sp.1 ,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Fragilariophycidae,-,Fragilariophycanae,Thalassionematales,-,-,-,Thalassionemataceae,-,-,Lioloma ,-,Lioloma sp.,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Fragilariophycidae,-,Fragilariophycanae,Thalassionematales,-,-,-,Thalassionemataceae,-,-,Thalassionema,-,Thalassionema nitzschioides ,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Fragilariophycidae,-,Fragilariophycanae,Thalassionematales,-,-,-,Thalassionemataceae,-,-,Thalassionema,-,Thalassionema sp.1,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Fragilariophycidae,-,Fragilariophycanae,Thalassionematales,-,-,-,Thalassionemataceae,-,-,Thalassionema,-,Thalassionema sp.2,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Fragilariophycidae,-,Fragilariophycanae,Thalassionematales,-,-,-,Thalassionemataceae,-,-,Thalassiothrix,-,Thalassiothrix sp.1,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Fragilariophycidae,-,Fragilariophycanae,Thalassionematales,-,-,-,Thalassionemataceae,-,-,Thalassiothrix,-,Thalassiothrix sp.2,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Fragilariophycidae,-,Fragilariophycanae,Thalassionematales,-,-,-,Thalassionemataceae,-,-,Thalassiothrix,-,Thalassiothrix sp.3,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Bacillariophycidae,-,Bacillariophycanae,Thalassiophysales,-,-,-,Catenulaceae,-,-,Amphora,-,Amphora sp.1,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Bacillariophycidae,-,Bacillariophycanae,Thalassiophysales,-,-,-,Catenulaceae,-,-,Amphora,-,Amphora sp.2,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Bacillariophycidae,-,Bacillariophycanae,Thalassiophysales,-,-,-,Catenulaceae,-,-,Amphora,-,Amphora sp.3,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Bacillariophycidae,-,Bacillariophycanae,Thalassiophysales,-,-,-,Catenulaceae,-,-,Amphora,-,Amphora sp.4,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Bacillariophycidae,-,Bacillariophycanae,Thalassiophysales,-,-,-,Catenulaceae,-,-,Amphora,-,Amphora sp.5,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Thalassiosiranae,Thalassiosirales,-,-,-,Lauderiaceae,-,-,Lauderia,-,Lauderia annulata,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Thalassiosiranae,Thalassiosirales,-,-,-,Lauderiaceae,-,-,Lauderia,-,Lauderia sp.,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Thalassiosiranae,Thalassiosirales,-,-,-,Skeletonemaceae,-,-,Skeletonema ,-,Skeletonema sp.1,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Thalassiosiranae,Thalassiosirales,-,-,-,Skeletonemaceae,-,-,Skeletonema ,-,Skeletonema sp.2,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Thalassiosiranae,Thalassiosirales,-,-,-,Stephanodiscaceae,-,-,Cyclotella ,-,Cyclotella sp.1,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Thalassiosiranae,Thalassiosirales,-,-,-,Stephanodiscaceae,-,-,Cyclotella ,-,Cyclotella sp.2,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Thalassiosiranae,Thalassiosirales,-,-,-,Thalassiosiraceae,-,-,Planktoniella,-, Planktoniella blanda ,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Thalassiosiranae,Thalassiosirales,-,-,-,Thalassiosiraceae,-,-,Planktoniella,-, Planktoniella sol ,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Thalassiosiranae,Thalassiosirales,-,-,-,Thalassiosiraceae,-,-,Thalassiosira,-,Thalassiosira subtilis ,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Thalassiosiranae,Thalassiosirales,-,-,-,Thalassiosiraceae,-,-,Thalassiosira,-,Thalassiosira sp.1,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Thalassiosiranae,Thalassiosirales,-,-,-,Thalassiosiraceae,-,-,Thalassiosira,-,Thalassiosira sp.2,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Thalassiosiranae,Thalassiosirales,-,-,-,Thalassiosiraceae,-,-,Thalassiosira,-,Thalassiosira sp.3,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Thalassiosiranae,Thalassiosirales,-,-,-,Thalassiosiraceae,-,-,Thalassiosira,-,Thalassiosira sp.4,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Thalassiosiranae,Thalassiosirales,-,-,-,Thalassiosiraceae,-,-,Thalassiosira,-,Thalassiosira sp.5,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Biddulphianae,Triceratiales,-,-,-,Triceratiaceae,-,-,Odontella,-,Odontella mobiliensis,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Biddulphianae,Triceratiales,-,-,-,Triceratiaceae,-,-,Odontella,-,Odontella sinensis ,-,"Biddulphia sinensis Greville, 1866",-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Biddulphianae,Triceratiales,-,-,-,Triceratiaceae,-,-,Odontella,-,Odontella aurita ,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Biddulphianae,Triceratiales,-,-,-,Triceratiaceae,-,-,Odontella,-,Odontella sp.1,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Biddulphianae,Triceratiales,-,-,-,Triceratiaceae,-,-,Odontella,-,Odontella sp.2,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Biddulphianae,Triceratiales,-,-,-,Triceratiaceae,-,-,Pseudictyota ,-,Pseudictyota dubium ,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Biddulphianae,Triceratiales,-,-,-,Triceratiaceae,-,-,Triceratium,-,Triceratium favus,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Biddulphianae,Triceratiales,-,-,-,Triceratiaceae,-,-,Triceratium,-,Triceratium pentacrinus,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Biddulphianae,Triceratiales,-,-,-,Triceratiaceae,-,-,Triceratium,-,Triceratium sol ,-,-,-
+phytoplankton,Chromista,Harosa,Heterokonta ,-,Ochrophyta ,Khakista,-,-,Bacillariophyceae,Coscinodiscophycidae,-,Biddulphianae,Triceratiales,-,-,-,Triceratiaceae,-,-,Triceratium,-,Triceratium sp.,-,-,-
+phytoplankton,Chromista,Harosa ,Rhizaria,-,Foraminifera ,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+phytoplankton,Chromista,-,-,-,Ochrophyta,-,-,-,Dictyochophyceae,-,-,-,Dictyochales,-,-,-,Dictyochaceae,-,-,Dictyocha,-,Dictyocha fibula ,-,-,-
+phytoplankton,Chromista,-,-,-,Ochrophyta,-,-,-,Dictyochophyceae,-,-,-,Dictyochales,-,-,-,Dictyochaceae,-,-,Dictyocha,-,Dictyocha speculum ,-,-,-
+phytoplankton,Chromista,-,-,-,Ochrophyta,-,-,-,Phaeophyceae,Fucophycidae,-,-,Ectocarpales,-,-,-,Chordariaceae,-,-,Pilinia,-,Pilinia sp.,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Dinophysales,-,-,-,Amphisoleniaceae,-,-,Amphisolenia,-,Amphisolenia bidentata ,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Dinophysales,-,-,-,Amphisoleniaceae,-,-,Amphisolenia,-,Amphisolenia sp.1 ,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Dinophysales,-,-,-,Amphisoleniaceae,-,-,Amphisolenia,-,Amphisolenia sp.2,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Dinophysales,-,-,-,Dinophysaceae,-,-,Dinophysis,-,Dinophysis argus ,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Dinophysales,-,-,-,Dinophysaceae,-,-,Dinophysis,-,Dinophysis caudata ,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Dinophysales,-,-,-,Dinophysaceae,-,-,Dinophysis,-,Dinophysis hastata ,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Dinophysales,-,-,-,Dinophysaceae,-,-,Dinophysis,-,Dinophysis miles ,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Dinophysales,-,-,-,Dinophysaceae,-,-,Dinophysis,-,Dinophysis recurva ,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Dinophysales,-,-,-,Dinophysaceae,-,-,Dinophysis,-,Dinophysis schuettii ,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Dinophysales,-,-,-,Dinophysaceae,-,-,Dinophysis,-,Dinophysis sp.1,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Dinophysales,-,-,-,Dinophysaceae,-,-,Dinophysis,-,Dinophysis sp.2,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Dinophysales,-,-,-,Dinophysaceae,-,-,Histioneis,-,Histioneis hyalina ,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Dinophysales,-,-,-,Dinophysaceae,-,-,Histioneis,-,Histioneis sp.1,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Dinophysales,-,-,-,Dinophysaceae,-,-,Histioneis,-,Histioneis sp.2,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Dinophysales,-,-,-,Dinophysaceae,-,-,Histioneis,-,Histioneis sp.3,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Dinophysales,-,-,-,Dinophysaceae,-,-,Ornithocercus,-,Ornithocercus thumii ,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Dinophysales,-,-,-,Dinophysaceae,-,-,Ornithocercus,-,Ornithocercus sp.1,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Dinophysales,-,-,-,Dinophysaceae,-,-,Ornithocercus,-,Ornithocercus sp.2,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Dinophysales,-,-,-,Dinophysaceae,-,-,Ornithocercus,-,Ornithocercus sp.3,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Dinophysales,-,-,-,Oxyphysaceae,-,-,Phalacroma ,-,Phalacroma cuneus ,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Dinophysales,-,-,-,Oxyphysaceae,-,-,Phalacroma ,-,Phalacroma doryphorum ,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Dinophysales,-,-,-,Oxyphysaceae,-,-,Phalacroma ,-,Phalacroma favus ,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Dinophysales,-,-,-,Oxyphysaceae,-,-,Phalacroma ,-,Phalacroma mitra ,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Dinophysales,-,-,-,Oxyphysaceae,-,-,Phalacroma ,-,Phalacroma sp.1,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Dinophysales,-,-,-,Oxyphysaceae,-,-,Phalacroma ,-,Phalacroma sp.2,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Dinophysales,-,-,-,Oxyphysaceae,-,-,Phalacroma ,-,Phalacroma sp.3,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Gonyaulacales,-,-,-,Ceratiaceae,-,-,Ceratium ,-,Ceratium extensum ,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Gonyaulacales,-,-,-,Ceratiaceae,-,-,Ceratium ,-,Ceratium porrectum ,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Gonyaulacales,-,-,-,Ceratiaceae,-,-,Ceratium ,-,Ceratium sp.1 ,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Gonyaulacales,-,-,-,Ceratiaceae,-,-,Ceratium ,-,Ceratium sp.2,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Gonyaulacales,-,-,-,Ceratiaceae,-,-,Ceratium ,-,Ceratium sp.3,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Gonyaulacales,-,-,-,Ceratiaceae,-,-,Ceratium ,-,Ceratium sp.4,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Gonyaulacales,-,-,-,Ceratiaceae,-,-,Ceratium ,-,Ceratium sp.5,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Gonyaulacales,-,-,-,Ceratiaceae,-,-,Ceratium ,-,Ceratium sp.6,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Gonyaulacales,-,-,-,Ceratiaceae,-,-,Ceratium ,-,Ceratium sp.7,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Gonyaulacales,-,-,-,Ceratiaceae,-,-,Ceratium ,-,Ceratium sp.8,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Gonyaulacales,-,-,-,Ceratiaceae,-,-,Ceratium ,-,Ceratium sp.9,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Gonyaulacales,-,-,-,Ceratiaceae,-,-,Ceratium ,-,Ceratium sp.10,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Gonyaulacales,-,-,-,Ceratiaceae,-,-,Tripos ,-,Tripos horridus ,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Gonyaulacales,-,-,-,Ceratiaceae,-,-,Tripos ,-,Tripos furca ,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Gonyaulacales,-,-,-,Ceratiaceae,-,-,Tripos ,-,Tripos fusus ,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Gonyaulacales,-,-,-,Ceratiaceae,-,-,Tripos ,-,Tripos muelleri ,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Gonyaulacales,-,-,-,Ceratiaceae,-,-,Tripos ,-,Tripos trichoceros ,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Gonyaulacales,-,-,-,Ceratiaceae,-,-,Tripos ,-,Tripos deflexus ,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Gonyaulacales,-,-,-,Ceratiaceae,-,-,Tripos ,-,Tripos kofoidii ,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Gonyaulacales,-,-,-,Ceratiaceae,-,-,Tripos ,-,Tripos massiliensis ,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Gonyaulacales,-,-,-,Ceratiaceae,-,-,Tripos ,-,Tripos contortus ,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Gonyaulacales,-,-,-,Ceratiaceae,-,-,Tripos ,-,Tripos brevis ,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Gonyaulacales,-,-,-,Ceratiaceae,-,-,Tripos ,-,Tripos teres ,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Gonyaulacales,-,-,-,Ceratiaceae,-,-,Tripos ,-,Tripos dens ,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Gonyaulacales,-,-,-,Ceratiaceae,-,-,Tripos ,-,Tripos gibberus ,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Gonyaulacales,-,-,-,Ceratiaceae,-,-,Tripos ,-,Tripos candelabrum ,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Gonyaulacales,-,-,-,Ceratiaceae,-,-,Tripos ,-,Tripos falcatus ,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Gonyaulacales,-,-,-,Ceratiaceae,-,-,Tripos ,-,Tripos carriensis ,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Gonyaulacales,-,-,-,Ceratiaceae,-,-,Tripos ,-,Tripos macroceros ,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Gonyaulacales,-,-,-,Ceratiaceae,-,-,Tripos ,-,Tripos belone ,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Gonyaulacales,-,-,-,Ceratiaceae,-,-,Tripos ,-,Tripos pentagonus ,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Gonyaulacales,-,-,-,Ceratiaceae,-,-,Tripos ,-,Tripos hircus ,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Gonyaulacales,-,-,-,Ceratiaceae,-,-,Tripos ,-,Tripos karstenii ,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Gonyaulacales,-,-,-,Ceratiaceae,-,-,Tripos ,-,Tripos inflatus ,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Gonyaulacales,-,-,-,Protoceratiaceae,-,-,Ceratocorys,-,Ceratocorys armata ,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Gonyaulacales,-,-,-,Protoceratiaceae,-,-,Ceratocorys,-,Ceratocorys horrida ,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Gonyaulacales,-,-,-,Protoceratiaceae,-,-,Ceratocorys,-,Ceratocorys sp.1 ,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Gonyaulacales,-,-,-,Cladopyxidaceae,-,-,Cladopyxis ,-,Cladopyxis sp. ,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Gonyaulacales,-,-,-,Gonyaulacaceae,-,-,Gonyaulax,-,Gonyaulax spinifera ,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Gonyaulacales,-,-,-,Gonyaulacaceae,-,-,Gonyaulax,-,Gonyaulax digitale ,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Gonyaulacales,-,-,-,Gonyaulacaceae,-,-,Gonyaulax,-,Gonyaulax sp.1,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Gonyaulacales,-,-,-,Gonyaulacaceae,-,-,Gonyaulax,-,Gonyaulax sp.2,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Gonyaulacales,-,-,-,Gonyaulacaceae,-,-,Gonyaulax,-,Gonyaulax sp.3,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Gonyaulacales,-,-,-,Gonyaulacaceae,-,-,Gonyaulax,-,Gonyaulax sp.4,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Gonyaulacales,-,-,-,Gonyaulacaceae,-,-,Gonyaulax,-,Gonyaulax sp.5,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Gonyaulacales,-,-,-,Gonyaulacaceae,-,-,Gonyaulax,-,Gonyaulax sp.6,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Gonyaulacales,-,-,-,Gonyaulacaceae,-,-,Gonyaulax,-,Gonyaulax sp.7,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Gonyaulacales,-,-,-,Lingulodiniaceae,-,-,Lingulodinium,-,Lingulodinium polyedra ,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Gonyaulacales,-,-,-,Lingulodiniaceae,-,-,Lingulodinium,-,Lingulodinium sp.1,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Gonyaulacales,-,-,-,Lingulodiniaceae,-,-,Lingulodinium,-,Lingulodinium sp.2,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Gonyaulacales,-,-,-,Protoceratiaceae,-,-,Protoceratium,-,Protoceratium sp.,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Gonyaulacales,-,-,-,Pyrocystaceae,Ostreopsidoideae,-,Alexandrium ,-,Alexandrium sp.,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Gonyaulacales,-,-,-,Pyrocystaceae,Pyrophacoideae,-,Pyrophacus,-,Pyrophacus horologium ,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Gonyaulacales,-,-,-,Pyrocystaceae,Pyrophacoideae,-,Pyrophacus,-,Pyrophacus steinii ,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Gonyaulacales,-,-,-,Pyrocystaceae,Helgolandinioideae,-,Fragilidium,-,Fragilidium sp.,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Peridiniales,-,-,-,Peridiniales incertae sedis,-,-,Gymnodinium ,-,Gymnodinium sp.1,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Peridiniales,-,-,-,Peridiniales incertae sedis,-,-,Gymnodinium ,-,Gymnodinium sp.2,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Peridiniales,-,-,-,Peridiniales incertae sedis,-,-,Gymnodinium ,-,Gymnodinium sp.3,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Peridiniales,-,-,-,Peridiniales incertae sedis,-,-,Gymnodinium ,-,Gymnodinium sp.4,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Peridiniales,-,-,-,Peridiniales incertae sedis,-,-,Gymnodinium ,-,Gymnodinium sp.5,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Peridiniales,-,-,-,Peridiniales incertae sedis,-,-,Gymnodinium ,-,Gymnodinium sp.6,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Gymnodiniales,-,-,-,Gyrodiniaceae,-,-,Gyrodinium,-,Gyrodinium falcatum ,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Gymnodiniales,-,-,-,Gyrodiniaceae,-,-,Gyrodinium,-,Gyrodinium sp.1 ,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Gymnodiniales,-,-,-,Gymnodiniales incert. sed.,-,-,Balechina,-,Balechina coerulea ,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Gymnodiniales,-,-,-,Warnowiaceae,-,-,Warnowia,-,Warnowia sp.,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Noctilucophyceae,-,-,-,Noctilucales,-,-,-,Noctilucaceae,-,-,Noctiluca,-,Noctiluca scintillans ,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Noctilucophyceae,-,-,-,Peridiniales,-,-,-,Oxytoxaceae,-,-,Oxytoxum,-,Oxytoxum sp.1,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Noctilucophyceae,-,-,-,Peridiniales,-,-,-,Oxytoxaceae,-,-,Oxytoxum,-,Oxytoxum sp.2,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Noctilucophyceae,-,-,-,Peridiniales,-,-,-,Oxytoxaceae,-,-,Oxytoxum,-,Oxytoxum sp.3,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Noctilucophyceae,-,-,-,Peridiniales,-,-,-,Oxytoxaceae,-,-,Oxytoxum,-,Oxytoxum sp.4,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Noctilucophyceae,-,-,-,Peridiniales,-,-,-,Oxytoxaceae,-,-,Oxytoxum,-,Oxytoxum sp.5,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Gonyaulacales,-,-,-,Protoceratiaceae,-,-,Schuettiella ,-,Schuettiella sp.,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Peridiniales,-,-,-,Peridiniaceae,-,-,Peridinium,-,Peridinium quadridentatum ,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Peridiniales,-,-,-,Peridiniaceae,-,-,Peridinium,-,Peridinium sp.,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Thoracosphaerales,-,-,-,Thoracosphaeraceae,-,-,Scrippsiella ,-,Scrippsiella sp.1,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Thoracosphaerales,-,-,-,Thoracosphaeraceae,-,-,Scrippsiella ,-,Scrippsiella sp.2,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Peridiniales,-,-,-,Podolampadaceae,-,-,Podolampas,-,Podolampas bipes ,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Peridiniales,-,-,-,Podolampadaceae,-,-,Podolampas,-,Podolampas elegans ,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Peridiniales,-,-,-,Podolampadaceae,-,-,Podolampas,-,Podolampas palmipes ,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Peridiniales,-,-,-,Podolampadaceae,-,-,Podolampas,-,Podolampas spinifera ,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Peridiniales,-,-,-,Podolampadaceae,-,-,Podolampas,-,Podolampas sp. ,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Peridiniales,-,-,-,Protoperidiniaceae,-,-,Diplopelta,-,Diplopelta sp.,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Peridiniales,-,-,-,Protoperidiniaceae,-,-,Diplopsalis ,-,Diplopsalis sp.,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Peridiniales,-,-,-,Protoperidiniaceae,-,-,Diplopsalopsis ,-,Diplopsalopsis sp.,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Peridiniales,-,-,-,Protoperidiniaceae,-,-,Protoperidinium,-,Protoperidinium abei ,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Peridiniales,-,-,-,Protoperidiniaceae,-,-,Protoperidinium,-,Protoperidinium asymmetricum ,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Peridiniales,-,-,-,Protoperidiniaceae,-,-,Protoperidinium,-,Protoperidinium conicum ,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Peridiniales,-,-,-,Protoperidiniaceae,-,-,Protoperidinium,-,Protoperidinium depressum ,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Peridiniales,-,-,-,Protoperidiniaceae,-,-,Protoperidinium,-,Protoperidinium divergens ,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Peridiniales,-,-,-,Protoperidiniaceae,-,-,Protoperidinium,-,Protoperidinium diabolum ,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Peridiniales,-,-,-,Protoperidiniaceae,-,-,Protoperidinium,-,Protoperidinium elegans ,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Peridiniales,-,-,-,Protoperidiniaceae,-,-,Protoperidinium,-,Protoperidinium globulum ,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Peridiniales,-,-,-,Protoperidiniaceae,-,-,Protoperidinium,-,Protoperidinium latispinum ,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Peridiniales,-,-,-,Protoperidiniaceae,-,-,Protoperidinium,-,Protoperidinium leonis ,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Peridiniales,-,-,-,Protoperidiniaceae,-,-,Protoperidinium,-,Protoperidinium oceanicum ,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Peridiniales,-,-,-,Protoperidiniaceae,-,-,Protoperidinium,-,Protoperidinium pallidum ,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Peridiniales,-,-,-,Protoperidiniaceae,-,-,Protoperidinium,-,Protoperidinium pentagonum ,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Peridiniales,-,-,-,Protoperidiniaceae,-,-,Protoperidinium,-,Protoperidinium sp.1 ,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Peridiniales,-,-,-,Protoperidiniaceae,-,-,Protoperidinium,-,Protoperidinium sp.2,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Peridiniales,-,-,-,Protoperidiniaceae,-,-,Protoperidinium,-,Protoperidinium sp.3,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Peridiniales,-,-,-,Protoperidiniaceae,-,-,Protoperidinium,-,Protoperidinium sp.4,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Peridiniales,-,-,-,Protoperidiniaceae,-,-,Protoperidinium,-,Protoperidinium sp.5,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Peridiniales,-,-,-,Protoperidiniaceae,-,-,Protoperidinium,-,Protoperidinium sp.6,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Peridiniales,-,-,-,Protoperidiniaceae,-,-,Protoperidinium,-,Protoperidinium sp.7,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Peridiniales,-,-,-,Protoperidiniaceae,-,-,Protoperidinium,-,Protoperidinium sp.8,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Peridiniales,-,-,-,Protoperidiniaceae,-,-,Protoperidinium,-,Protoperidinium sp.9,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Peridiniales,-,-,-,Protoperidiniaceae,-,-,Protoperidinium,-,Protoperidinium sp.10,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Peridiniales,-,-,-,Protoperidiniaceae,-,-,Protoperidinium,-,Protoperidinium sp.11,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Peridiniales,-,-,-,Protoperidiniaceae,-,-,Protoperidinium,-,Protoperidinium sp.12,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Peridiniales,-,-,-,Protoperidiniaceae,-,-,Protoperidinium,-,Protoperidinium sp.13,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Peridiniales,-,-,-,Protoperidiniaceae,-,-,Protoperidinium,-,Protoperidinium sp.14,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Peridiniales,-,-,-,Protoperidiniaceae,-,-,Protoperidinium,-,Protoperidinium sp.15,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Peridiniales,-,-,-,Protoperidiniaceae,-,-,Protoperidinium,-,Protoperidinium sp.16,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Gonyaulacales,-,-,-,Gonyaulacaceae,-,-,Spiraulax ,-,Spiraulax sp.,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Prorocentrales,-,-,-,Prorocentraceae,-,-,Prorocentrum,-,Prorocentrum compressum ,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Prorocentrales,-,-,-,Prorocentraceae,-,-,Prorocentrum,-,Prorocentrum cordatum ,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Prorocentrales,-,-,-,Prorocentraceae,-,-,Prorocentrum,-,Prorocentrum mexicanum ,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Prorocentrales,-,-,-,Prorocentraceae,-,-,Prorocentrum,-,Prorocentrum micans ,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Prorocentrales,-,-,-,Prorocentraceae,-,-,Prorocentrum,-,Prorocentrum triestinum ,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Prorocentrales,-,-,-,Prorocentraceae,-,-,Prorocentrum,-,Prorocentrum sp.1,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Prorocentrales,-,-,-,Prorocentraceae,-,-,Prorocentrum,-,Prorocentrum sp.2,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Prorocentrales,-,-,-,Prorocentraceae,-,-,Prorocentrum,-,Prorocentrum sp.3,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Gonyaulacales,-,-,-,Pyrocystaceae,Pyrocystoideae,-,Pyrocystis,-,Pyrocystis noctiluca ,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Gonyaulacales,-,-,-,Pyrocystaceae,Pyrocystoideae,-,Pyrocystis,-,Pyrocystis lunula ,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Gonyaulacales,-,-,-,Pyrocystaceae,Pyrocystoideae,-,Pyrocystis,-,Pyrocystis sp.1 ,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Thoracosphaerales,-,-,-,Thoracosphaeraceae,-,-,Goniodoma ,-,Goniodoma polyedricum ,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Thoracosphaerales,-,-,-,Thoracosphaeraceae,-,-,Goniodoma ,-,Goniodoma sp.1,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Thoracosphaerales,-,-,-,Thoracosphaeraceae,-,-,Goniodoma ,-,Goniodoma sp.2,-,-,-
+phytoplankton,Chromista,Harosa ,Halvaria,-,Miozoa,Myzozoa,Dinozoa,Dinoflagellata,Dinophyceae,-,-,-,Thoracosphaerales,-,-,-,Thoracosphaeraceae,-,-,Goniodoma ,-,Goniodoma sp.3,-,-,-
+phytoplankton,Eubacteria,Negibacteria,,-,Cyanobacteria,-,-,-,Cyanophyceae,Oscillatoriophycidae,-,-,Chroococcales,-,-,-,Microcystaceae,-,-,Gloeocapsa ,-,Gloeocapsa sp.,-,-,-
+phytoplankton,Eubacteria,Negibacteria,,-,Cyanobacteria,-,-,-,Cyanophyceae,Nostocophycidae,-,-,Nostocales,-,-,-,Nostocaceae,-,-,Richelia,-,Richelia intracellularis ,-,-,-
+phytoplankton,Eubacteria,Negibacteria,,-,Cyanobacteria,-,-,-,Cyanophyceae,Nostocophycidae,-,-,Nostocales,-,-,-,Scytonemataceae,-,-,Scytonematopsis,-,Scytonematopsis crustacea ,-,-,-
+phytoplankton,Eubacteria,Negibacteria,,-,Cyanobacteria,-,-,-,Cyanophyceae,Oscillatoriophycidae,-,-,Oscillatoriales,-,-,-,Oscillatoriaceae,-,-,Oscillatoria,-,Oscillatoria thiebautii ,-,-,-
+phytoplankton,Eubacteria,Negibacteria,,-,Cyanobacteria,-,-,-,Cyanophyceae,Oscillatoriophycidae,-,-,Oscillatoriales,-,-,-,Oscillatoriaceae,-,-,Oscillatoria,-,Oscillatoria sp.1,-,-,-
+phytoplankton,Eubacteria,Negibacteria,,-,Cyanobacteria,-,-,-,Cyanophyceae,Oscillatoriophycidae,-,-,Oscillatoriales,-,-,-,Oscillatoriaceae,-,-,Oscillatoria,-,Oscillatoria sp.2,-,-,-
+phytoplankton,Eubacteria,Negibacteria,,-,Cyanobacteria,-,-,-,Cyanophyceae,Oscillatoriophycidae,-,-,Oscillatoriales,-,-,-,Microcoleaceae,-,-,Trichodesmium,-,Trichodesmium erythraeum ,-,-,-
+phytoplankton,Eubacteria,Negibacteria,,-,Cyanobacteria,-,-,-,Cyanophyceae,Oscillatoriophycidae,-,-,Spirulinales,-,-,-,Spirulinaceae,-,-,Spirulina ,-,Spirulina sp.1,-,-,-
+phytoplankton,Eubacteria,Negibacteria,,-,Cyanobacteria,-,-,-,Cyanophyceae,Oscillatoriophycidae,-,-,Spirulinales,-,-,-,Spirulinaceae,-,-,Spirulina ,-,Spirulina sp.2,-,-,-
+phytoplankton,Eubacteria,Negibacteria,,-,Cyanobacteria,-,-,-,Cyanophyceae,Synechococcophycidae,-,-,Synechococcales,-,-,-,Merismopediaceae,-,-,Merismopedia ,-,Merismopedia sp.,-,-,-
+phytoplankton,Plantae,Viridiplantae,,Streptophyta ,Charophyta,-,-,-,Zygnematophyceae,Zygnematophycidae,-,-,Desmidiales,-,-,-,Desmidiaceae,-,-,Spondylosium ,-,Spondylosium sp.,-,-,-
+phytoplankton,Plantae,Viridiplantae,,Streptophyta ,Charophyta,-,-,-,Zygnematophyceae,Zygnematophycidae,-,-,Desmidiales,-,-,-,Desmidiaceae,-,-,Staurastrum ,-,Staurastrum sp.1,-,-,-
+phytoplankton,Plantae,Viridiplantae,,Streptophyta ,Charophyta,-,-,-,Zygnematophyceae,Zygnematophycidae,-,-,Desmidiales,-,-,-,Desmidiaceae,-,-,Staurastrum ,-,Staurastrum sp.2,-,-,-
+phytoplankton,Plantae,Viridiplantae,,Streptophyta ,Chlorophyta,Chlorophytina,-,-,Chlorophyceae,-,-,-,Sphaeropleales,-,-,-,Neochloridaceae,-,-,Golenkinia ,-,Golenkinia radiata ,-,-,-
+phytoplankton,Protozoa,Eozoa,,Euglenozoa,Euglenozoa,-,Dipilida,-,Euglenophyceae,Euglenophycidae,-,-,Euglenida,-,-,-,Phacidae,-,-,Phacus ,-,Phacus sp.1,-,-,-
+phytoplankton,Protozoa,Eozoa,,Euglenozoa,Euglenozoa,-,Dipilida,-,Euglenophyceae,Euglenophycidae,-,-,Euglenida,-,-,-,Phacidae,-,-,Phacus ,-,Phacus sp.2,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,-,Branchiopoda,Phyllopoda,-,Diplostraca,Ctenopoda,-,-,-,Sididae,-,-,Penilia,-,Penilia sp.,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,-,Branchiopoda,Phyllopoda ,-,Diplostraca,Onychopoda ,-,-,-,Podonidae,-,-,Evadne,-,Evadne sp.1,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,-,Branchiopoda,Phyllopoda ,-,Diplostraca,Onychopoda ,-,-,-,Podonidae,-,-,Evadne,-,Evadne sp.2,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Thecostraca,Cirripedia ,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Hexanauplia,Copepoda,Neocopepoda,Gymnoplea,Calanoida,-,-,-,Acartiidae ,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Hexanauplia,Copepoda,Neocopepoda,Gymnoplea,Calanoida,-,-,-,Acartiidae ,-,-,Acartia,-,Acartia sp.,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Hexanauplia,Copepoda,Neocopepoda,Gymnoplea,Calanoida,-,-,-,Calanidae ,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Hexanauplia,Copepoda,Neocopepoda,Gymnoplea,Calanoida,-,-,-,Calanidae ,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Hexanauplia,Copepoda,Neocopepoda,Gymnoplea,Calanoida,-,-,-,Calanidae ,-,-,Canthocalanus,-,Canthocalanus spp.1,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Hexanauplia,Copepoda,Neocopepoda,Gymnoplea,Calanoida,-,-,-,Calanidae ,-,-,Nannocalanus,-,Nannocalanus sp.,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Hexanauplia,Copepoda,Neocopepoda,Gymnoplea,Calanoida,-,-,-,Calanidae ,-,-,Undinula ,-,Undinula sp.,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Hexanauplia,Copepoda,Neocopepoda,Gymnoplea,Calanoida,-,-,-,Candaciidae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Hexanauplia,Copepoda,Neocopepoda,Gymnoplea,Calanoida,-,-,-,Candaciidae,-,-,Candacia ,-,Candacia sp.,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Hexanauplia,Copepoda,Neocopepoda,Gymnoplea,Calanoida,-,-,-,Centropagidae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Hexanauplia,Copepoda,Neocopepoda,Gymnoplea,Calanoida,-,-,-,Centropagidae,-,-,Centropages,-,Centropages sp.1,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Hexanauplia,Copepoda,Neocopepoda,Gymnoplea,Calanoida,-,-,-,Centropagidae,-,-,Centropages,-,Centropages sp.2,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Hexanauplia,Copepoda,Neocopepoda,Gymnoplea,Calanoida,-,-,-,Clausocalanidae,-,-,Clausocalanus,-,Clausocalanus sp.,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Hexanauplia,Copepoda,Neocopepoda,Gymnoplea,Calanoida,-,-,-,Eucalanidae ,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Hexanauplia,Copepoda,Neocopepoda,Gymnoplea,Calanoida,-,-,-,Eucalanidae,-,-,Eucalanus ,-,Eucalanus sp.,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Hexanauplia,Copepoda,Neocopepoda,Gymnoplea,Calanoida,-,-,-,Euchaetidae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Hexanauplia,Copepoda,Neocopepoda,Gymnoplea,Calanoida,-,-,-,Paracalanidae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Hexanauplia,Copepoda,Neocopepoda,Gymnoplea,Calanoida,-,-,-,Paracalanidae,-,-,Acrocalanus ,-,Acrocalanus sp.1,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Hexanauplia,Copepoda,Neocopepoda,Gymnoplea,Calanoida,-,-,-,Paracalanidae,-,-,Acrocalanus ,-,Acrocalanus sp.2,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Hexanauplia,Copepoda,Neocopepoda,Gymnoplea,Calanoida,-,-,-,Paracalanidae,-,-,Calocalanus,-,Calocalanus sp.,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Hexanauplia,Copepoda,Neocopepoda,Gymnoplea,Calanoida,-,-,-,Paracalanidae,-,-,Paracalanus ,-,Paracalanus sp.1,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Hexanauplia,Copepoda,Neocopepoda,Gymnoplea,Calanoida,-,-,-,Paracalanidae,-,-,Paracalanus ,-,Paracalanus sp.2,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Hexanauplia,Copepoda,Neocopepoda,Gymnoplea,Calanoida,-,-,-,Paracalanidae,-,-,Paracalanus ,-,Paracalanus sp.3,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Hexanauplia,Copepoda,Neocopepoda,Gymnoplea,Calanoida,-,-,-,Phaennidae,-,-,Phaenna,-,Phaenna sp.,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Hexanauplia,Copepoda,Neocopepoda,Gymnoplea,Calanoida,-,-,-,Pontellidae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Hexanauplia,Copepoda,Neocopepoda,Gymnoplea,Calanoida,-,-,-,Pontellidae,-,-,Calanopia,-,Calanopia sp.,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Hexanauplia,Copepoda,Neocopepoda,Gymnoplea,Calanoida,-,-,-,Pontellidae,-,-,Labidocera,-,Labidocera sp.,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Hexanauplia,Copepoda,Neocopepoda,Gymnoplea,Calanoida,-,-,-,Temoridae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Hexanauplia,Copepoda,Neocopepoda,Gymnoplea,Calanoida,-,-,-,Temoridae,-,-,Temora,-,Temora sp.,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Hexanauplia,Copepoda,Neocopepoda,Gymnoplea,Calanoida,-,-,-,Tortanidae,-,-,Tortanus,-,Tortanus sp.,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Hexanauplia,Copepoda,Neocopepoda,Gymnoplea,Calanoida,-,-,-,Tortanidae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Hexanauplia,Copepoda,Neocopepoda,Podoplea,Cyclopoida,Ergasilida,-,-,-,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Hexanauplia,Copepoda,Neocopepoda,Podoplea,Cyclopoida,Ergasilida,-,-,Corycaeidae,-,-,Corycaeus,-,Corycaeus sp.,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Hexanauplia,Copepoda,Neocopepoda,Podoplea,Cyclopoida,Oithonida,-,-,Oithonidae,-,-,Oithona,-,Oithona sp.1,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Hexanauplia,Copepoda,Neocopepoda,Podoplea,Cyclopoida,Oithonida,-,-,Oithonidae,-,-,Oithona,-,Oithona sp.2,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Hexanauplia,Copepoda,Neocopepoda,Podoplea,Cyclopoida,Oithonida,-,-,Oithonidae,-,-,Oithona,-,Oithona sp.3,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Hexanauplia,Copepoda,Neocopepoda,Podoplea,Cyclopoida,Oithonida,-,-,Oithonidae,-,-,Oithona,-,Oithona sp.4,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Hexanauplia,Copepoda,Neocopepoda,Podoplea,Cyclopoida,Oithonida,-,-,Oithonidae,-,-,Oithona,-,Oithona sp.5,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Hexanauplia,Copepoda,Neocopepoda,Podoplea,Cyclopoida,Oithonida,-,-,Oithonidae,-,-,Oithona,-,Oithona sp.6,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Hexanauplia,Copepoda,Neocopepoda,Podoplea,Cyclopoida,Oithonida,-,-,Oithonidae,-,-,Oithona,-,Oithona sp.7,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Hexanauplia,Copepoda,Neocopepoda,Podoplea,Cyclopoida,Ergasilida,-,-,Oncaeidae,-,-,Oncaea,-,Oncaea sp.,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Hexanauplia,Copepoda,Neocopepoda,Podoplea,Cyclopoida,Ergasilida,-,-,Sapphirinidae,-,-,Copilia,-,Copilia sp.1,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Hexanauplia,Copepoda,Neocopepoda,Podoplea,Cyclopoida,Ergasilida,-,-,Sapphirinidae,-,-,Copilia,-,Copilia sp.2,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Hexanauplia,Copepoda,Neocopepoda,Podoplea,Cyclopoida,Ergasilida,-,-,Sapphirinidae,-,-,Sapphirina,-,Sapphirina sp.,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Hexanauplia,Copepoda,Neocopepoda,Podoplea,Harpacticoida,-,-,-,-,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Hexanauplia,Copepoda,Neocopepoda,Podoplea,Harpacticoida,-,-,-,Ectinosomatidae,-,-,Microsetella,-,Microsetella sp.1,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Hexanauplia,Copepoda,Neocopepoda,Podoplea,Harpacticoida,-,-,-,Ectinosomatidae,-,-,Microsetella,-,Microsetella sp.2,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Hexanauplia,Copepoda,Neocopepoda,Podoplea,Harpacticoida,-,-,-,Miraciidae ,Miraciinae,-,Macrosetella ,-,Macrosetella sp.,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Hexanauplia,Copepoda,Neocopepoda,Podoplea,Harpacticoida,-,-,-,Tachidiidae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Hexanauplia,Copepoda,Neocopepoda,Podoplea,Harpacticoida,-,-,-,Tachidiidae,-,-,Euterpina,-,Euterpina sp.,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Hexanauplia,Copepoda,Neocopepoda,Podoplea,Siphonostomatoida,-,-,-,Cancerillidae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Malacostraca,Eumalacostraca,-,Peracarida,Amphipoda ,-,-,-,-,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Malacostraca,Eumalacostraca,-,Peracarida,Amphipoda ,Amphilochidea,Lysianassida,Synopioidea,Ampeliscidae,-,-,Ampelisca,-,Ampelisca chinensis,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Malacostraca,Eumalacostraca,-,Peracarida,Amphipoda ,Amphilochidea,Amphilochida,Amphilochoidea,Amphilochidae ,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Malacostraca,Eumalacostraca,-,Peracarida,Amphipoda ,Amphilochidea,Amphilochida,Amphilochoidea,Amphilochidae ,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Malacostraca,Eumalacostraca,-,Peracarida,Amphipoda ,Senticaudata,Corophiida,Caprelloidea ,Caprellidae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Malacostraca,Eumalacostraca,-,Peracarida,Amphipoda ,Senticaudata,Corophiida,Caprelloidea ,Caprellidae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Malacostraca,Eumalacostraca,-,Peracarida,Amphipoda ,Colomastigidea,Colomastigida,Colomastigoidea,Colomastigidae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Malacostraca,Eumalacostraca,-,Peracarida,Amphipoda ,Amphilochidea ,Lysianassida,Dexaminoidea,Dexaminidae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Malacostraca,Eumalacostraca,-,Peracarida,Amphipoda ,Hyperiidea,Physocephalata,Phronimoidea,Hyperiidae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Malacostraca,Eumalacostraca,-,Peracarida,Amphipoda ,Hyperiidea,Physocephalata,Phronimoidea,Hyperiidae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Malacostraca,Eumalacostraca,-,Peracarida,Amphipoda ,Hyperiidea,Physocephalata,Phronimoidea,Hyperiidae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Malacostraca,Eumalacostraca,-,Peracarida,Amphipoda ,Hyperiidea,Physocephalata,Phronimoidea,Hyperiidae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Malacostraca,Eumalacostraca,-,Peracarida,Amphipoda ,Hyperiidea,Physocephalata,Phronimoidea,Hyperiidae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Malacostraca,Eumalacostraca,-,Peracarida,Amphipoda ,Hyperiidea,Physocephalata,Phronimoidea,Lestrigonidae,-,-,Phronimopsis,-,Phronimopsis sp.,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Malacostraca,Eumalacostraca,-,Peracarida,Amphipoda ,Hyperiidea,Physocephalata,Platysceloidea,Lycaeopsidae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Malacostraca,Eumalacostraca,-,Peracarida,Amphipoda ,Hyperiidea,Physocephalata,Platysceloidea,Lycaeopsidae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Malacostraca,Eumalacostraca,-,Peracarida,Amphipoda ,Amphilochidea ,Lysianassida,Lysianassoidea,Lysianassidae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Malacostraca,Eumalacostraca,-,Peracarida,Amphipoda ,Senticaudata ,Hadziida ,Hadzioidea,Melitidae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Malacostraca,Eumalacostraca,-,Peracarida,Amphipoda ,Hyperiidea ,Physocephalata,Platysceloidea,Oxycephalidae,-,-,Rhabdosoma ,-,Rhabdosoma sp.,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Malacostraca,Eumalacostraca,-,Peracarida,Amphipoda ,Hyperiidea ,Physocephalata,Platysceloidea,Platyscelidae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Malacostraca,Eumalacostraca,-,Peracarida,Amphipoda ,Hyperiidea ,Physocephalata,Platysceloidea,Platyscelidae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Malacostraca,Eumalacostraca,-,Peracarida,Amphipoda ,Senticaudata,Corophiida,Caprelloidea,Podoceridae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Malacostraca,Eumalacostraca,-,Peracarida,Amphipoda ,Hyperiidea,Physocephalata ,Platysceloidea,Pronoidae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Malacostraca,Eumalacostraca,-,Peracarida,Amphipoda ,Amphilochidea ,Amphilochida,Amphilochoidea,Stenothoidae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Malacostraca,Eumalacostraca,-,Peracarida ,Cumacea,-,-,-,Bodotriidae ,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Malacostraca,Eumalacostraca,-,Eucarida,Decapoda,Pleocyemata,Brachyura,-,-,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Malacostraca,Eumalacostraca,-,Eucarida,Decapoda,Pleocyemata,Caridea,Alpheoidea,Alpheidae ,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Malacostraca,Eumalacostraca,-,Eucarida,Decapoda,Pleocyemata,Axiidea,-,Callianassidae ,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Malacostraca,Eumalacostraca,-,Eucarida,Decapoda,Pleocyemata,Caridea ,Crangonoidea,Crangonidae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Malacostraca,Eumalacostraca,-,Eucarida,Decapoda,Pleocyemata,Anomura,Paguroidea ,Diogenidae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Malacostraca,Eumalacostraca,-,Eucarida,Decapoda,Pleocyemata,Anomura,Paguroidea ,Diogenidae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Malacostraca,Eumalacostraca,-,Eucarida,Decapoda,Pleocyemata,Anomura,Paguroidea ,Diogenidae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Malacostraca,Eumalacostraca,-,Eucarida,Decapoda,Pleocyemata,Anomura,Galatheoidea,Galatheidae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Malacostraca,Eumalacostraca,-,Eucarida,Decapoda,Pleocyemata,Caridea,Alpheoidea,Hippolytidae ,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Malacostraca,Eumalacostraca,-,Eucarida,Decapoda,Pleocyemata,Caridea,Alpheoidea,Hippolytidae ,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Malacostraca,Eumalacostraca,-,Eucarida,Decapoda,Pleocyemata,Gebiidea ,-,Laomediidae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Malacostraca,Eumalacostraca,-,Eucarida,Decapoda,Dendrobranchiata,-,Sergestoidea ,Luciferidae ,-,-,Lucifer,-,Lucifer sp.1,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Malacostraca,Eumalacostraca,-,Eucarida,Decapoda,Dendrobranchiata,-,Sergestoidea ,Luciferidae ,-,-,Lucifer,-,Lucifer sp.2,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Malacostraca,Eumalacostraca,-,Eucarida,Decapoda,Pleocyemata,Anomura ,Paguroidea,Paguridae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Malacostraca,Eumalacostraca,-,Eucarida,Decapoda,Pleocyemata,Caridea,Palaemonoidea,Palaemonidae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Malacostraca,Eumalacostraca,-,Eucarida,Decapoda,Pleocyemata,Caridea,Palaemonoidea,Palaemonidae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Malacostraca,Eumalacostraca,-,Eucarida,Decapoda,Pleocyemata,Caridea,Pandaloidea,Pandalidae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Malacostraca,Eumalacostraca,-,Eucarida,Decapoda,Pleocyemata ,Anomura,Paguroidea,Parapaguridae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Malacostraca,Eumalacostraca,-,Eucarida,Decapoda,Pleocyemata,Caridea ,Pasiphaeoidea,Pasiphaeidae ,-,-,Leptochela,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Malacostraca,Eumalacostraca,-,Eucarida,Decapoda,Pleocyemata,Anomura,Galatheoidea,Porcellanidae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Malacostraca,Eumalacostraca,-,Eucarida,Decapoda,Pleocyemata,Achelata,-,Scyllaridae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Malacostraca,Eumalacostraca,-,Eucarida,Decapoda,Dendrobranchiata,-,Sergestoidea,Sergestidae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Malacostraca,Eumalacostraca,-,Eucarida,Decapoda,Dendrobranchiata,-,Sergestoidea,Sergestidae,-,-,Acetes,-,Acetes sp.,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Malacostraca,Eumalacostraca,-,Eucarida,Decapoda,Dendrobranchiata,-,Penaeoidea,Solenoceridae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Malacostraca,Eumalacostraca,-,Eucarida,Decapoda,Pleocyemata,Stenopodidea,-,Stenopodidae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Malacostraca,Eumalacostraca,-,Eucarida,Decapoda,Pleocyemata,Gebiidea,-,Upogebiidae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Malacostraca,Eumalacostraca,-,Eucarida,Euphausiacea,-,-,-,Euphausiidae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Malacostraca,Eumalacostraca,-,Peracarida,Isopoda,-,-,-,-,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Malacostraca,Eumalacostraca,-,Peracarida,Isopoda,Cymothoida,-,Cymothooidea,Cirolanidae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Malacostraca,Eumalacostraca,-,Peracarida,Isopoda,Cymothoida,-,Cymothooidea,Gnathiidae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Malacostraca,Eumalacostraca,-,Peracarida,Mysida,-,-,-,-,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Malacostraca,Eumalacostraca,-,Peracarida,Mysida,-,-,-,-,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Malacostraca,Eumalacostraca,-,Peracarida,Mysida,-,-,-,-,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Malacostraca,Eumalacostraca,-,Peracarida,Mysida,-,-,-,-,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Malacostraca,Eumalacostraca,-,Peracarida,Mysida,-,-,-,-,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Malacostraca,Eumalacostraca,-,Peracarida,Mysida,-,-,-,-,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Malacostraca,Eumalacostraca,-,Peracarida,Mysida,-,-,-,Mysidae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Malacostraca,Eumalacostraca,-,Peracarida,Mysida,-,-,-,Mysidae,Gastrosaccinae ,-,Anchialina ,-,Anchialina sp.,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Malacostraca,Eumalacostraca,-,Peracarida,Mysida,-,-,-,Mysidae,Mysinae,-,Anisomysis,-,Anisomysis sp.,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Malacostraca,Eumalacostraca,-,Peracarida,Mysida,-,-,-,Mysidae,Gastrosaccinae,-,Haplostylus ,-,Haplostylus bengalensis,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Malacostraca,Eumalacostraca,-,Peracarida,Mysida,-,-,-,Mysidae,Siriellinae,-,Siriella,-,Siriella sp.1,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Malacostraca,Eumalacostraca,-,Peracarida,Mysida,-,-,-,Mysidae,Siriellinae,-,Siriella,-,Siriella sp.2,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Malacostraca,Hoplocarida,-,-,Stomatopoda,-,-,-,-,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Multicrustacea,Malacostraca,Hoplocarida,-,-,Stomatopoda,Unipeltata,-,Squilloidea ,Squillidae,-,-,Alima,-,Alima sp.,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Oligostraca,Ostracoda,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Oligostraca,Ostracoda,Myodocopa,-,-,Halocyprida,Halocypridina,-,Halocypridoidea,Halocyprididae,Conchoeciinae,-,Conchoecia,-,Conchoecia sp.1,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Oligostraca,Ostracoda,Myodocopa,-,-,Halocyprida,Halocypridina,-,Halocypridoidea,Halocyprididae,Conchoeciinae,-,Conchoecia,-,Conchoecia sp.2,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Oligostraca,Ostracoda,Myodocopa,-,-,Halocyprida,Halocypridina,-,Halocypridoidea,Halocyprididae,Euconchoeciinae,-,Euconchoecia,-,Euconchoecia sp.,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Oligostraca,Ostracoda,Myodocopa,-,-,Myodocopida,Myodocopina,-,Cypridinoidea,Cypridinidae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Oligostraca,Ostracoda,Myodocopa,-,-,Myodocopida,Myodocopina,-,Cypridinoidea,Cypridinidae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Oligostraca,Ostracoda,Myodocopa,-,-,Myodocopida,Myodocopina,-,Cypridinoidea,Cypridinidae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Oligostraca,Ostracoda,Myodocopa,-,-,Myodocopida,Myodocopina,-,Cypridinoidea,Cypridinidae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Oligostraca,Ostracoda,Myodocopa,-,-,Myodocopida,Myodocopina,-,Cypridinoidea,Cypridinidae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Arthropoda ,Crustacea,-,Oligostraca,Ostracoda,Podocopa,-,-,Podocopida,Cypridocopina,-,Cypridoidea,Cyprididae,Cypridinae,-,Cypris,-,Cypris sp.,-,-,-
+zooplankton,Animalia,-,-,-,Cnidaria,-,-,-,Anthozoa,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Cnidaria,-,-,-,Hydrozoa,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Cnidaria,-,-,-,Hydrozoa,Hydroidolina,-,-,Anthoathecata,-,-,-,-,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Cnidaria,-,-,-,Hydrozoa,Hydroidolina,-,-,Anthoathecata,Filifera,-,-,Bougainvilliidae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Cnidaria,-,-,-,Hydrozoa,Hydroidolina,-,-,Anthoathecata,Filifera,-,-,Bougainvilliidae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Cnidaria,-,-,-,Hydrozoa,Hydroidolina,-,-,Anthoathecata,Filifera,-,-,Bougainvilliidae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Cnidaria,-,-,-,Hydrozoa,Hydroidolina,-,-,Anthoathecata,Filifera,-,-,Bythotiaridae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Cnidaria,-,-,-,Hydrozoa,Hydroidolina,-,-,Anthoathecata,Filifera,-,-,Bythotiaridae,-,-,Bythotiara ,-,Bythotiara sp.,-,-,-
+zooplankton,Animalia,-,-,-,Cnidaria,-,-,-,Hydrozoa,Hydroidolina,-,-,Anthoathecata,Aplanulata,-,-,Corymorphidae ,-,-,Corymorpha ,-,Corymorpha sp.,-,-,-
+zooplankton,Animalia,-,-,-,Cnidaria,-,-,-,Hydrozoa,Hydroidolina,-,-,Anthoathecata,Aplanulata,-,-,Corymorphidae ,-,-,Corymorpha ,-,Corymorpha sp.,-,-,-
+zooplankton,Animalia,-,-,-,Cnidaria,-,-,-,Hydrozoa,Hydroidolina,-,-,Anthoathecata,Aplanulata,-,-,Corymorphidae ,-,-,Euphysa,-,Euphysa sp.,-,-,-
+zooplankton,Animalia,-,-,-,Cnidaria,-,-,-,Hydrozoa,Hydroidolina,-,-,Anthoathecata,Capitata ,-,-,Corynidae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Cnidaria,-,-,-,Hydrozoa,Hydroidolina,-,-,Anthoathecata,Capitata ,-,-,Corynidae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Cnidaria,-,-,-,Hydrozoa,Hydroidolina,-,-,Anthoathecata,Filifera,-,-,Cytaeididae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Cnidaria,-,-,-,Hydrozoa,Hydroidolina,-,-,Anthoathecata,Filifera,-,-,Cytaeididae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Cnidaria,-,-,-,Hydrozoa,Hydroidolina,-,-,Anthoathecata,Filifera,-,-,Hydractiniidae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Cnidaria,-,-,-,Hydrozoa,Hydroidolina,-,-,Anthoathecata,Filifera,-,-,Niobiidae,-,-,Niobia,-,Niobia sp.,-,-,-
+zooplankton,Animalia,-,-,-,Cnidaria,-,-,-,Hydrozoa,Hydroidolina,-,-,Anthoathecata,Filifera,-,-,Oceaniidae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Cnidaria,-,-,-,Hydrozoa,Hydroidolina,-,-,Anthoathecata,Filifera,-,-,Pandeidae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Cnidaria,-,-,-,Hydrozoa,Hydroidolina,-,-,Anthoathecata,Filifera,-,-,Pandeidae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Cnidaria,-,-,-,Hydrozoa,Hydroidolina,-,-,Anthoathecata,Filifera,-,-,Pandeidae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Cnidaria,-,-,-,Hydrozoa,Hydroidolina,-,-,Anthoathecata,Capitata,-,-,Porpitidae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Cnidaria,-,-,-,Hydrozoa,Hydroidolina,-,-,Anthoathecata,Capitata,-,-,Rathkeidae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Cnidaria,-,-,-,Hydrozoa,Hydroidolina,-,-,Anthoathecata,Aplanulata,-,-,Tubulariidae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Cnidaria,-,-,-,Hydrozoa,Hydroidolina,-,-,Anthoathecata,Aplanulata,-,-,Tubulariidae,-,-,Ectopleura ,-,Ectopleura sacculifera,-,-,-
+zooplankton,Animalia,-,-,-,Cnidaria,-,-,-,Hydrozoa,Hydroidolina,-,-,Anthoathecata,Aplanulata,-,-,Tubulariidae,-,-,Hybocodon ,-,Hybocodon sp.,-,-,-
+zooplankton,Animalia,-,-,-,Cnidaria,-,-,-,Hydrozoa,Hydroidolina,-,-,Leptothecata,-,-,-,-,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Cnidaria,-,-,-,Hydrozoa,Hydroidolina,-,-,Leptothecata,-,-,-,Campanulariidae,-,-,Clytia,-,Clytia sp.,-,-,-
+zooplankton,Animalia,-,-,-,Cnidaria,-,-,-,Hydrozoa,Hydroidolina,-,-,Leptothecata,-,-,-,Campanulariidae,-,-,Obelia ,-,Obelia sp.,-,-,-
+zooplankton,Animalia,-,-,-,Cnidaria,-,-,-,Hydrozoa,Hydroidolina,-,-,Leptothecata,-,-,-,Eirenidae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Cnidaria,-,-,-,Hydrozoa,Hydroidolina,-,-,Leptothecata,-,-,-,Eirenidae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Cnidaria,-,-,-,Hydrozoa,Hydroidolina,-,-,Leptothecata,-,-,-,Eirenidae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Cnidaria,-,-,-,Hydrozoa,Hydroidolina,-,-,Leptothecata,-,-,-,Eirenidae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Cnidaria,-,-,-,Hydrozoa,Hydroidolina,-,-,Leptothecata,-,-,-,Eirenidae,-,-,Eirene,-,Eirene sp.1,-,-,-
+zooplankton,Animalia,-,-,-,Cnidaria,-,-,-,Hydrozoa,Hydroidolina,-,-,Leptothecata,-,-,-,Eirenidae,-,-,Eirene,-,Eirene sp.2,-,-,-
+zooplankton,Animalia,-,-,-,Cnidaria,-,-,-,Hydrozoa,Hydroidolina,-,-,Leptothecata,-,-,-,Eirenidae,-,-,Eutima,-,Eutima sp.,-,-,-
+zooplankton,Animalia,-,-,-,Cnidaria,-,-,-,Hydrozoa,Hydroidolina,-,-,Leptothecata,-,-,-,Lovenellidae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Cnidaria,-,-,-,Hydrozoa,Hydroidolina,-,-,Leptothecata,-,-,-,Mitrocomidae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Cnidaria,-,-,-,Hydrozoa,Hydroidolina,-,-,Leptothecata,-,-,-,Mitrocomidae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Cnidaria,-,-,-,Hydrozoa,Hydroidolina,-,-,Leptothecata,-,-,-,Phialuciidae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Cnidaria,-,-,-,Hydrozoa,Hydroidolina,-,-,Leptothecata,-,-,Plumularioidea,Plumulariidae,-,-,Dentitheca,-,Dentitheca sp.,-,-,-
+zooplankton,Animalia,-,-,-,Cnidaria,-,-,-,Hydrozoa,Hydroidolina,-,-,Leptothecata,-,-,-,Tiarannidae ,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Cnidaria,-,-,-,Hydrozoa,Trachylinae,-,-,Limnomedusae,-,-,-,Geryoniidae,-,-,Liriope ,-,Liriope sp.1,-,-,-
+zooplankton,Animalia,-,-,-,Cnidaria,-,-,-,Hydrozoa,Trachylinae,-,-,Limnomedusae,-,-,-,Geryoniidae,-,-,Liriope ,-,Liriope sp.2,-,-,-
+zooplankton,Animalia,-,-,-,Cnidaria,-,-,-,Hydrozoa,Trachylinae,-,-,Narcomedusae,-,-,-,Cuninidae ,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Cnidaria,-,-,-,Hydrozoa,Trachylinae,-,-,Narcomedusae,-,-,-,Cuninidae ,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Cnidaria,-,-,-,Hydrozoa,Trachylinae,-,-,Narcomedusae,-,-,-,Solmundaeginidae,-,-,Solmundella,-,Solmundella sp.,-,-,-
+zooplankton,Animalia,-,-,-,Cnidaria,-,-,-,Hydrozoa,Hydroidolina,-,-,Siphonophorae,-,-,-,-,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Cnidaria,-,-,-,Hydrozoa,Hydroidolina,-,-,Siphonophorae,Calycophorae,-,-,Abylidae ,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Cnidaria,-,-,-,Hydrozoa,Hydroidolina,-,-,Siphonophorae,Calycophorae,-,-,Diphyidae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Cnidaria,-,-,-,Hydrozoa,Trachylinae,-,-,Trachymedusae,-,-,-,-,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Cnidaria,-,-,-,Hydrozoa,Trachylinae,-,-,Trachymedusae,-,-,-,Rhopalonematidae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Cnidaria,-,-,-,Hydrozoa,Trachylinae,-,-,Trachymedusae,-,-,-,Rhopalonematidae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Cnidaria,-,-,-,Scyphozoa,Coronamedusae ,-,-,Coronatae ,-,-,-,Nausithoidae,-,-,Nausithoe,-,Nausithoe sp.1,-,-,-
+zooplankton,Animalia,-,-,-,Cnidaria,-,-,-,Scyphozoa,Coronamedusae ,-,-,Coronatae ,-,-,-,Nausithoidae,-,-,Nausithoe,-,Nausithoe sp.2,-,-,-
+zooplankton,Animalia,-,-,-,Cnidaria,-,-,-,Scyphozoa,Coronamedusae ,-,-,Coronatae ,-,-,-,Nausithoidae,-,-,Nausithoe,-,Nausithoe sp.3,-,-,-
+zooplankton,Animalia,-,-,-,Cnidaria,-,-,-,Scyphozoa,Discomedusae,-,-,Semaeostomeae,-,-,-,Pelagiidae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Cnidaria,-,-,-,Scyphozoa,Discomedusae,-,-,Semaeostomeae,-,-,-,Pelagiidae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Mollusca,-,-,-,Bivalvia,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Mollusca,-,-,-,Cephalopoda,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Mollusca,-,-,-,Gastropoda,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Mollusca,-,-,-,Gastropoda,Caenogastropoda,-,-,Littorinimorpha,-,-,Pterotracheoidea,Atlantidae,-,-,Atlanta ,-,Atlanta sp.,-,-,-
+zooplankton,Animalia,-,-,-,Mollusca,-,-,-,Gastropoda,Caenogastropoda,-,-,Littorinimorpha,-,-,Pterotracheoidea,Pterotracheidae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Mollusca,-,-,-,Gastropoda,Heterobranchia,Euthyneura,-,Pteropoda,Euthecosomata,-,Cavolinioidea,Cavoliniidae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Mollusca,-,-,-,Gastropoda,Heterobranchia,Euthyneura,-,Pteropoda,Euthecosomata,-,Cavolinioidea,Cavoliniidae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Mollusca,-,-,-,Gastropoda,Heterobranchia,Euthyneura,-,Pteropoda,Euthecosomata,-,Cavolinioidea,Cavoliniidae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Mollusca,-,-,-,Gastropoda,Heterobranchia,Euthyneura,-,Pteropoda,Euthecosomata,-,Cavolinioidea,Cavoliniidae,Diacriinae,-,Diacria ,-,Diacria sp.1,-,-,-
+zooplankton,Animalia,-,-,-,Mollusca,-,-,-,Gastropoda,Heterobranchia,Euthyneura,-,Pteropoda,Euthecosomata,-,Cavolinioidea,Cavoliniidae,Diacriinae,-,Diacria ,-,Diacria sp.2,-,-,-
+zooplankton,Animalia,-,-,-,Mollusca,-,-,-,Gastropoda,Heterobranchia,Euthyneura,-,Pteropoda,Euthecosomata,-,Cavolinioidea,Cavoliniidae,-,-,Cavolinia,-,Cavolinia sp.,-,-,-
+benthos,Animalia,-,-,-,Porifera,-,-,-,Demospongiae,Heteroscleromorpha,-,-,Clionaida,-,-,-,Clionidae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Mollusca,-,-,-,Gastropoda,Heterobranchia,Euthyneura,-,Pteropoda,Euthecosomata,-,Cavolinioidea,Creseidae,-,-,Creseis,-,Creseis acicula,-,-,-
+zooplankton,Animalia,-,-,-,Mollusca,-,-,-,Gastropoda,Heterobranchia,Euthyneura,-,Pteropoda,Euthecosomata,-,Cavolinioidea,Creseidae,-,-,Creseis,-,Creseis virgula,-,-,-
+zooplankton,Animalia,-,-,-,Mollusca,-,-,-,Gastropoda,Heterobranchia,Euthyneura,-,Pteropoda,Pseudothecosomata,-,Cymbulioidea,Desmopteridae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Mollusca,-,-,-,Gastropoda,Heterobranchia,Euthyneura,-,Pteropoda,Pseudothecosomata,-,Cymbulioidea,Desmopteridae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Chordata,Tunicata,-,-,Appendicularia,-,-,-,Copelata,-,-,-,Oikopleuridae,Oikopleurinae,-,Oikopleura,-,Oikopleura sp.,-,-,-
+zooplankton,Animalia,-,-,-,Chordata,Cephalochordata ,-,-,Leptocardii,-,-,-,-,-,-,-,Branchiostomatidae,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Chordata,Cephalochordata ,-,-,Leptocardii,-,-,-,-,-,-,-,ranchiostomatidae ,-,-,Branchiostoma ,-,Branchiostoma sp. ,-,-,-
+zooplankton,Animalia,-,-,-,Chordata,Tunicata,-,-,Thaliacea,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Chordata,Tunicata,-,-,Thaliacea,-,-,-,Doliolida,Doliolidina,-,-,Doliolidae ,-,-,Dolioletta ,-,Dolioletta sp.1,-,-,-
+zooplankton,Animalia,-,-,-,Chordata,Tunicata,-,-,Thaliacea,-,-,-,Doliolida,Doliolidina,-,-,Doliolidae ,-,-,Dolioletta ,-,Dolioletta sp.2,-,-,-
+zooplankton,Animalia,-,-,-,Chordata,Tunicata,-,-,Thaliacea,-,-,-,Doliolida,Doliolidina,-,-,Doliolidae ,-,-,Doliolum,-,Doliolum sp.1,-,-,-
+zooplankton,Animalia,-,-,-,Chordata,Tunicata,-,-,Thaliacea,-,-,-,Doliolida,Doliolidina,-,-,Doliolidae ,-,-,Doliolum,-,Doliolum sp.2,-,-,-
+nekton,Animalia,-,-,-,Chordata,Tunicata,-,-,Thaliacea,-,-,-,Salpida,-,-,-,Salpidae,-,-,-,-,-,-,-,-
+nekton,Animalia,-,-,-,Chordata,Tunicata,-,-,Thaliacea,-,-,-,Salpida,-,-,-,Salpidae,Salpinae,-,Brooksia ,-,Brooksia sp.1,-,-,-
+nekton,Animalia,-,-,-,Chordata,Tunicata,-,-,Thaliacea,-,-,-,Salpida,-,-,-,Salpidae,Salpinae,-,Brooksia ,-,Brooksia sp.2,-,-,-
+nekton,Animalia,-,-,-,Chordata,Tunicata,-,-,Thaliacea,-,-,-,Salpida,-,-,-,Salpidae,Salpinae,-,Salpa ,-,Salpa sp.1,-,-,-
+nekton,Animalia,-,-,-,Chordata,Tunicata,-,-,Thaliacea,-,-,-,Salpida,-,-,-,Salpidae,Salpinae,-,Salpa ,-,Salpa sp.2,-,-,-
+nekton,Animalia,-,-,-,Chordata,Tunicata,-,-,Thaliacea,-,-,-,Salpida,-,-,-,Salpidae,Salpinae,-,Thalia,-,Thalia sp.1,-,-,-
+nekton,Animalia,-,-,-,Chordata,Tunicata,-,-,Thaliacea,-,-,-,Salpida,-,-,-,Salpidae,Salpinae,-,Thalia,-,Thalia sp.2,-,-,-
+benthos,Animalia,-,-,-,Echinodermata ,Echinozoa ,-,-,Holothuroidea,Paractinopoda,-,-,Apodida,-,-,-,Synaptidae,-,-,Protankyra,-,Protankyra sp.,-,-,-
+zooplankton,Animalia,-,-,-,Chaetognatha,-,-,-,Sagittoidea,-,-,-,Aphragmophora,-,-,-,Sagittidae,-,-,Sagitta ,-,Sagitta sp.,-,-,-
+benthos,Animalia,-,-,-,Annelida,-,-,-,Polychaeta,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+benthos,Animalia,-,-,-,Platyhelminthes,-,-,-,Turbellaria,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+benthos,Animalia,-,-,-,Platyhelminthes,-,-,-,Turbellaria,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+zooplankton,Chromista ,Harosa,Alveolata,-,Ciliophora ,Intramacronucleata,-,-,Oligotrichea,Oligotrichia,-,-,Choreotrichida,Tintinnina,-,-,Codonellidae,-,-,Tintinnopsis,-,Tintinnopsis directa,-,-,-
+zooplankton,Chromista ,Harosa,Alveolata,-,Ciliophora ,Intramacronucleata,-,-,Oligotrichea,Oligotrichia,-,-,Choreotrichida,Tintinnina,-,-,Codonellidae,-,-,Tintinnopsis,-,Tintinnopsis gracilis,-,-,-
+zooplankton,Chromista ,Harosa,Alveolata,-,Ciliophora ,Intramacronucleata,-,-,Oligotrichea,Oligotrichia,-,-,Choreotrichida,Tintinnina,-,-,Codonellidae,-,-,Tintinnopsis,-,Tintinnopsis mortensenii,-,-,-
+zooplankton,Chromista ,Harosa,Alveolata,-,Ciliophora ,Intramacronucleata,-,-,Oligotrichea,Oligotrichia,-,-,Choreotrichida,Tintinnina,-,-,Codonellidae,-,-,Tintinnopsis,-,Tintinnopsis subacuta,-,-,-
+zooplankton,Chromista ,Harosa,Alveolata,-,Ciliophora ,Intramacronucleata,-,-,Oligotrichea,Oligotrichia,-,-,Choreotrichida,Tintinnina,-,-,Codonellidae,-,-,Tintinnopsis,-,Tintinnopsis tocantinensis,-,-,-
+zooplankton,Chromista ,Harosa,Alveolata,-,Ciliophora ,Intramacronucleata,-,-,Oligotrichea,Oligotrichia,-,-,Choreotrichida,Tintinnina,-,-,Codonellidae,-,-,Tintinnopsis,-,Tintinnopsis sp.1,-,-,-
+zooplankton,Chromista ,Harosa,Alveolata,-,Ciliophora ,Intramacronucleata,-,-,Oligotrichea,Oligotrichia,-,-,Choreotrichida,Tintinnina,-,-,Codonellidae,-,-,Tintinnopsis,-,Tintinnopsis sp.2,-,-,-
+zooplankton,Chromista ,Harosa,Alveolata,-,Ciliophora ,Intramacronucleata,-,-,Oligotrichea,Oligotrichia,-,-,Choreotrichida,Tintinnina,-,-,Codonellopsidae,-,-,Codonellopsis ,-,Codonellopsis ostenfeldi,-,-,-
+zooplankton,Chromista ,Harosa,Alveolata,-,Ciliophora ,Intramacronucleata,-,-,Oligotrichea,Oligotrichia,-,-,Choreotrichida,Tintinnina,-,-,Codonellopsidae,-,-,Codonellopsis ,-,Codonellopsis sp.1,-,-,-
+zooplankton,Chromista ,Harosa,Alveolata,-,Ciliophora ,Intramacronucleata,-,-,Oligotrichea,Oligotrichia,-,-,Choreotrichida,Tintinnina,-,-,Codonellopsidae,-,-,Codonellopsis ,-,Codonellopsis sp.2,-,-,-
+zooplankton,Chromista ,Harosa,Alveolata,-,Ciliophora ,Intramacronucleata,-,-,Oligotrichea,Oligotrichia,-,-,Choreotrichida,Tintinnina,-,-,Rhabdonellidae,-,-,Rhabdonella,-,Rhabdonella sp.1,-,-,-
+zooplankton,Chromista ,Harosa,Alveolata,-,Ciliophora ,Intramacronucleata,-,-,Oligotrichea,Oligotrichia,-,-,Choreotrichida,Tintinnina,-,-,Rhabdonellidae,-,-,Rhabdonella,-,Rhabdonella sp.2,-,-,-
+zooplankton,Chromista ,Harosa,Alveolata,-,Ciliophora ,Intramacronucleata,-,-,Oligotrichea,Oligotrichia,-,-,Choreotrichida,Tintinnina,-,-,Rhabdonellidae,-,-,Rhabdonella,-,Rhabdonella sp.3,-,-,-
+zooplankton,Chromista ,Harosa,Alveolata,-,Ciliophora ,Intramacronucleata,-,-,Oligotrichea,Oligotrichia,-,-,Choreotrichida,Tintinnina,-,-,Rhabdonellidae,-,-,Rhabdonella,-,Rhabdonella sp.4,-,-,-
+zooplankton,Chromista ,Harosa,Alveolata,-,Ciliophora ,Intramacronucleata,-,-,Oligotrichea,Oligotrichia,-,-,Choreotrichida,Tintinnina,-,-,Tintinnidae,-,-,Eutintinnus ,-,Eutintinnus sp.,-,-,-
+zooplankton,Chromista ,Harosa,Alveolata,-,Ciliophora ,Intramacronucleata,-,-,Oligotrichea,Oligotrichia,-,-,Choreotrichida,Tintinnina,-,-,Tintinnidiidae,-,-,Leprotintinnus ,-,Leprotintinnus sp.,-,-,-
+nekton,Animalia,-,-,-,Ctenophora,-,-,-,Nuda,-,-,-,Beroida,-,-,-,Beroidae ,-,-,-,-,-,-,-,-
+zooplankton,Animalia,-,-,-,Ctenophora,-,-,-,Tentaculata,-,-,-,Cydippida,-,-,-,Pleurobrachiidae,-,-,-,-,-,-,-,-
+Benthos,Animalia,-,-,-,Mollusca,-,-,-,Gastropoda,Heterobranchia,Euthyneura,Eupulmonata,Stylommatophora,Achatinina ,-,Achatinoidea ,Achatinidae,Glessulinae,-,Electra ,-,Electra sp.,-,-,-
+Benthos,Animalia,-,-,-,Brachiopoda,Linguliformea,-,-,Lingulata,-,-,-,Lingulida,-,-,Linguloidea,Lingulidae,-,-,Lingula,-,Lingula sp.,-,-,-
+zooplankton,Animalia,-,-,-,Rotifera ,-,-,-,Eurotatoria,Monogononta,-,Pseudotrocha,Ploima,-,-,-,Lecanidae,-,-,Lecane ,-,Lecane sp.,-,-,-
+benthos,Animalia,-,-,-,Sipuncula ,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-

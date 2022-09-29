@@ -1,0 +1,52 @@
+version: "3.7"
+services:
+  pg-eDNA:
+    image: postgres
+    restart: always
+    env_file:
+      - ./database/.env
+    ports:
+      - "5432:5432"
+    volumes:
+      - data:/var/lib/postgresql/data
+  redis-eDNA:
+    image: redis
+    restart: always
+    environment:
+      - ALLOW_EMPTY_PASSWORD=yes
+    ports:
+      - "6379:6379"
+    volumes:
+      - data:/var/lib/redis/data
+  api:
+    build: ./backend
+    env_file: ./backend/.env
+    depends_on:
+      - pg-eDNA
+      - redis-eDNA
+    networks:
+      - default
+    ports:
+      - "8080:8080"
+    restart: always
+  web:
+    build: ./frontend
+    env_file: ./frontend/.env.local
+    depends_on:
+      - api
+    networks:
+      - default
+    ports:
+      - "3000:3000"
+    restart: always
+  reverse-proxy:
+    build: ./nginx
+    tty: true
+    ports:
+      - 80:80
+    depends_on:
+      - web
+      - api
+    restart: always
+volumes:
+  data:

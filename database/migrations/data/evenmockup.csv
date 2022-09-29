@@ -1,0 +1,8 @@
+year,project,platform,station,surface,bottom,evenness
+2020,Test Project 5,Test Platform 5,Test Station 5,0.77,0.85,0.80
+2021,Test Project 5,Test Platform 5,Test Station 5,0.78,0.88,0.83
+2022,Test Project 5,Test Platform 5,Test Station 5,0.79,0.87,0.82
+2019,Test Project 4,Test Platform 4,Test Station 4,0.75,0.83,0.79
+2020,Test Project 4,Test Platform 4,Test Station 4,0.77,0.85,0.80
+2021,Test Project 4,Test Platform 4,Test Station 4,0.78,0.88,0.83
+2022,Test Project 4,Test Platform 4,Test Station 4,0.79,0.87,0.82

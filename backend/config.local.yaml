@@ -1,0 +1,17 @@
+application:
+  port: 8080
+  environment: "local"
+
+postgres:
+  port: 5432
+  user: "postgres"
+  password: "postgres"
+  host: "pg-eDNA"
+  database: "eDNA"
+  poolSize: 50
+
+redis:
+  port: 6379
+  host: "redis-eDNA"
+  password: ""
+  database: "0"
