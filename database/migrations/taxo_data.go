@@ -973,7 +973,7 @@ func GetSubSpeciesData() ([]SubSpeciesData, error) {
 	return subSpeciesList, nil
 }
 
-//Location Import
+// Location Import
 type LocationData struct {
 	Asset     string `csv:"Asset"`
 	Platform  string `csv:"Platform"`
@@ -1107,8 +1107,8 @@ func GetStationData() ([]StationData, error) {
 	return StationList, nil
 }
 
-////No.,Species,Year,Asset,Platform,Station,Surface,Euphotic_zone
-//Density Import
+// //No.,Species,Year,Asset,Platform,Station,Surface,Euphotic_zone
+// Density Import
 type DensityData struct {
 	Species       string `csv:"Species"`
 	Year          string `csv:"Year"`
@@ -1317,4 +1317,110 @@ func GetEvennessesData() ([]EvennessData, error) {
 	}
 
 	return EvennessList, nil
+}
+
+// //Summary Import   No.,Year,Group,Identification,Asset,Platform,Station,SurfaceShannon,SurfaceNumber,SurfaceMax,SurfaceEvenness,
+// Euphotic_zoneShannon,Euphotic_zoneNumber,Euphotic_zoneMax,Euphotic_zoneEvenness
+// AverageShannon,AverageNumber,AverageMax,AverageEvenness
+type SummaryData struct {
+	Year                  string `csv:"Year"`
+	Group                 string `csv:"Group"`
+	Identification        string `csv:"Identification"`
+	Asset                 string `csv:"Asset"`
+	Platform              string `csv:"Platform"`
+	Station               string `csv:"Station"`
+	SurfaceShannon        string `csv:"SurfaceShannon"`
+	SurfaceNumber         string `csv:"SurfaceNumber"`
+	SurfaceMax            string `csv:"SurfaceMax"`
+	SurfaceEvenness       string `csv:"SurfaceEvenness"`
+	Euphotic_zoneShannon  string `csv:"Euphotic_zoneShannon"`
+	Euphotic_zoneNumber   string `csv:"Euphotic_zoneNumber"`
+	Euphotic_zoneMax      string `csv:"Euphotic_zoneMax"`
+	Euphotic_zoneEvenness string `csv:"Euphotic_zoneEvenness"`
+	AverageShannon        string `csv:"AverageShannon"`
+	AverageNumber         string `csv:"AverageNumber"`
+	AverageMax            string `csv:"AverageMax"`
+	AverageEvenness       string `csv:"AverageEvenness"`
+}
+
+func GetSummaryData() ([]SummaryData, error) {
+	summaries := []SummaryData{}
+	filename := "./data/datax - Data_Summary.csv"
+
+	in, err := os.Open(filename)
+	if err != nil {
+		return summaries, err
+	}
+
+	defer in.Close()
+
+	if err := gocsv.UnmarshalFile(in, &summaries); err != nil {
+		return summaries, err
+	}
+
+	for i, sum := range summaries {
+		summaries[i] = SummaryData{
+			Year:                  FormatData(sum.Year),
+			Group:                 FormatData(sum.Group),
+			Identification:        FormatData(sum.Identification),
+			Asset:                 FormatData(sum.Asset),
+			Platform:              FormatData(sum.Platform),
+			Station:               FormatData(sum.Station),
+			SurfaceShannon:        FormatData(sum.SurfaceShannon),
+			SurfaceNumber:         FormatData(sum.SurfaceNumber),
+			SurfaceMax:            FormatData(sum.SurfaceMax),
+			SurfaceEvenness:       FormatData(sum.SurfaceEvenness),
+			Euphotic_zoneShannon:  FormatData(sum.Euphotic_zoneShannon),
+			Euphotic_zoneNumber:   FormatData(sum.Euphotic_zoneNumber),
+			Euphotic_zoneMax:      FormatData(sum.Euphotic_zoneMax),
+			Euphotic_zoneEvenness: FormatData(sum.Euphotic_zoneEvenness),
+			AverageShannon:        FormatData(sum.AverageShannon),
+			AverageNumber:         FormatData(sum.AverageNumber),
+			AverageMax:            FormatData(sum.AverageMax),
+			AverageEvenness:       FormatData(sum.AverageEvenness),
+		}
+	}
+	return summaries, nil
+}
+
+func GetSummariesData() ([]SummaryData, error) {
+	SummaryList := []SummaryData{}
+
+	SummarySet := make(map[SummaryData]struct{})
+	var exists = struct{}{}
+
+	summaries, err := GetSummaryData()
+	if err != nil {
+		return SummaryList, err
+	}
+
+	for _, summary := range summaries {
+		SummaryData := SummaryData{
+			Year:                  summary.Year,
+			Group:                 summary.Group,
+			Identification:        summary.Identification,
+			Asset:                 summary.Asset,
+			Platform:              summary.Platform,
+			Station:               summary.Station,
+			SurfaceShannon:        summary.SurfaceShannon,
+			SurfaceNumber:         summary.SurfaceNumber,
+			SurfaceMax:            summary.SurfaceMax,
+			SurfaceEvenness:       summary.SurfaceEvenness,
+			Euphotic_zoneShannon:  summary.Euphotic_zoneShannon,
+			Euphotic_zoneNumber:   summary.Euphotic_zoneNumber,
+			Euphotic_zoneMax:      summary.Euphotic_zoneMax,
+			Euphotic_zoneEvenness: summary.Euphotic_zoneEvenness,
+			AverageShannon:        summary.AverageShannon,
+			AverageNumber:         summary.AverageNumber,
+			AverageMax:            summary.AverageMax,
+			AverageEvenness:       summary.AverageEvenness,
+		}
+		SummarySet[SummaryData] = exists
+	}
+
+	for summaries := range SummarySet {
+		SummaryList = append(SummaryList, summaries)
+	}
+
+	return SummaryList, nil
 }
