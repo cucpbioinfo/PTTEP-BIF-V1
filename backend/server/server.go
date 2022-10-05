@@ -69,6 +69,10 @@ func StartServer() {
 	speciesService := services.NewSpeciesService(speciesRepository)
 	speciesController := controllers.NewSpeciesController(speciesService)
 
+	summaryRepository := repositories.NewSummaryRepository(dbConnection)
+	summaryService := services.NewSummaryService(summaryRepository)
+	summaryController := controllers.NewSummaryController(summaryService)
+
 	evennessRepository := repositories.NewEvennessRepository(dbConnection)
 	evennessService := services.NewEvennessService(evennessRepository)
 	evennessController := controllers.NewEvennessController(evennessService)
@@ -233,6 +237,9 @@ func StartServer() {
 
 	locationAPI := app.Group("/location")
 	locationAPI.Get("/", locationController.ListLocation)
+
+	summaryAPI := app.Group("/summary")
+	summaryAPI.Get("/", summaryController.ListSummary)
 
 	evennessAPI := app.Group("/evenness")
 	evennessAPI.Get("/", evennessController.ListEvenness)

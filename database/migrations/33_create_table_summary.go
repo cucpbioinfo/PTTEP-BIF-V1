@@ -20,10 +20,10 @@ const createTableSummarySQL = `
 		"surfacenumber" float NOT NULL,
 		"surfacemax" float NOT NULL,
 		"surfaceevenness" float NOT NULL,
-		"euphotic_zoneshannon" float NOT NULL,
-		"euphotic_zonenumber" float NOT NULL,
-		"euphotic_zonemax" float NOT NULL,
-		"euphotic_zoneevenness" float NOT NULL,
+		"euphoticzoneshannon" float NOT NULL,
+		"euphoticzonenumber" float NOT NULL,
+		"euphoticzonemax" float NOT NULL,
+		"euphoticzoneevenness" float NOT NULL,
 		"averageshannon" float NOT NULL,
 		"averagenumber" float NOT NULL,
 		"averagemax" float NOT NULL,
@@ -105,7 +105,7 @@ func init() {
 			INSERT INTO public."summary"("year","major_group_id","identification_id",
 			"asset_id", "platform_id","station_id",
 			"surfaceshannon","surfacenumber","surfacemax","surfaceevenness",
-			"euphotic_zoneshannon","euphotic_zonenumber","euphotic_zonemax","euphotic_zoneevenness",
+			"euphoticzoneshannon","euphoticzonenumber","euphoticzonemax","euphoticzoneevenness",
 			"averageshannon","averagenumber","averagemax","averageevenness"
 			) VALUES(
 			'%s',
