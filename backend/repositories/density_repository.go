@@ -30,6 +30,9 @@ func (densityRepository *DensityRepository) ListDensity(query types.ListDensityQ
 	if query.StationID != uuid.Nil {
 		dbQuery.Where("density.station_id = ?", query.StationID)
 	}
+	if query.SpeciesID != uuid.Nil {
+		dbQuery.Where("density.species_id = ?", query.SpeciesID)
+	}
 
 	err := dbQuery.
 		Relation("Asset").

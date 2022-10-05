@@ -14,11 +14,11 @@ export const NAVBAR_MENU_LIST = [
     //     en: 'Internal Data',
     //     href: '/internal-data'
     // },
-    // {
-    //     th: 'ทดสอบ',
-    //     en: 'Test',
-    //     href: '/test'
-    // },
+    {
+        th: 'ทดสอบ',
+        en: 'Test',
+        href: '/filterdata'
+    },
     // {
     //     th: 'แดชบอร์ด',
     //     en: 'Dashboard',

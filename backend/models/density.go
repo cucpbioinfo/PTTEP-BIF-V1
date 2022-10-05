@@ -17,8 +17,10 @@ type Density struct {
 	Platform   *Platform `pg:"rel:has-one"`
 	StationID  uuid.UUID `pg:"station_id"`
 	Station    *Station  `pg:"rel:has-one"`
-	SpeciesID  uuid.UUID `pg:"species_id"`
-	Species    *Species  `pg:"rel:has-one"`
+	// SpeciesID  uuid.UUID `pg:"species_id"`
+	// Species    *Species  `pg:"rel:has-one"`
+	SpeciesID   uuid.UUID `pg:"species_id"`
+	SpeciesName string    `pg:"species_name"`
 
 	Surface       string `pg:"surface"`
 	Euphotic_zone string `pg:"euphotic_zone"`

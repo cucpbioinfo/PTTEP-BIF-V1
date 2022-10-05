@@ -28,6 +28,8 @@ func (densityService *DensityService) ListDensity(query types.ListDensityQuery) 
 			AssetName:     density.Asset.AssetName,
 			PlatformName:  density.Platform.PlatformName,
 			StationName:   density.Station.StationName,
+			SpeciesID:     density.SpeciesID,
+			SpeciesName:   density.SpeciesName,
 			Surface:       density.Surface,
 			Euphotic_zone: density.Euphotic_zone,
 		}

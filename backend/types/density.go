@@ -14,6 +14,7 @@ type DensityDto struct {
 	AssetName     string    `json:"assetName"`
 	PlatformName  string    `json:"platformName"`
 	StationName   string    `json:"stationName"`
+	SpeciesID     uuid.UUID `json:"speciesId"`
 	SpeciesName   string    `json:"speciesName"`
 	Surface       string    `json:"surface"`
 	Euphotic_zone string    `json:"euphotic_zone"`
