@@ -8,6 +8,7 @@ import { listAsset } from 'api/dashboard/listAsset'
 import { listPlatform } from 'api/dashboard/listPlatform'
 import { listStation } from 'api/dashboard/listStation'
 /////
+import { listMajorGroup } from 'api/major-group/listMajorGroup'
 import { listEvenness } from 'api/dashboard/listEvenness'
 import { listDiversity } from 'api/dashboard/listDiversity'
 ////////////////////////////////////
@@ -27,6 +28,7 @@ const index = () => {
   const [platform, setPlatform] = useState([])
   const [station, setStation] = useState([])
 
+  const [majorGroups, setMajorGroups] = useState([])
   const [evenness, setEvenness] = useState([])
   const [diversity, setDiversity] = useState([])
 
@@ -59,6 +61,10 @@ const index = () => {
     setStation(data)
   }
   /////
+  const fetchMajorGroups = async () => {
+    const { data } = await listMajorGroup()
+    setMajorGroups(data)
+  }
   const fetchEvenness = async (stationId?: string) => {
     const { data } = await listEvenness(stationId)
     setEvenness(data)
@@ -78,7 +84,8 @@ const index = () => {
   }
 
   useEffect(() => {
-    fetchAsset(),
+    fetchMajorGroups()
+    fetchAsset()
     fetchEvennessYear()
   }, [])
   useEffect(() => {
@@ -265,6 +272,27 @@ const index = () => {
         </div>
       </div>
       <div className="w-1/3 border p-1 shadow rounded-md items-center">
+  
+      <div className="w-full h-60 mb-1 border text-left">
+        <div className="md:w-1/3 w-full">
+          <Select
+            placeholder="Group"
+            onChange={(value: string | undefined) => {
+              onFilterChange('majorGroupId', value)
+            }}
+          >
+            {majorGroups.map((majorGroup) => (
+              <Option
+                value={majorGroup?.majorGroupId}
+                key={majorGroup?.majorGroupId}
+              >
+                {majorGroup?.majorGroupName}
+              </Option>
+            ))}
+          </Select>
+        </div>
+      </div>
+
       <div className="w-full h-60 mb-1 border text-left">Evenness </div>
       <div className="w-full h-60 mb-1 border text-left">
         <BarDE barname='Evenness' stationId='demo'/>
