@@ -9,21 +9,21 @@ export const NAVBAR_MENU_LIST = [
         en: 'Classification',
         href: '/species'
     },
-    {
-        th: 'ข้อมูลภายใน',
-        en: 'Internal Data',
-        href: '/internal-data'
-    },
-    {
-        th: 'ทดสอบ',
-        en: 'Test',
-        href: '/test'
-    },
-    {
-        th: 'แดชบอร์ด',
-        en: 'Dashboard',
-        href: '/dashboard'
-    },
+    // {
+    //     th: 'ข้อมูลภายใน',
+    //     en: 'Internal Data',
+    //     href: '/internal-data'
+    // },
+    // {
+    //     th: 'ทดสอบ',
+    //     en: 'Test',
+    //     href: '/test'
+    // },
+    // {
+    //     th: 'แดชบอร์ด',
+    //     en: 'Dashboard',
+    //     href: '/dashboard'
+    // },
 
     // {
     //     th: 'ติดต่อเรา',

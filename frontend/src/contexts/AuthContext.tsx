@@ -61,7 +61,7 @@ export const AuthProvider = ({ children }) => {
       eDNAAxios.defaults.headers.Authorization = `${data.authToken}`
       await loadUser()
       message.success(LOGIN_PAGE_TEXT[router.locale].loginSuccessMessage)
-      router.push('/internal-data')
+      router.push('/')
     } catch (err) {
       message.error(LOGIN_PAGE_TEXT[router.locale].loginFailMessage)
     }
