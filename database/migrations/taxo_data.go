@@ -1424,3 +1424,140 @@ func GetSummariesData() ([]SummaryData, error) {
 
 	return SummaryList, nil
 }
+
+// //No.,Species,Year,Asset,Platform,Surface,Euphotic_zone
+// PlatformDensity Import
+type PlatformDensityData struct {
+	Species       string `csv:"Species"`
+	Year          string `csv:"Year"`
+	Asset         string `csv:"Asset"`
+	Platform      string `csv:"Platform"`
+	Surface       string `csv:"Surface"`
+	Euphotic_zone string `csv:"Euphotic_zone"`
+}
+
+func GetPlatformDensityData() ([]PlatformDensityData, error) {
+	densities := []PlatformDensityData{}
+	filename := "./data/datax - PlatformDensity.csv"
+
+	in, err := os.Open(filename)
+	if err != nil {
+		return densities, err
+	}
+
+	defer in.Close()
+
+	if err := gocsv.UnmarshalFile(in, &densities); err != nil {
+		return densities, err
+	}
+
+	for i, location := range densities {
+		densities[i] = PlatformDensityData{
+			Species:       FormatData(location.Species),
+			Year:          FormatData(location.Year),
+			Asset:         FormatData(location.Asset),
+			Platform:      FormatData(location.Platform),
+			Surface:       FormatData(location.Surface),
+			Euphotic_zone: FormatData(location.Euphotic_zone),
+		}
+	}
+
+	return densities, nil
+}
+
+func GetPlatformDensitiesData() ([]PlatformDensityData, error) {
+	DensityList := []PlatformDensityData{}
+
+	DensitySet := make(map[PlatformDensityData]struct{})
+	var exists = struct{}{}
+
+	densities, err := GetPlatformDensityData()
+	if err != nil {
+		return DensityList, err
+	}
+
+	for _, diversity := range densities {
+		PlatformDensityData := PlatformDensityData{
+			Species:       diversity.Species,
+			Year:          diversity.Year,
+			Asset:         diversity.Asset,
+			Platform:      diversity.Platform,
+			Surface:       diversity.Surface,
+			Euphotic_zone: diversity.Euphotic_zone,
+		}
+		DensitySet[PlatformDensityData] = exists
+	}
+
+	for densities := range DensitySet {
+		DensityList = append(DensityList, densities)
+	}
+
+	return DensityList, nil
+}
+
+// //No.,Species,Year,Asset,Surface,Euphotic_zone
+// AssetDensity Import
+type AssetDensityData struct {
+	Species       string `csv:"Species"`
+	Year          string `csv:"Year"`
+	Asset         string `csv:"Asset"`
+	Surface       string `csv:"Surface"`
+	Euphotic_zone string `csv:"Euphotic_zone"`
+}
+
+func GetAssetDensityData() ([]AssetDensityData, error) {
+	densities := []AssetDensityData{}
+	filename := "./data/datax - AssetDensity.csv"
+
+	in, err := os.Open(filename)
+	if err != nil {
+		return densities, err
+	}
+
+	defer in.Close()
+
+	if err := gocsv.UnmarshalFile(in, &densities); err != nil {
+		return densities, err
+	}
+
+	for i, location := range densities {
+		densities[i] = AssetDensityData{
+			Species:       FormatData(location.Species),
+			Year:          FormatData(location.Year),
+			Asset:         FormatData(location.Asset),
+			Surface:       FormatData(location.Surface),
+			Euphotic_zone: FormatData(location.Euphotic_zone),
+		}
+	}
+
+	return densities, nil
+}
+
+func GetAssetDensitiesData() ([]AssetDensityData, error) {
+	DensityList := []AssetDensityData{}
+
+	DensitySet := make(map[AssetDensityData]struct{})
+	var exists = struct{}{}
+
+	densities, err := GetAssetDensityData()
+	if err != nil {
+		return DensityList, err
+	}
+
+	for _, diversity := range densities {
+		AssetDensityData := AssetDensityData{
+			Species:       diversity.Species,
+			Year:          diversity.Year,
+			Asset:         diversity.Asset,
+			Surface:       diversity.Surface,
+			Euphotic_zone: diversity.Euphotic_zone,
+		}
+		DensitySet[AssetDensityData] = exists
+	}
+
+	for densities := range DensitySet {
+		DensityList = append(DensityList, densities)
+	}
+
+	return DensityList, nil
+}
