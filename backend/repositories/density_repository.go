@@ -44,3 +44,69 @@ func (densityRepository *DensityRepository) ListDensity(query types.ListDensityQ
 	}
 	return density, nil
 }
+
+// Platform platform
+type PlatformDensityRepository struct {
+	pg *pg.DB
+}
+
+func NewPlatformDensityRepository(pg *pg.DB) *PlatformDensityRepository {
+	return &PlatformDensityRepository{
+		pg: pg,
+	}
+}
+
+func (platformdensityRepository *PlatformDensityRepository) ListPlatformDensity(query types.ListPlatformDensityQuery) ([]models.PlatformDensity, error) {
+	var platformdensity []models.PlatformDensity
+	dbQuery := platformdensityRepository.pg.Model(&platformdensity)
+
+	if query.AssetID != uuid.Nil {
+		dbQuery.Where("platformdensity.asset_id = ?", query.AssetID)
+	}
+	if query.PlatformID != uuid.Nil {
+		dbQuery.Where("platformdensity.platform_id = ?", query.PlatformID)
+	}
+	if query.SpeciesID != uuid.Nil {
+		dbQuery.Where("platformdensity.species_id = ?", query.SpeciesID)
+	}
+
+	err := dbQuery.
+		Relation("Asset").
+		Relation("Platform").
+		Select()
+	if err != nil {
+		return make([]models.PlatformDensity, 0), err
+	}
+	return platformdensity, nil
+}
+
+// Asset asset
+type AssetDensityRepository struct {
+	pg *pg.DB
+}
+
+func NewAssetDensityRepository(pg *pg.DB) *AssetDensityRepository {
+	return &AssetDensityRepository{
+		pg: pg,
+	}
+}
+
+func (assetdensityRepository *AssetDensityRepository) ListAssetDensity(query types.ListAssetDensityQuery) ([]models.AssetDensity, error) {
+	var assetdensity []models.AssetDensity
+	dbQuery := assetdensityRepository.pg.Model(&assetdensity)
+
+	if query.AssetID != uuid.Nil {
+		dbQuery.Where("assetdensity.asset_id = ?", query.AssetID)
+	}
+	if query.SpeciesID != uuid.Nil {
+		dbQuery.Where("assetdensity.species_id = ?", query.SpeciesID)
+	}
+
+	err := dbQuery.
+		Relation("Asset").
+		Select()
+	if err != nil {
+		return make([]models.AssetDensity, 0), err
+	}
+	return assetdensity, nil
+}

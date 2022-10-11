@@ -46,3 +46,86 @@ func (summaryService *SummaryService) ListSummary(query types.ListSummaryQuery) 
 	}
 	return summaryList, nil
 }
+
+// Platform platform
+type PlatformSummaryService struct {
+	PlatformSummaryRepository *repositories.PlatformSummaryRepository
+}
+
+func NewPlatformSummaryService(platformsummaryRepository *repositories.PlatformSummaryRepository) *PlatformSummaryService {
+	return &PlatformSummaryService{
+		PlatformSummaryRepository: platformsummaryRepository,
+	}
+}
+
+func (platformsummaryService *PlatformSummaryService) ListPlatformSummary(query types.ListPlatformSummaryQuery) ([]types.PlatformSummaryDto, error) {
+	summary, err := platformsummaryService.PlatformSummaryRepository.ListPlatformSummary(query)
+	if err != nil {
+		return make([]types.PlatformSummaryDto, 0), err
+	}
+	summaryList := make([]types.PlatformSummaryDto, len(summary))
+	for i, summary := range summary {
+		summaryList[i] = types.PlatformSummaryDto{
+			SummaryID:            summary.SummaryID,
+			Year:                 summary.Year,
+			MajorGroupName:       summary.MajorGroup.MajorGroupName,
+			IdentificationName:   summary.Identification.IdentificationName,
+			AssetName:            summary.Asset.AssetName,
+			PlatformName:         summary.Platform.PlatformName,
+			SurfaceShannon:       summary.SurfaceShannon,
+			SurfaceNumber:        summary.SurfaceNumber,
+			SurfaceMax:           summary.SurfaceMax,
+			SurfaceEvenness:      summary.SurfaceEvenness,
+			EuphoticZoneShannon:  summary.EuphoticZoneShannon,
+			EuphoticZoneNumber:   summary.EuphoticZoneNumber,
+			EuphoticZoneMax:      summary.EuphoticZoneMax,
+			EuphoticZoneEvenness: summary.EuphoticZoneEvenness,
+			AverageShannon:       summary.AverageShannon,
+			AverageNumber:        summary.AverageNumber,
+			AverageMax:           summary.AverageMax,
+			AverageEvenness:      summary.AverageEvenness,
+		}
+	}
+	return summaryList, nil
+}
+
+// Asset asset
+type AssetSummaryService struct {
+	AssetSummaryRepository *repositories.AssetSummaryRepository
+}
+
+func NewAssetSummaryService(assetsummaryRepository *repositories.AssetSummaryRepository) *AssetSummaryService {
+	return &AssetSummaryService{
+		AssetSummaryRepository: assetsummaryRepository,
+	}
+}
+
+func (assetsummaryService *AssetSummaryService) ListAssetSummary(query types.ListAssetSummaryQuery) ([]types.AssetSummaryDto, error) {
+	summary, err := assetsummaryService.AssetSummaryRepository.ListAssetSummary(query)
+	if err != nil {
+		return make([]types.AssetSummaryDto, 0), err
+	}
+	summaryList := make([]types.AssetSummaryDto, len(summary))
+	for i, summary := range summary {
+		summaryList[i] = types.AssetSummaryDto{
+			SummaryID:            summary.SummaryID,
+			Year:                 summary.Year,
+			MajorGroupName:       summary.MajorGroup.MajorGroupName,
+			IdentificationName:   summary.Identification.IdentificationName,
+			AssetName:            summary.Asset.AssetName,
+			SurfaceShannon:       summary.SurfaceShannon,
+			SurfaceNumber:        summary.SurfaceNumber,
+			SurfaceMax:           summary.SurfaceMax,
+			SurfaceEvenness:      summary.SurfaceEvenness,
+			EuphoticZoneShannon:  summary.EuphoticZoneShannon,
+			EuphoticZoneNumber:   summary.EuphoticZoneNumber,
+			EuphoticZoneMax:      summary.EuphoticZoneMax,
+			EuphoticZoneEvenness: summary.EuphoticZoneEvenness,
+			AverageShannon:       summary.AverageShannon,
+			AverageNumber:        summary.AverageNumber,
+			AverageMax:           summary.AverageMax,
+			AverageEvenness:      summary.AverageEvenness,
+		}
+	}
+	return summaryList, nil
+}

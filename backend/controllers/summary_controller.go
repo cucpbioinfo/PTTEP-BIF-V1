@@ -39,3 +39,73 @@ func (summaryController *SummaryController) ListSummary(c *fiber.Ctx) error {
 		Data: summary,
 	})
 }
+
+// Platform platform
+type PlatformSummaryController struct {
+	PlatformSummaryService *services.PlatformSummaryService
+}
+
+func NewPlatformSummaryController(platformsummaryService *services.PlatformSummaryService) *PlatformSummaryController {
+	return &PlatformSummaryController{
+		PlatformSummaryService: platformsummaryService,
+	}
+}
+
+func (platformsummaryController *PlatformSummaryController) ListPlatformSummary(c *fiber.Ctx) error {
+	query := &types.ListPlatformSummaryQuery{}
+	if err := c.QueryParser(query); err != nil {
+		return &fiber.Error{
+			Code:    400,
+			Message: "Invalid query",
+		}
+	}
+	summary, err := platformsummaryController.PlatformSummaryService.ListPlatformSummary(*query)
+	if err != nil {
+		return &fiber.Error{
+			Code:    400,
+			Message: "Fail to list platformsummary",
+		}
+	}
+	return c.JSON(&types.ListPlatformSummaryResponse{
+		BaseResponse: types.BaseResponse{
+			Ok:      true,
+			Message: "success",
+		},
+		Data: summary,
+	})
+}
+
+// Asset asset
+type AssetSummaryController struct {
+	AssetSummaryService *services.AssetSummaryService
+}
+
+func NewAssetSummaryController(assetsummaryService *services.AssetSummaryService) *AssetSummaryController {
+	return &AssetSummaryController{
+		AssetSummaryService: assetsummaryService,
+	}
+}
+
+func (assetsummaryController *AssetSummaryController) ListAssetSummary(c *fiber.Ctx) error {
+	query := &types.ListAssetSummaryQuery{}
+	if err := c.QueryParser(query); err != nil {
+		return &fiber.Error{
+			Code:    400,
+			Message: "Invalid query",
+		}
+	}
+	summary, err := assetsummaryController.AssetSummaryService.ListAssetSummary(*query)
+	if err != nil {
+		return &fiber.Error{
+			Code:    400,
+			Message: "Fail to list assetsummary",
+		}
+	}
+	return c.JSON(&types.ListAssetSummaryResponse{
+		BaseResponse: types.BaseResponse{
+			Ok:      true,
+			Message: "success",
+		},
+		Data: summary,
+	})
+}

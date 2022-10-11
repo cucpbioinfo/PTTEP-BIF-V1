@@ -50,3 +50,78 @@ func (summaryRepository *SummaryRepository) ListSummary(query types.ListSummaryQ
 	}
 	return summary, nil
 }
+
+// Platform platform
+type PlatformSummaryRepository struct {
+	pg *pg.DB
+}
+
+func NewPlatformSummaryRepository(pg *pg.DB) *PlatformSummaryRepository {
+	return &PlatformSummaryRepository{
+		pg: pg,
+	}
+}
+
+func (platformsummaryRepository *PlatformSummaryRepository) ListPlatformSummary(query types.ListPlatformSummaryQuery) ([]models.PlatformSummary, error) {
+	var platformsummary []models.PlatformSummary
+	dbQuery := platformsummaryRepository.pg.Model(&platformsummary)
+
+	if query.MajorGroupID != uuid.Nil {
+		dbQuery.Where("platformsummary.major_group_id = ?", query.MajorGroupID)
+	}
+	if query.IdentificationID != uuid.Nil {
+		dbQuery.Where("platformsummary.identification_id = ?", query.IdentificationID)
+	}
+	if query.AssetID != uuid.Nil {
+		dbQuery.Where("platformsummary.asset_id = ?", query.AssetID)
+	}
+
+	err := dbQuery.
+		Relation("MajorGroup").
+		Relation("Identification").
+		Relation("Asset").
+		Relation("Platform").
+		//Limit(1).
+		Select()
+	if err != nil {
+		return make([]models.PlatformSummary, 0), err
+	}
+	return platformsummary, nil
+}
+
+// Asset asset
+type AssetSummaryRepository struct {
+	pg *pg.DB
+}
+
+func NewAssetSummaryRepository(pg *pg.DB) *AssetSummaryRepository {
+	return &AssetSummaryRepository{
+		pg: pg,
+	}
+}
+
+func (assetsummaryRepository *AssetSummaryRepository) ListAssetSummary(query types.ListAssetSummaryQuery) ([]models.AssetSummary, error) {
+	var assetsummary []models.AssetSummary
+	dbQuery := assetsummaryRepository.pg.Model(&assetsummary)
+
+	if query.MajorGroupID != uuid.Nil {
+		dbQuery.Where("assetsummary.major_group_id = ?", query.MajorGroupID)
+	}
+	if query.IdentificationID != uuid.Nil {
+		dbQuery.Where("assetsummary.identification_id = ?", query.IdentificationID)
+	}
+	if query.AssetID != uuid.Nil {
+		dbQuery.Where("assetsummary.asset_id = ?", query.AssetID)
+	}
+
+	err := dbQuery.
+		Relation("MajorGroup").
+		Relation("Identification").
+		Relation("Asset").
+		//Limit(1).
+		Select()
+	if err != nil {
+		return make([]models.AssetSummary, 0), err
+	}
+	return assetsummary, nil
+}
