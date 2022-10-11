@@ -14,6 +14,7 @@ import { SpeciesDetailsResponse } from 'types/species'
 import { LoadingOutlined } from '@ant-design/icons'
 import { Bar2 } from 'features/echart/bar2' 
 import { Pie } from 'features/echart/pie' 
+import { DensityBar } from 'features/echart/barDensity'
 
 const { Panel } = Collapse
 
@@ -53,8 +54,11 @@ export const SpeciesDetailPage = ({ speciesId }) => {
               <SpeciesOverviewTab speciesDetail={species}/>
             </TabPane>
             <TabPane tab="Metrics" key="2">
-              <Pie SpeciesName={species?.speciesName}/>
-              <Bar2 SpeciesName={species?.speciesName}/>
+              <DensityBar SpeciesId={species?.speciesId}/>
+              
+              {/* <Pie SpeciesName={species?.speciesName}/>
+              <Bar2 SpeciesName={species?.speciesName}/> */}
+              
             </TabPane>
             {/* 26 new eDNA tab */}
             {/* <TabPane tab="eDNA" key="3">

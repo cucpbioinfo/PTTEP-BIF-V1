@@ -16,8 +16,13 @@ export const NAVBAR_MENU_LIST = [
     // },
     {
         th: 'ทดสอบ',
-        en: 'Test',
+        en: 'Testfilter',
         href: '/filterdata'
+    },
+    {
+        th: 'ทดสอบ',
+        en: 'Test',
+        href: '/test'
     },
     // {
     //     th: 'แดชบอร์ด',

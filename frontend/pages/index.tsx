@@ -12,7 +12,7 @@ import { listMajorGroup } from 'api/major-group/listMajorGroup'
 import { listEvenness } from 'api/dashboard/listEvenness'
 import { listDiversity } from 'api/dashboard/listDiversity'
 ////////////////////////////////////
-import { BarDE } from 'features/echart/barde'
+//import { BarDE } from 'features/echart/barde'
 ////
 import { listEvennessYear } from 'api/evenness/listEvennessYear'
 import { listEvennessProject } from 'api/evenness/listEvennessProject'
@@ -295,7 +295,7 @@ const index = () => {
 
       <div className="w-full h-60 mb-1 border text-left">Evenness </div>
       <div className="w-full h-60 mb-1 border text-left">
-        <BarDE barname='Evenness' stationId='demo'/>
+        {/* <BarDE barname='Evenness' stationId='demo'/> */}
       </div>
       {/* number figure 
       Shannon & Evenness (bar)
@@ -303,7 +303,7 @@ const index = () => {
       */}
       <div className="w-full h-60 mb-1 border text-left">Diversity</div>
       <div className="w-full h-60 mb-1 border text-left">
-        <BarDE barname='Diversity' stationId='demo'/>
+        {/* <BarDE barname='Diversity' stationId='demo'/> */}
       </div>
        {/* Bar Chart year>project>platform */}
       {/* <div className="w-full h-60 mb-1 border text-left">idea ใช้ project เป็น query ในการดึง api มาทำ line กราฟ เปรียบเทียบค่าแต่ละปี โดยใช้ค่า average</div> */}
