@@ -75,40 +75,38 @@ func init() {
 			return firstError
 		}
 
-		// fmt.Println("[Migration] Seeding table assetsummary...")
-		// Summaries, err := GetSummariesData()
-		// if err != nil {
-		// 	fmt.Println("Cannot get even summary data")
-		// 	return err
-		// }
+		fmt.Println("[Migration] Seeding table assetsummary...")
+		Summaries, err := GetAssetSummariesData()
+		if err != nil {
+			fmt.Println("Cannot get even assetsummary data")
+			return err
+		}
 
-		// for _, summary := range Summaries {
-		// 	insertSummarySQL := fmt.Sprintf(`
-		// 	INSERT INTO public."summary"("year","major_group_id","identification_id",
-		// 	"asset_id", "platform_id","station_id",
-		// 	"surfaceshannon","surfacenumber","surfacemax","surfaceevenness",
-		// 	"euphoticzoneshannon","euphoticzonenumber","euphoticzonemax","euphoticzoneevenness",
-		// 	"averageshannon","averagenumber","averagemax","averageevenness"
-		// 	) VALUES(
-		// 	'%s',
-		// 	(SELECT major_group_id from public."major_group" WHERE major_group_name = '%s' LIMIT 1),
-		// 	(SELECT identification_id from public."identification" WHERE identification_name = '%s' LIMIT 1),
-		// 	(SELECT asset_id from public."asset" WHERE asset_name = '%s' LIMIT 1),
-		// 	(SELECT platform_id from public."platform" WHERE platform_name = '%s' LIMIT 1),
-		// 	(SELECT station_id from public."station" WHERE station_name = '%s' LIMIT 1),
-		// 	'%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s');`,
-		// 		summary.Year,
-		// 		summary.Group, summary.Identification,
-		// 		summary.Asset, summary.Platform, summary.Station,
-		// 		summary.SurfaceShannon, summary.SurfaceNumber, summary.SurfaceMax, summary.SurfaceEvenness,
-		// 		summary.Euphotic_zoneShannon, summary.Euphotic_zoneNumber, summary.Euphotic_zoneMax, summary.Euphotic_zoneEvenness,
-		// 		summary.AverageShannon, summary.AverageNumber, summary.AverageMax, summary.AverageEvenness)
-		// 	_, err := db.Exec(insertSummarySQL)
-		// 	if err != nil {
-		// 		fmt.Println(insertSummarySQL)
-		// 		return err
-		// 	}
-		// }
+		for _, summary := range Summaries {
+			insertSummarySQL := fmt.Sprintf(`
+			INSERT INTO public."assetsummary"("year","major_group_id","identification_id",
+			"asset_id",
+			"surfaceshannon","surfacenumber","surfacemax","surfaceevenness",
+			"euphoticzoneshannon","euphoticzonenumber","euphoticzonemax","euphoticzoneevenness",
+			"averageshannon","averagenumber","averagemax","averageevenness"
+			) VALUES(
+			'%s',
+			(SELECT major_group_id from public."major_group" WHERE major_group_name = '%s' LIMIT 1),
+			(SELECT identification_id from public."identification" WHERE identification_name = '%s' LIMIT 1),
+			(SELECT asset_id from public."asset" WHERE asset_name = '%s' LIMIT 1),
+			'%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s');`,
+				summary.Year,
+				summary.Group, summary.Identification,
+				summary.Asset,
+				summary.SurfaceShannon, summary.SurfaceNumber, summary.SurfaceMax, summary.SurfaceEvenness,
+				summary.Euphotic_zoneShannon, summary.Euphotic_zoneNumber, summary.Euphotic_zoneMax, summary.Euphotic_zoneEvenness,
+				summary.AverageShannon, summary.AverageNumber, summary.AverageMax, summary.AverageEvenness)
+			_, err := db.Exec(insertSummarySQL)
+			if err != nil {
+				fmt.Println(insertSummarySQL)
+				return err
+			}
+		}
 		return nil
 	}, func(db migrations.DB) error {
 		fmt.Println("[Migration] Droping table assetsummary...")
