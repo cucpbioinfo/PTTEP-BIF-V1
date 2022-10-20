@@ -14,8 +14,8 @@ import { listDiversity } from 'api/dashboard/listDiversity'
 ////////////////////////////////////
 //import { BarDE } from 'features/echart/barde'
 ////
-import { listEvennessYear } from 'api/evenness/listEvennessYear'
-import { listEvennessProject } from 'api/evenness/listEvennessProject'
+// import { listEvennessYear } from 'api/evenness/listEvennessYear'
+// import { listEvennessProject } from 'api/evenness/listEvennessProject'
 
 const { Option } = Select
 
@@ -33,8 +33,8 @@ const index = () => {
   const [diversity, setDiversity] = useState([])
 
   ////////////////////////////////////////
-  const [evennesyear, setEvennesyear] = useState([])
-  const [evennesproject, setEvennesproject] = useState([])
+  // const [evennesyear, setEvennesyear] = useState([])
+  // const [evennesproject, setEvennesproject] = useState([])
 
   const onFilterChange = (key: string, value?: string) => {
     const url = {
@@ -74,23 +74,23 @@ const index = () => {
     setDiversity(data)
   }
   //////////////////////////////////////
-  const fetchEvennessYear = async () => {
-    const { data } = await listEvennessYear()
-    setEvennesyear(data)
-  }
-  const fetchEvennesproject = async (year?: string) => {
-    const { data } = await listEvennessProject(year)
-    setEvennesproject(data)
-  }
+  // const fetchEvennessYear = async () => {
+  //   const { data } = await listEvennessYear()
+  //   setEvennesyear(data)
+  // }
+  // const fetchEvennesproject = async (year?: string) => {
+  //   const { data } = await listEvennessProject(year)
+  //   setEvennesproject(data)
+  // }
 
   useEffect(() => {
     fetchMajorGroups()
     fetchAsset()
-    fetchEvennessYear()
+    //fetchEvennessYear()
   }, [])
-  useEffect(() => {
-    fetchEvennesproject(router.query.year as string)
-  }, [router.query.year])
+  // useEffect(() => {
+  //   fetchEvennesproject(router.query.year as string)
+  // }, [router.query.year])
   useEffect(() => {
     fetchPlatform(router.query.assetId as string)
   }, [router.query.assetId])

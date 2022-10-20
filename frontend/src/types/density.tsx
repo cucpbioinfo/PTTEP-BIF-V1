@@ -1,17 +1,20 @@
 import { PaginationQuery } from './pagination'
 
 export class ListDensityQuery extends PaginationQuery {
-  majorGroupId?: string
-  kingdomId?: string
-  phylumId?: string
-  classId?: string
-  orderId?: string
-  familyId?: string
-  genusId?: string
+  // majorGroupId?: string
+  // kingdomId?: string
+  // phylumId?: string
+  // classId?: string
+  // orderId?: string
+  // familyId?: string
+  // genusId?: string
   speciesId?: string
   keyword?: string
   pageNumber: number
   pageSize: number
+  assetId?: string
+  platformId?: string
+  stationId?: string
 }
 
 export class DensityListMeta {

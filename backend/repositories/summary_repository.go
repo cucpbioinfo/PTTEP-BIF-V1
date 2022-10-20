@@ -21,6 +21,9 @@ func (summaryRepository *SummaryRepository) ListSummary(query types.ListSummaryQ
 	var summary []models.Summary
 	dbQuery := summaryRepository.pg.Model(&summary)
 
+	if query.Year != "" {
+		dbQuery.Where("summary.year = ?", query.Year)
+	}
 	if query.MajorGroupID != uuid.Nil {
 		dbQuery.Where("summary.major_group_id = ?", query.MajorGroupID)
 	}
@@ -66,6 +69,9 @@ func (platformsummaryRepository *PlatformSummaryRepository) ListPlatformSummary(
 	var platformsummary []models.PlatformSummary
 	dbQuery := platformsummaryRepository.pg.Model(&platformsummary)
 
+	if query.Year != "" {
+		dbQuery.Where("platformsummary.year = ?", query.Year)
+	}
 	if query.MajorGroupID != uuid.Nil {
 		dbQuery.Where("platformsummary.major_group_id = ?", query.MajorGroupID)
 	}
@@ -104,6 +110,9 @@ func (assetsummaryRepository *AssetSummaryRepository) ListAssetSummary(query typ
 	var assetsummary []models.AssetSummary
 	dbQuery := assetsummaryRepository.pg.Model(&assetsummary)
 
+	if query.Year != "" {
+		dbQuery.Where("assetsummary.year = ?", query.Year)
+	}
 	if query.MajorGroupID != uuid.Nil {
 		dbQuery.Where("assetsummary.major_group_id = ?", query.MajorGroupID)
 	}

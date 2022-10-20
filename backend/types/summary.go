@@ -31,6 +31,7 @@ type SummaryDto struct {
 }
 
 type ListSummaryQuery struct {
+	Year             string    `json:"year"`
 	MajorGroupID     uuid.UUID `json:"majorGroupId"`
 	IdentificationID uuid.UUID `json:"identificationId"`
 	AssetID          uuid.UUID `json:"assetId"`
@@ -70,6 +71,7 @@ type PlatformSummaryDto struct {
 }
 
 type ListPlatformSummaryQuery struct {
+	Year             string    `json:"year"`
 	MajorGroupID     uuid.UUID `json:"majorGroupId"`
 	IdentificationID uuid.UUID `json:"identificationId"`
 	AssetID          uuid.UUID `json:"assetId"`
@@ -107,6 +109,7 @@ type AssetSummaryDto struct {
 }
 
 type ListAssetSummaryQuery struct {
+	Year             string    `json:"year"`
 	MajorGroupID     uuid.UUID `json:"majorGroupId"`
 	IdentificationID uuid.UUID `json:"identificationId"`
 	AssetID          uuid.UUID `json:"assetId"`

@@ -54,9 +54,23 @@ export const SpeciesDetailPage = ({ speciesId }) => {
               <SpeciesOverviewTab speciesDetail={species}/>
             </TabPane>
             <TabPane tab="Metrics" key="2">
-              <DensityBar SpeciesId={species?.speciesId}/>
+              <Tabs defaultActiveKey="3">
+                <TabPane tab="Asset" key="1">
+                  <DensityBar SpeciesId={species?.speciesId}/>
+                </TabPane>
+                <TabPane tab="Platform" key="2">
+                  <DensityBar SpeciesId={species?.speciesId}/>
+                </TabPane>
+                <TabPane tab="Station" key="3">
+                  <DensityBar SpeciesId={species?.speciesId}/>
+                </TabPane>
+
+              </Tabs>
               
-              {/* <Pie SpeciesName={species?.speciesName}/>
+              
+              {/* <DensityBar SpeciesId={species?.speciesId}/>
+              
+              <Pie SpeciesName={species?.speciesName}/>
               <Bar2 SpeciesName={species?.speciesName}/> */}
               
             </TabPane>

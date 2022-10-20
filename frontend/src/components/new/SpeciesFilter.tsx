@@ -24,7 +24,7 @@ export const SpeciesFilter = () => {
   const [classes, setClasses] = useState([])
   const [families, setFamilies] = useState([])
   const [genus, setGenus] = useState([])
-  const [AllSpecies,setAllSpecies] = useState([]) ///26june,AllSpecies
+  // const [AllSpecies,setAllSpecies] = useState([]) ///26june,AllSpecies
 
   ////26june,AllSpecies-------------------------------------------------
   const onFilterChangepush = (key: string, value?: string) => {
@@ -78,11 +78,11 @@ export const SpeciesFilter = () => {
     const { data } = await listGenus(familyId)
     setGenus(data)
   }
-  //26june,AllSpecies
-  const fetchAllSpecies = async (SpeciesId?: string) => {
-    const { data } = await listAllSpecies(SpeciesId)
-    setAllSpecies(data)
-  }
+  // //26june,AllSpecies
+  // const fetchAllSpecies = async (SpeciesId?: string) => {
+  //   const { data } = await listAllSpecies(SpeciesId)
+  //   setAllSpecies(data)
+  // }
 
   //   fetching filter data
   useEffect(() => {
@@ -110,10 +110,10 @@ export const SpeciesFilter = () => {
     fetchGenus(router.query.familyId as string)
   }, [router.query.familyId])
 
-    //26june,AllSpecies
-    useEffect(() => {
-      fetchAllSpecies(router.query.SpeciesId as string)
-    }, [router.query.SpeciesId])
+    // //26june,AllSpecies
+    // useEffect(() => {
+    //   fetchAllSpecies(router.query.SpeciesId as string)
+    // }, [router.query.SpeciesId])
 
   return (
     <>
@@ -242,7 +242,7 @@ export const SpeciesFilter = () => {
           </Select>
         </div>
         {/* //26june,AllSpecies */}
-        <div className="w-full">
+        {/* <div className="w-full">
           <div className="text-sm">
             {SPECIES_FILTER_TEXT[locale].selectAllSpeciesLabel}
           </div>
@@ -258,7 +258,7 @@ export const SpeciesFilter = () => {
               </Option>
             ))}
           </Select>
-        </div>
+        </div> */}
       </div>
     </>
   )

@@ -21,9 +21,10 @@ type DensityDto struct {
 }
 
 type ListDensityQuery struct {
+	Year       string    `json:"year"`
 	AssetID    uuid.UUID `json:"assetId"`
 	PlatformID uuid.UUID `json:"platformId"`
-	StationID  uuid.UUID `json:"astationId"`
+	StationID  uuid.UUID `json:"stationId"`
 	SpeciesID  uuid.UUID `json:"speciesId"`
 }
 
@@ -49,6 +50,7 @@ type PlatformDensityDto struct {
 }
 
 type ListPlatformDensityQuery struct {
+	Year       string    `json:"year"`
 	AssetID    uuid.UUID `json:"assetId"`
 	PlatformID uuid.UUID `json:"platformId"`
 	SpeciesID  uuid.UUID `json:"speciesId"`
@@ -75,6 +77,7 @@ type AssetDensityDto struct {
 }
 
 type ListAssetDensityQuery struct {
+	Year      string    `json:"year"`
 	AssetID   uuid.UUID `json:"assetId"`
 	SpeciesID uuid.UUID `json:"speciesId"`
 }

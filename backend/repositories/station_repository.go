@@ -25,7 +25,9 @@ func (stationRepository *StationRepository) ListStation(query types.ListStationQ
 		dbQuery.Where("station.platform_id = ?", query.PlatformID)
 	}
 
-	err := dbQuery.Select()
+	err := dbQuery.
+		Order("station_name ASC").
+		Select()
 	if err != nil {
 		return make([]models.Station, 0), err
 	}
