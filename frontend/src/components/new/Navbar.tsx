@@ -49,7 +49,7 @@ export const Navbar = () => {
       <div className="flex justify-between items-center align-center">
         <Link href="/">
           <div className="md:text-5xl text-4xl text-white">
-            <img className="h-28 w-28" src="logo/PTTEP-logo.png"/>
+            <img className="h-48 w-48" src="logo/PTTEP-logo.png"/>
           </div>
         </Link>
         <div className="md:flex justify-around hidden">
