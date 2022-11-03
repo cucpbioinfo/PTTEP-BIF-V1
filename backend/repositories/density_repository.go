@@ -24,19 +24,19 @@ func (densityRepository *DensityRepository) ListDensity(query types.ListDensityQ
 	dbQuery := densityRepository.pg.Model(&density)
 
 	if query.Year != "" {
-		dbQuery.Where("density.year = ?", query.Year)
+		dbQuery.Where("year = ?", query.Year)
 		fmt.Println(query.Year)
 	}
 	if query.AssetID != uuid.Nil {
-		dbQuery.Where("density.asset_id = ?", query.AssetID)
+		dbQuery.Where("asset.asset_id = ?", query.AssetID)
 		fmt.Println(query.AssetID)
 	}
 	if query.PlatformID != uuid.Nil {
-		dbQuery.Where("density.platform_id = ?", query.PlatformID)
+		dbQuery.Where("platform.platform_id = ?", query.PlatformID)
 		fmt.Println(query.PlatformID)
 	}
 	if query.StationID != uuid.Nil {
-		dbQuery.Where("density.station_id = ?", query.StationID)
+		dbQuery.Where("station.station_id = ?", query.StationID)
 		fmt.Println(query.StationID)
 	}
 
@@ -51,10 +51,12 @@ func (densityRepository *DensityRepository) ListDensity(query types.ListDensityQ
 		Relation("Asset").
 		Relation("Platform").
 		Relation("Station").
-		Order("year ASC").
-		Order("station_name ASC").
+		Order("year DESC").
+		//Order("station_name ASC").
+		Limit(1).
 		Select()
 	if err != nil {
+
 		return make([]models.Density, 0), err
 	}
 	return density, nil
@@ -76,24 +78,28 @@ func (platformdensityRepository *PlatformDensityRepository) ListPlatformDensity(
 	dbQuery := platformdensityRepository.pg.Model(&platformdensity)
 
 	if query.Year != "" {
-		dbQuery.Where("platformdensity.year = ?", query.Year)
+		dbQuery.Where("year = ?", query.Year)
 	}
 	if query.AssetID != uuid.Nil {
-		dbQuery.Where("platformdensity.asset_id = ?", query.AssetID)
+		dbQuery.Where("asset.asset_id = ?", query.AssetID)
 	}
 	if query.PlatformID != uuid.Nil {
-		dbQuery.Where("platformdensity.platform_id = ?", query.PlatformID)
+		dbQuery.Where("platform.platform_id = ?", query.PlatformID)
 	}
 	if query.SpeciesID != uuid.Nil {
-		dbQuery.Where("platformdensity.species_id = ?", query.SpeciesID)
+		dbQuery.Where("species_id = ?", query.SpeciesID)
 	}
 
 	err := dbQuery.
 		Relation("Asset").
 		Relation("Platform").
+		Order("year DESC").
+		//Order("station_name ASC").
+		Limit(1).
 		Select()
 	if err != nil {
 		return make([]models.PlatformDensity, 0), err
+
 	}
 	return platformdensity, nil
 }
@@ -114,20 +120,138 @@ func (assetdensityRepository *AssetDensityRepository) ListAssetDensity(query typ
 	dbQuery := assetdensityRepository.pg.Model(&assetdensity)
 
 	if query.Year != "" {
-		dbQuery.Where("assetdensity.year = ?", query.Year)
+		dbQuery.Where("year = ?", query.Year)
 	}
+	//dbQuery.Where("assetdensity.year = ?", 2021)
 	if query.AssetID != uuid.Nil {
-		dbQuery.Where("assetdensity.asset_id = ?", query.AssetID)
+		dbQuery.Where("asset.asset_id = ?", query.AssetID)
 	}
 	if query.SpeciesID != uuid.Nil {
-		dbQuery.Where("assetdensity.species_id = ?", query.SpeciesID)
+		dbQuery.Where("species_id = ?", query.SpeciesID)
 	}
 
 	err := dbQuery.
 		Relation("Asset").
+		Order("year DESC").
+		//Order("station_name ASC").
+		Limit(1).
 		Select()
 	if err != nil {
 		return make([]models.AssetDensity, 0), err
 	}
 	return assetdensity, nil
+}
+
+// YearAsset yearasset
+type YearAssetDensityRepository struct {
+	pg *pg.DB
+}
+
+func NewYearAssetDensityRepository(pg *pg.DB) *YearAssetDensityRepository {
+	return &YearAssetDensityRepository{
+		pg: pg,
+	}
+}
+
+func (yearassetdensityRepository *YearAssetDensityRepository) ListYearAssetDensity(query types.ListYearAssetDensityQuery) ([]models.YearAssetDensity, error) {
+	var yearassetdensity []models.YearAssetDensity
+	dbQuery := yearassetdensityRepository.pg.Model(&yearassetdensity)
+
+	//dbQuery.Where("assetdensity.year = ?", 2021)
+	if query.AssetID != uuid.Nil {
+		dbQuery.Where("asset_id = ?", query.AssetID)
+	}
+	if query.SpeciesID != uuid.Nil {
+		dbQuery.Where("species_id = ?", query.SpeciesID)
+	}
+
+	err := dbQuery.
+		//Relation("Asset").
+		Order("year ASC").
+		//Order("station_name ASC").
+		Group("year").
+		Select()
+	if err != nil {
+		return make([]models.YearAssetDensity, 0), err
+	}
+	return yearassetdensity, nil
+}
+
+// Year Platform year platform
+type YearPlatformDensityRepository struct {
+	pg *pg.DB
+}
+
+func NewYearPlatformDensityRepository(pg *pg.DB) *YearPlatformDensityRepository {
+	return &YearPlatformDensityRepository{
+		pg: pg,
+	}
+}
+
+func (yearplatformdensityRepository *YearPlatformDensityRepository) ListYearPlatformDensity(query types.ListYearPlatformDensityQuery) ([]models.YearPlatformDensity, error) {
+	var yearplatformdensity []models.YearPlatformDensity
+	dbQuery := yearplatformdensityRepository.pg.Model(&yearplatformdensity)
+
+	//dbQuery.Where("assetdensity.year = ?", 2021)
+	if query.PlatformID != uuid.Nil {
+		dbQuery.Where("platform_id = ?", query.PlatformID)
+	}
+	if query.AssetID != uuid.Nil {
+		dbQuery.Where("asset_id = ?", query.AssetID)
+	}
+	if query.SpeciesID != uuid.Nil {
+		dbQuery.Where("species_id = ?", query.SpeciesID)
+	}
+
+	err := dbQuery.
+		//Relation("Asset").
+		Order("year ASC").
+		//Order("station_name ASC").
+		Group("year").
+		Select()
+	if err != nil {
+		return make([]models.YearPlatformDensity, 0), err
+	}
+	return yearplatformdensity, nil
+}
+
+// Year Station year station
+type YearDensityRepository struct {
+	pg *pg.DB
+}
+
+func NewYearDensityRepository(pg *pg.DB) *YearDensityRepository {
+	return &YearDensityRepository{
+		pg: pg,
+	}
+}
+
+func (yeardensityRepository *YearDensityRepository) ListYearDensity(query types.ListYearDensityQuery) ([]models.YearDensity, error) {
+	var yeardensity []models.YearDensity
+	dbQuery := yeardensityRepository.pg.Model(&yeardensity)
+
+	//dbQuery.Where("assetdensity.year = ?", 2021)
+	if query.StationID != uuid.Nil {
+		dbQuery.Where("station_id = ?", query.StationID)
+	}
+	if query.PlatformID != uuid.Nil {
+		dbQuery.Where("platform_id = ?", query.PlatformID)
+	}
+	if query.AssetID != uuid.Nil {
+		dbQuery.Where("asset_id = ?", query.AssetID)
+	}
+	if query.SpeciesID != uuid.Nil {
+		dbQuery.Where("species_id = ?", query.SpeciesID)
+	}
+
+	err := dbQuery.
+		//Relation("Asset").
+		Order("year ASC").
+		//Order("station_name ASC").
+		Group("year").
+		Select()
+	if err != nil {
+		return make([]models.YearDensity, 0), err
+	}
+	return yeardensity, nil
 }

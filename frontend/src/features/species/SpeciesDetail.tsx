@@ -4,6 +4,21 @@ import React from 'react'
 import { SpeciesDetailsResponse } from 'types/species'
 import { SPECIES_DETAILS_KEYS } from './locale'
 
+function capitalizeFirstLetter(string) {
+  return string.charAt(0).toUpperCase() + string.slice(1);
+}
+function SpeciesSpliceFirst(string:string) {
+  let position = string.search(/sp./i);
+  let speciesName = string.substring(0, position);
+  let upperspeciesName = speciesName.charAt(0).toUpperCase() + speciesName.slice(1);
+  return upperspeciesName;
+}
+function SpeciesSpliceSpecial(string:string) {
+  let position = string.search(/sp./i);
+  let SpecialText = string.slice(position);
+  //let upperSpecialText = SpecialText.charAt(0).toUpperCase() + SpecialText.slice(1);
+  return SpecialText;
+}
 export const SpeciesDetail = ({
   speciesDetail,
 }: {
@@ -30,30 +45,30 @@ export const SpeciesDetail = ({
   return (
     <Descriptions bordered column={1} size="default">
       <Descriptions.Item label={SPECIES_DETAILS_KEYS[router.locale].majorGroupName}>
-      <a onClick={() => router.push(`/species?majorGroupId=${majorGroupId}`)}>{majorGroupName || "-"}</a>
+      <a onClick={() => router.push(`/species?majorGroupId=${majorGroupId}`)}>{capitalizeFirstLetter(majorGroupName) || "-"}</a>
       </Descriptions.Item>
       <Descriptions.Item label={SPECIES_DETAILS_KEYS[router.locale].kingdomName}>
-        <a onClick={() => router.push(`/species?kingdomId=${kingdomId}`)}>{kingdomName || "-"}</a>
+        <a onClick={() => router.push(`/species?kingdomId=${kingdomId}`)}>{capitalizeFirstLetter(kingdomName) || "-"}</a>
       </Descriptions.Item>
       <Descriptions.Item label={SPECIES_DETAILS_KEYS[router.locale].phylumName}>
-        <a onClick={() => router.push(`/species?phylumId=${phylumId}`)}>{phylumName || "-"}</a>
+        <a onClick={() => router.push(`/species?phylumId=${phylumId}`)}>{capitalizeFirstLetter(phylumName) || "-"}</a>
       </Descriptions.Item>
       <Descriptions.Item label={SPECIES_DETAILS_KEYS[router.locale].className}>
-        <a onClick={() => router.push(`/species?classId=${classId}`)}>{className || "-"}</a>
+        <a onClick={() => router.push(`/species?classId=${classId}`)}>{capitalizeFirstLetter(className) || "-"}</a>
       </Descriptions.Item>
       <Descriptions.Item label={SPECIES_DETAILS_KEYS[router.locale].orderName}>
-        <a onClick={() => router.push(`/species?orderId=${orderId}`)}>{orderName || "-"}</a>
+        <a onClick={() => router.push(`/species?orderId=${orderId}`)}>{capitalizeFirstLetter(orderName) || "-"}</a>
       </Descriptions.Item>
       <Descriptions.Item label={SPECIES_DETAILS_KEYS[router.locale].familyName}>
-        <a onClick={() => router.push(`/species?familyId=${familyId}`)}>{familyName || "-"}</a>
+        <a onClick={() => router.push(`/species?familyId=${familyId}`)}>{capitalizeFirstLetter(familyName) || "-"}</a>
       </Descriptions.Item>
       <Descriptions.Item label={SPECIES_DETAILS_KEYS[router.locale].genusName}>
-        <i><a onClick={() => router.push(`/species?genusId=${genusId}`)}>{genusName || "-"}</a></i>
+        <i><a onClick={() => router.push(`/species?genusId=${genusId}`)}>{capitalizeFirstLetter(genusName) || "-"}</a></i>
       </Descriptions.Item>
       <Descriptions.Item
         label={SPECIES_DETAILS_KEYS[router.locale].speciesName}
       >
-        <i>{speciesName}</i>
+        <i>{SpeciesSpliceFirst(speciesName)}</i> {SpeciesSpliceSpecial(speciesName)}
       </Descriptions.Item>
     </Descriptions>
   )

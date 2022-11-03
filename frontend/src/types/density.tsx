@@ -51,3 +51,20 @@ export class DensityDetailsResponse {
   familyId: string
   genusId: string
 }
+
+
+export class ListAssetDensityQuery {
+  assetId?: string
+  year?: string
+}
+
+export class AssetDensityDetailsResponse {
+  densityId: string
+  year: string
+  assetId: string
+  assetName: string
+  speciesId: string
+  speciesName: string
+  surface: string
+  euphotic_zone: string
+}

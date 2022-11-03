@@ -21,7 +21,51 @@ export class ListSpeciesQuery extends PaginationQuery {
   pageSize: number
 }
 
+export class ListADenQuery {
+  speciesId?: string
+  assetId?: string
+  year?: string
+  // pageNumber: number
+  // pageSize: number
+}
+
+export class ListPDenQuery {
+  speciesId?: string
+  assetId?: string
+  platformId?: string
+  year?: string
+  // pageNumber: number
+  // pageSize: number
+}
+
+export class ListDenQuery {
+  speciesId?: string
+  assetId?: string
+  platformId?: string
+  stationId?: string
+  year?: string
+  // pageNumber: number
+  // pageSize: number
+}
+
+export class ListSumQuery {
+  speciesId?: string
+  majorGroupId?: string
+  assetId?: string
+  platformId?: string
+  stationId?: string
+  year?: string
+  // pageNumber: number
+  // pageSize: number
+}
+
 export class SpeciesListMeta {
+  pageNumber?: number
+  pageSize?: number
+  total?: number
+}
+
+export class ADenListMeta {
   pageNumber?: number
   pageSize?: number
   total?: number
@@ -58,4 +102,15 @@ export class SpeciesDetailsResponse {
   genusId: string
   identificationName: string //29Sep
   methodName: string
+}
+
+export class ADenDetailsResponse {
+  densityId: string
+  year: string
+  assetId : string
+  assetName: string
+  speciesId: string
+  speciesName: string
+  surface: string
+  euphotic_zone: string
 }

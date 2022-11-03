@@ -1,14 +1,15 @@
 import { PageLayout } from 'components/new/PageLayout'
-import { PrivateRoute } from 'components/PrivateRoute'
-import { FilterData } from 'features/filter/filterdata'
-import React from 'react'
+import { AssetDensityBarFilter } from 'components/new/AssetFilter'
+import { useRouter } from 'next/router'
+import React, { useEffect, useState } from 'react'
 
-const index = () => {
+const assetbar = () => {
+  const router = useRouter()
   return (
     <PageLayout>
-      <FilterData />
+      <AssetDensityBarFilter onClick={() => router.push(`/species/${'a906251d-6916-4a2f-b035-129f6cb3d59f'}`)}/>
     </PageLayout>
   )
 }
 
-export default PrivateRoute(index)
+export default assetbar

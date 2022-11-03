@@ -27,6 +27,7 @@ func (densityService *DensityService) ListDensity(query types.ListDensityQuery) 
 			Year:          density.Year,
 			AssetName:     density.Asset.AssetName,
 			PlatformName:  density.Platform.PlatformName,
+			StationID:     density.StationID,
 			StationName:   density.Station.StationName,
 			SpeciesID:     density.SpeciesID,
 			SpeciesName:   density.SpeciesName,
@@ -59,6 +60,7 @@ func (platformdensityService *PlatformDensityService) ListPlatformDensity(query 
 			DensityID:     density.DensityID,
 			Year:          density.Year,
 			AssetName:     density.Asset.AssetName,
+			PlatformID:    density.PlatformID,
 			PlatformName:  density.Platform.PlatformName,
 			SpeciesID:     density.SpeciesID,
 			SpeciesName:   density.SpeciesName,
@@ -90,11 +92,87 @@ func (assetdensityService *AssetDensityService) ListAssetDensity(query types.Lis
 		densityList[i] = types.AssetDensityDto{
 			DensityID:     density.DensityID,
 			Year:          density.Year,
+			AssetID:       density.AssetID,
 			AssetName:     density.Asset.AssetName,
 			SpeciesID:     density.SpeciesID,
 			SpeciesName:   density.SpeciesName,
 			Surface:       density.Surface,
 			Euphotic_zone: density.Euphotic_zone,
+		}
+	}
+	return densityList, nil
+}
+
+// YearAsset yearasset
+type YearAssetDensityService struct {
+	YearAssetDensityRepository *repositories.YearAssetDensityRepository
+}
+
+func NewYearAssetDensityService(yearassetdensityRepository *repositories.YearAssetDensityRepository) *YearAssetDensityService {
+	return &YearAssetDensityService{
+		YearAssetDensityRepository: yearassetdensityRepository,
+	}
+}
+
+func (yearassetdensityService *YearAssetDensityService) ListYearAssetDensity(query types.ListYearAssetDensityQuery) ([]types.YearAssetDensityDto, error) {
+	density, err := yearassetdensityService.YearAssetDensityRepository.ListYearAssetDensity(query)
+	if err != nil {
+		return make([]types.YearAssetDensityDto, 0), err
+	}
+	densityList := make([]types.YearAssetDensityDto, len(density))
+	for i, density := range density {
+		densityList[i] = types.YearAssetDensityDto{
+			Year: density.Year,
+		}
+	}
+	return densityList, nil
+}
+
+// Year Platform year platform
+type YearPlatformDensityService struct {
+	YearPlatformDensityRepository *repositories.YearPlatformDensityRepository
+}
+
+func NewYearPlatformDensityService(yearplatformdensityRepository *repositories.YearPlatformDensityRepository) *YearPlatformDensityService {
+	return &YearPlatformDensityService{
+		YearPlatformDensityRepository: yearplatformdensityRepository,
+	}
+}
+
+func (yearplatformdensityService *YearPlatformDensityService) ListYearPlatformDensity(query types.ListYearPlatformDensityQuery) ([]types.YearPlatformDensityDto, error) {
+	density, err := yearplatformdensityService.YearPlatformDensityRepository.ListYearPlatformDensity(query)
+	if err != nil {
+		return make([]types.YearPlatformDensityDto, 0), err
+	}
+	densityList := make([]types.YearPlatformDensityDto, len(density))
+	for i, density := range density {
+		densityList[i] = types.YearPlatformDensityDto{
+			Year: density.Year,
+		}
+	}
+	return densityList, nil
+}
+
+// Year Station year station
+type YearDensityService struct {
+	YearDensityRepository *repositories.YearDensityRepository
+}
+
+func NewYearDensityService(yeardensityRepository *repositories.YearDensityRepository) *YearDensityService {
+	return &YearDensityService{
+		YearDensityRepository: yeardensityRepository,
+	}
+}
+
+func (yeardensityService *YearDensityService) ListYearDensity(query types.ListYearDensityQuery) ([]types.YearDensityDto, error) {
+	density, err := yeardensityService.YearDensityRepository.ListYearDensity(query)
+	if err != nil {
+		return make([]types.YearDensityDto, 0), err
+	}
+	densityList := make([]types.YearDensityDto, len(density))
+	for i, density := range density {
+		densityList[i] = types.YearDensityDto{
+			Year: density.Year,
 		}
 	}
 	return densityList, nil

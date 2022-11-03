@@ -22,22 +22,22 @@ func (summaryRepository *SummaryRepository) ListSummary(query types.ListSummaryQ
 	dbQuery := summaryRepository.pg.Model(&summary)
 
 	if query.Year != "" {
-		dbQuery.Where("summary.year = ?", query.Year)
+		dbQuery.Where("year = ?", query.Year)
 	}
 	if query.MajorGroupID != uuid.Nil {
-		dbQuery.Where("summary.major_group_id = ?", query.MajorGroupID)
+		dbQuery.Where("major_group.major_group_id = ?", query.MajorGroupID)
 	}
 	if query.IdentificationID != uuid.Nil {
-		dbQuery.Where("summary.identification_id = ?", query.IdentificationID)
+		dbQuery.Where("identification.identification_id = ?", query.IdentificationID)
 	}
 	if query.AssetID != uuid.Nil {
-		dbQuery.Where("summary.asset_id = ?", query.AssetID)
+		dbQuery.Where("asset.asset_id = ?", query.AssetID)
 	}
 	if query.PlatformID != uuid.Nil {
-		dbQuery.Where("summary.platform_id = ?", query.PlatformID)
+		dbQuery.Where("platform.platform_id = ?", query.PlatformID)
 	}
 	if query.StationID != uuid.Nil {
-		dbQuery.Where("summary.station_id = ?", query.StationID)
+		dbQuery.Where("station.station_id = ?", query.StationID)
 	}
 
 	err := dbQuery.
@@ -46,7 +46,7 @@ func (summaryRepository *SummaryRepository) ListSummary(query types.ListSummaryQ
 		Relation("Asset").
 		Relation("Platform").
 		Relation("Station").
-		//Limit(1).
+		Limit(1).
 		Select()
 	if err != nil {
 		return make([]models.Summary, 0), err
@@ -70,16 +70,16 @@ func (platformsummaryRepository *PlatformSummaryRepository) ListPlatformSummary(
 	dbQuery := platformsummaryRepository.pg.Model(&platformsummary)
 
 	if query.Year != "" {
-		dbQuery.Where("platformsummary.year = ?", query.Year)
+		dbQuery.Where("year = ?", query.Year)
 	}
 	if query.MajorGroupID != uuid.Nil {
-		dbQuery.Where("platformsummary.major_group_id = ?", query.MajorGroupID)
+		dbQuery.Where("major_group_id = ?", query.MajorGroupID)
 	}
 	if query.IdentificationID != uuid.Nil {
-		dbQuery.Where("platformsummary.identification_id = ?", query.IdentificationID)
+		dbQuery.Where("identification_id = ?", query.IdentificationID)
 	}
 	if query.AssetID != uuid.Nil {
-		dbQuery.Where("platformsummary.asset_id = ?", query.AssetID)
+		dbQuery.Where("asset_id = ?", query.AssetID)
 	}
 
 	err := dbQuery.
@@ -111,16 +111,16 @@ func (assetsummaryRepository *AssetSummaryRepository) ListAssetSummary(query typ
 	dbQuery := assetsummaryRepository.pg.Model(&assetsummary)
 
 	if query.Year != "" {
-		dbQuery.Where("assetsummary.year = ?", query.Year)
+		dbQuery.Where("year = ?", query.Year)
 	}
 	if query.MajorGroupID != uuid.Nil {
-		dbQuery.Where("assetsummary.major_group_id = ?", query.MajorGroupID)
+		dbQuery.Where("major_group_id = ?", query.MajorGroupID)
 	}
 	if query.IdentificationID != uuid.Nil {
-		dbQuery.Where("assetsummary.identification_id = ?", query.IdentificationID)
+		dbQuery.Where("identification_id = ?", query.IdentificationID)
 	}
 	if query.AssetID != uuid.Nil {
-		dbQuery.Where("assetsummary.asset_id = ?", query.AssetID)
+		dbQuery.Where("asset_id = ?", query.AssetID)
 	}
 
 	err := dbQuery.

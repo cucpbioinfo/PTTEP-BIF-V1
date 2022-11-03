@@ -15,10 +15,27 @@ import { LoadingOutlined } from '@ant-design/icons'
 import { Bar2 } from 'features/echart/bar2' 
 import { Pie } from 'features/echart/pie' 
 import { DensityBar } from 'features/echart/barDensity'
+import { AssetDensityBarFilter } from 'components/new/AssetFilter'
+import { PlatformDensityBarFilter } from 'components/new/PlatformFilter'
+import { DensityBarFilter } from 'components/new/Filter'
+//import { AssetDensityBar } from 'features/echart/barAssetDensity'
 
 const { Panel } = Collapse
 
 const { TabPane } = Tabs
+
+function SpeciesSpliceFirst(string:string) {
+  let position = string.search(/sp./i);
+  let speciesName = string.substring(0, position);
+  let upperspeciesName = speciesName.charAt(0).toUpperCase() + speciesName.slice(1);
+  return upperspeciesName;
+}
+function SpeciesSpliceSpecial(string:string) {
+  let position = string.search(/sp./i);
+  let SpecialText = string.slice(position);
+  //let upperSpecialText = SpecialText.charAt(0).toUpperCase() + SpecialText.slice(1);
+  return SpecialText;
+}
 
 export const SpeciesDetailPage = ({ speciesId }) => {
   const [species, setSpecies] = useState<SpeciesDetailsResponse | undefined>()
@@ -40,7 +57,8 @@ export const SpeciesDetailPage = ({ speciesId }) => {
   return (
     <PageLayout>
       <div className="text-2xl font-bold">
-        <i>{species && species?.speciesName}</i>
+        {/* <i>{species && species?.speciesName}</i> */}
+        <i>{SpeciesSpliceFirst(species?.speciesName)}</i> {SpeciesSpliceSpecial(species?.speciesName)}
       </div>
       <div className="block md:grid md:grid-cols-2 mt-2 md:mt-4 md:gap-16">
         <Collapse bordered={false} ghost defaultActiveKey={['1']}>
@@ -54,15 +72,16 @@ export const SpeciesDetailPage = ({ speciesId }) => {
               <SpeciesOverviewTab speciesDetail={species}/>
             </TabPane>
             <TabPane tab="Metrics" key="2">
-              <Tabs defaultActiveKey="3">
-                <TabPane tab="Asset" key="1">
-                  <DensityBar SpeciesId={species?.speciesId}/>
+              <Tabs defaultActiveKey="1">
+                <TabPane tab="Asset" key="1" >
+                  <AssetDensityBarFilter />
                 </TabPane>
                 <TabPane tab="Platform" key="2">
-                  <DensityBar SpeciesId={species?.speciesId}/>
+                  <PlatformDensityBarFilter/>
                 </TabPane>
                 <TabPane tab="Station" key="3">
-                  <DensityBar SpeciesId={species?.speciesId}/>
+                  <DensityBarFilter/>
+                  {/* <DensityBar SpeciesId={species?.speciesId}/> */}
                 </TabPane>
 
               </Tabs>

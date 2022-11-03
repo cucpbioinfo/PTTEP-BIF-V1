@@ -48,7 +48,9 @@ export const Navbar = () => {
     <nav className="md:px-32 py-4 w-screen bg-primary px-8">
       <div className="flex justify-between items-center align-center">
         <Link href="/">
-          <div className="md:text-5xl text-4xl text-white">PTTEP-BIF</div>
+          <div className="md:text-5xl text-4xl text-white">
+            <img className="h-28 w-28" src="logo/PTTEP-logo.png"/>
+          </div>
         </Link>
         <div className="md:flex justify-around hidden">
           {isLogin ? (

@@ -65,3 +65,18 @@ type AssetDensity struct {
 	UpdatedAt time.Time `pg:"updated_at"`
 	DeletedAt time.Time `pg:"deleted_at"`
 }
+
+type YearAssetDensity struct {
+	tableName struct{} `pg:"assetdensity"`
+	Year      string   `pg:"year"`
+}
+
+type YearPlatformDensity struct {
+	tableName struct{} `pg:"platformdensity"`
+	Year      string   `pg:"year"`
+}
+
+type YearDensity struct {
+	tableName struct{} `pg:"density"`
+	Year      string   `pg:"year"`
+}

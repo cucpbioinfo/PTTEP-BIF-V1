@@ -92,14 +92,38 @@ func StartServer() {
 	densityRepository := repositories.NewDensityRepository(dbConnection)
 	densityService := services.NewDensityService(densityRepository)
 	densityController := controllers.NewDensityController(densityService)
+	densityAPI := app.Group("/density")
+	densityAPI.Get("/", densityController.ListDensity)
 
 	platformdensityRepository := repositories.NewPlatformDensityRepository(dbConnection)
 	platformdensityService := services.NewPlatformDensityService(platformdensityRepository)
 	platformdensityController := controllers.NewPlatformDensityController(platformdensityService)
+	platformdensityAPI := app.Group("/platformdensity")
+	platformdensityAPI.Get("/", platformdensityController.ListPlatformDensity)
 
 	assetdensityRepository := repositories.NewAssetDensityRepository(dbConnection)
 	assetdensityService := services.NewAssetDensityService(assetdensityRepository)
 	assetdensityController := controllers.NewAssetDensityController(assetdensityService)
+	assetdensityAPI := app.Group("/assetdensity")
+	assetdensityAPI.Get("/", assetdensityController.ListAssetDensity)
+
+	yearassetdensityRepository := repositories.NewYearAssetDensityRepository(dbConnection)
+	yearassetdensityService := services.NewYearAssetDensityService(yearassetdensityRepository)
+	yearassetdensityController := controllers.NewYearAssetDensityController(yearassetdensityService)
+	yearassetdensityAPI := app.Group("/yearassetdensity")
+	yearassetdensityAPI.Get("/", yearassetdensityController.ListYearAssetDensity)
+
+	yearplatformdensityRepository := repositories.NewYearPlatformDensityRepository(dbConnection)
+	yearplatformdensityService := services.NewYearPlatformDensityService(yearplatformdensityRepository)
+	yearplatformdensityController := controllers.NewYearPlatformDensityController(yearplatformdensityService)
+	yearplatformdensityAPI := app.Group("/yearplatformdensity")
+	yearplatformdensityAPI.Get("/", yearplatformdensityController.ListYearPlatformDensity)
+
+	yeardensityRepository := repositories.NewYearDensityRepository(dbConnection)
+	yeardensityService := services.NewYearDensityService(yeardensityRepository)
+	yeardensityController := controllers.NewYearDensityController(yeardensityService)
+	yeardensityAPI := app.Group("/yeardensity")
+	yeardensityAPI.Get("/", yeardensityController.ListYearDensity)
 
 	// densityRepository := repositories.NewDensityRepository(dbConnection)
 	// densityService := services.NewDensityService(densityRepository)
@@ -268,15 +292,6 @@ func StartServer() {
 
 	diversityAPI := app.Group("/diversity")
 	diversityAPI.Get("/", diversityController.ListDiversity)
-
-	densityAPI := app.Group("/density")
-	densityAPI.Get("/", densityController.ListDensity)
-
-	platformdensityAPI := app.Group("/platformdensity")
-	platformdensityAPI.Get("/", platformdensityController.ListPlatformDensity)
-
-	assetdensityAPI := app.Group("/assetdensity")
-	assetdensityAPI.Get("/", assetdensityController.ListAssetDensity)
 
 	// projectAPI := app.Group("/project")
 	// projectAPI.Get("/", projectController.ListProject)
