@@ -119,3 +119,26 @@ type ListAssetSummaryResponse struct {
 	BaseResponse
 	Data []AssetSummaryDto `json:"data"`
 }
+
+// yearsummary
+type YearSummaryCreateBody struct {
+	SummaryYear string `json:"summaryYear"`
+}
+
+type YearSummaryDto struct {
+	Year string `json:"year"`
+}
+
+type ListYearSummaryQuery struct {
+	Year             string    `json:"year"`
+	MajorGroupID     uuid.UUID `json:"majorGroupId"`
+	IdentificationID uuid.UUID `json:"identificationId"`
+	AssetID          uuid.UUID `json:"assetId"`
+	PlatformID       uuid.UUID `json:"platformId"`
+	StationID        uuid.UUID `json:"astationId"`
+}
+
+type ListYearSummaryResponse struct {
+	BaseResponse
+	Data []YearSummaryDto `json:"data"`
+}

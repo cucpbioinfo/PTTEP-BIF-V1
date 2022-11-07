@@ -11,7 +11,6 @@ export const SummaryBarFilter = (specId) => {
   
   const fetchSum = async () => {
     const {
-      speciesId,
       majorGroupId,
       assetId,
       platformId,
@@ -20,7 +19,6 @@ export const SummaryBarFilter = (specId) => {
       
     } = router.query
     const { data } = await listSum({
-      speciesId: speciesId as string,
       majorGroupId: majorGroupId as string,
       assetId: assetId as string,
       platformId: platformId as string,

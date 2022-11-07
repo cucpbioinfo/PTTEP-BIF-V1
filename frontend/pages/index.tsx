@@ -154,12 +154,11 @@ const index = () => {
                   
 
                 {station.map((station) => (
-                  <div className="flex h-24 ">
+                  <div className="flex">
                     {/* <div className="w-1/4 mt-2 mb-2 ml-2 mr-8 border shadow">x</div>  */}
                     <div className="w-3/4 m-auto">
-                      <a onClick={() => router.push(`/dashboard?stationId=${station?.stationId}`)}>
+                      <a onClick={() => router.push(`/?stationId=${station?.stationId}`)}>
                         <div className="font-bold">{station?.stationName}</div>
-                        <div className="font-bold text-red-600">API location Here.</div>
                       </a>
                     </div>
                   </div >

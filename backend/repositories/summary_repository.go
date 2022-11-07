@@ -54,6 +54,40 @@ func (summaryRepository *SummaryRepository) ListSummary(query types.ListSummaryQ
 	return summary, nil
 }
 
+// all summary
+func (summaryRepository *SummaryRepository) ListAllSummary(query types.ListSummaryQuery) ([]models.Summary, error) {
+	var summary []models.Summary
+	dbQuery := summaryRepository.pg.Model(&summary)
+
+	if query.MajorGroupID != uuid.Nil {
+		dbQuery.Where("major_group.major_group_id = ?", query.MajorGroupID)
+	}
+	if query.IdentificationID != uuid.Nil {
+		dbQuery.Where("identification.identification_id = ?", query.IdentificationID)
+	}
+	if query.AssetID != uuid.Nil {
+		dbQuery.Where("asset.asset_id = ?", query.AssetID)
+	}
+	if query.PlatformID != uuid.Nil {
+		dbQuery.Where("platform.platform_id = ?", query.PlatformID)
+	}
+	if query.StationID != uuid.Nil {
+		dbQuery.Where("station.station_id = ?", query.StationID)
+	}
+
+	err := dbQuery.
+		Relation("MajorGroup").
+		Relation("Identification").
+		Relation("Asset").
+		Relation("Platform").
+		Relation("Station").
+		Select()
+	if err != nil {
+		return make([]models.Summary, 0), err
+	}
+	return summary, nil
+}
+
 // Platform platform
 type PlatformSummaryRepository struct {
 	pg *pg.DB
@@ -133,4 +167,44 @@ func (assetsummaryRepository *AssetSummaryRepository) ListAssetSummary(query typ
 		return make([]models.AssetSummary, 0), err
 	}
 	return assetsummary, nil
+}
+
+// yearsummary Year year
+type YearSummaryRepository struct {
+	pg *pg.DB
+}
+
+func NewYearSummaryRepository(pg *pg.DB) *YearSummaryRepository {
+	return &YearSummaryRepository{
+		pg: pg,
+	}
+}
+func (yearsummaryRepository *YearSummaryRepository) ListYearSummary(query types.ListYearSummaryQuery) ([]models.YearSummary, error) {
+	var yearsummary []models.YearSummary
+	dbQuery := yearsummaryRepository.pg.Model(&yearsummary)
+
+	if query.MajorGroupID != uuid.Nil {
+		dbQuery.Where("major_group_id = ?", query.MajorGroupID)
+	}
+	if query.IdentificationID != uuid.Nil {
+		dbQuery.Where("identification_id = ?", query.IdentificationID)
+	}
+	if query.AssetID != uuid.Nil {
+		dbQuery.Where("asset_id = ?", query.AssetID)
+	}
+	if query.PlatformID != uuid.Nil {
+		dbQuery.Where("platform_id = ?", query.PlatformID)
+	}
+	if query.StationID != uuid.Nil {
+		dbQuery.Where("station_id = ?", query.StationID)
+	}
+
+	err := dbQuery.
+		Order("year ASC").
+		Group("year").
+		Select()
+	if err != nil {
+		return make([]models.YearSummary, 0), err
+	}
+	return yearsummary, nil
 }

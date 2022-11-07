@@ -72,14 +72,22 @@ func StartServer() {
 	summaryRepository := repositories.NewSummaryRepository(dbConnection)
 	summaryService := services.NewSummaryService(summaryRepository)
 	summaryController := controllers.NewSummaryController(summaryService)
+	summaryAPI := app.Group("/summary")
+	summaryAPI.Get("/", summaryController.ListSummary)
+	allsummaryAPI := app.Group("/allsummary")
+	allsummaryAPI.Get("/", summaryController.ListAllSummary)
 
 	platformsummaryRepository := repositories.NewPlatformSummaryRepository(dbConnection)
 	platformsummaryService := services.NewPlatformSummaryService(platformsummaryRepository)
 	platformsummaryController := controllers.NewPlatformSummaryController(platformsummaryService)
+	platformsummaryAPI := app.Group("/platformsummary")
+	platformsummaryAPI.Get("/", platformsummaryController.ListPlatformSummary)
 
 	assetsummaryRepository := repositories.NewAssetSummaryRepository(dbConnection)
 	assetsummaryService := services.NewAssetSummaryService(assetsummaryRepository)
 	assetsummaryController := controllers.NewAssetSummaryController(assetsummaryService)
+	assetsummaryAPI := app.Group("/assetsummary")
+	assetsummaryAPI.Get("/", assetsummaryController.ListAssetSummary)
 
 	evennessRepository := repositories.NewEvennessRepository(dbConnection)
 	evennessService := services.NewEvennessService(evennessRepository)
@@ -124,6 +132,12 @@ func StartServer() {
 	yeardensityController := controllers.NewYearDensityController(yeardensityService)
 	yeardensityAPI := app.Group("/yeardensity")
 	yeardensityAPI.Get("/", yeardensityController.ListYearDensity)
+
+	yearsummaryRepository := repositories.NewYearSummaryRepository(dbConnection)
+	yearsummaryService := services.NewYearSummaryService(yearsummaryRepository)
+	yearsummaryController := controllers.NewYearSummaryController(yearsummaryService)
+	yearsummaryAPI := app.Group("/yearsummary")
+	yearsummaryAPI.Get("/", yearsummaryController.ListYearSummary)
 
 	// densityRepository := repositories.NewDensityRepository(dbConnection)
 	// densityService := services.NewDensityService(densityRepository)
@@ -277,15 +291,6 @@ func StartServer() {
 
 	locationAPI := app.Group("/location")
 	locationAPI.Get("/", locationController.ListLocation)
-
-	summaryAPI := app.Group("/summary")
-	summaryAPI.Get("/", summaryController.ListSummary)
-
-	platformsummaryAPI := app.Group("/platformsummary")
-	platformsummaryAPI.Get("/", platformsummaryController.ListPlatformSummary)
-
-	assetsummaryAPI := app.Group("/assetsummary")
-	assetsummaryAPI.Get("/", assetsummaryController.ListAssetSummary)
 
 	evennessAPI := app.Group("/evenness")
 	evennessAPI.Get("/", evennessController.ListEvenness)

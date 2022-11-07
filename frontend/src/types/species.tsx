@@ -49,7 +49,6 @@ export class ListDenQuery {
 }
 
 export class ListSumQuery {
-  speciesId?: string
   majorGroupId?: string
   assetId?: string
   platformId?: string

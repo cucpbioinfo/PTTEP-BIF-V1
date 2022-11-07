@@ -40,6 +40,31 @@ func (summaryController *SummaryController) ListSummary(c *fiber.Ctx) error {
 	})
 }
 
+// all summary
+func (summaryController *SummaryController) ListAllSummary(c *fiber.Ctx) error {
+	query := &types.ListSummaryQuery{}
+	if err := c.QueryParser(query); err != nil {
+		return &fiber.Error{
+			Code:    400,
+			Message: "Invalid query",
+		}
+	}
+	summary, err := summaryController.SummaryService.ListAllSummary(*query)
+	if err != nil {
+		return &fiber.Error{
+			Code:    400,
+			Message: "Fail to list summary",
+		}
+	}
+	return c.JSON(&types.ListSummaryResponse{
+		BaseResponse: types.BaseResponse{
+			Ok:      true,
+			Message: "success",
+		},
+		Data: summary,
+	})
+}
+
 // Platform platform
 type PlatformSummaryController struct {
 	PlatformSummaryService *services.PlatformSummaryService
@@ -107,5 +132,40 @@ func (assetsummaryController *AssetSummaryController) ListAssetSummary(c *fiber.
 			Message: "success",
 		},
 		Data: summary,
+	})
+}
+
+// Year year
+type YearSummaryController struct {
+	YearSummaryService *services.YearSummaryService
+}
+
+func NewYearSummaryController(yearsummaryService *services.YearSummaryService) *YearSummaryController {
+	return &YearSummaryController{
+		YearSummaryService: yearsummaryService,
+	}
+}
+
+func (yearsummaryController *YearSummaryController) ListYearSummary(c *fiber.Ctx) error {
+	query := &types.ListYearSummaryQuery{}
+	if err := c.QueryParser(query); err != nil {
+		return &fiber.Error{
+			Code:    400,
+			Message: "Invalid query",
+		}
+	}
+	yearsummary, err := yearsummaryController.YearSummaryService.ListYearSummary(*query)
+	if err != nil {
+		return &fiber.Error{
+			Code:    400,
+			Message: "Fail to list yearsummary",
+		}
+	}
+	return c.JSON(&types.ListYearSummaryResponse{
+		BaseResponse: types.BaseResponse{
+			Ok:      true,
+			Message: "success",
+		},
+		Data: yearsummary,
 	})
 }

@@ -47,6 +47,39 @@ func (summaryService *SummaryService) ListSummary(query types.ListSummaryQuery) 
 	return summaryList, nil
 }
 
+// all summary
+func (summaryService *SummaryService) ListAllSummary(query types.ListSummaryQuery) ([]types.SummaryDto, error) {
+	summary, err := summaryService.SummaryRepository.ListAllSummary(query)
+	if err != nil {
+		return make([]types.SummaryDto, 0), err
+	}
+	summaryList := make([]types.SummaryDto, len(summary))
+	for i, summary := range summary {
+		summaryList[i] = types.SummaryDto{
+			SummaryID:            summary.SummaryID,
+			Year:                 summary.Year,
+			MajorGroupName:       summary.MajorGroup.MajorGroupName,
+			IdentificationName:   summary.Identification.IdentificationName,
+			AssetName:            summary.Asset.AssetName,
+			PlatformName:         summary.Platform.PlatformName,
+			StationName:          summary.Station.StationName,
+			SurfaceShannon:       summary.SurfaceShannon,
+			SurfaceNumber:        summary.SurfaceNumber,
+			SurfaceMax:           summary.SurfaceMax,
+			SurfaceEvenness:      summary.SurfaceEvenness,
+			EuphoticZoneShannon:  summary.EuphoticZoneShannon,
+			EuphoticZoneNumber:   summary.EuphoticZoneNumber,
+			EuphoticZoneMax:      summary.EuphoticZoneMax,
+			EuphoticZoneEvenness: summary.EuphoticZoneEvenness,
+			AverageShannon:       summary.AverageShannon,
+			AverageNumber:        summary.AverageNumber,
+			AverageMax:           summary.AverageMax,
+			AverageEvenness:      summary.AverageEvenness,
+		}
+	}
+	return summaryList, nil
+}
+
 // Platform platform
 type PlatformSummaryService struct {
 	PlatformSummaryRepository *repositories.PlatformSummaryRepository
@@ -128,4 +161,29 @@ func (assetsummaryService *AssetSummaryService) ListAssetSummary(query types.Lis
 		}
 	}
 	return summaryList, nil
+}
+
+// year Year
+type YearSummaryService struct {
+	YearSummaryRepository *repositories.YearSummaryRepository
+}
+
+func NewYearSummaryService(yearsummaryRepository *repositories.YearSummaryRepository) *YearSummaryService {
+	return &YearSummaryService{
+		YearSummaryRepository: yearsummaryRepository,
+	}
+}
+
+func (yearsummaryService *YearSummaryService) ListYearSummary(query types.ListYearSummaryQuery) ([]types.YearSummaryDto, error) {
+	yearsummary, err := yearsummaryService.YearSummaryRepository.ListYearSummary(query)
+	if err != nil {
+		return make([]types.YearSummaryDto, 0), err
+	}
+	yearsummaryList := make([]types.YearSummaryDto, len(yearsummary))
+	for i, yearsummary := range yearsummary {
+		yearsummaryList[i] = types.YearSummaryDto{
+			Year: yearsummary.Year,
+		}
+	}
+	return yearsummaryList, nil
 }

@@ -109,3 +109,18 @@ type AssetSummary struct {
 	UpdatedAt time.Time `pg:"updated_at"`
 	DeletedAt time.Time `pg:"deleted_at"`
 }
+
+type YearAssetSummary struct {
+	tableName struct{} `pg:"assetsummary"`
+	Year      string   `pg:"year"`
+}
+
+type YearPlatformSummary struct {
+	tableName struct{} `pg:"platformsummary"`
+	Year      string   `pg:"year"`
+}
+
+type YearSummary struct {
+	tableName struct{} `pg:"summary"`
+	Year      string   `pg:"year"`
+}
