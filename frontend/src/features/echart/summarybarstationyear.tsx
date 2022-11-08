@@ -119,6 +119,7 @@ else if(type === "number"){
       tooltip: {
         trigger: "item",
         name:StationNameArr,
+        //formatter:"test "+{}+" some number",
         axisPointer: {
           animation: true
         }
