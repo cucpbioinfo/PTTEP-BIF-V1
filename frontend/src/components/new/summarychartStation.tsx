@@ -1,6 +1,8 @@
 //to fetch data and make it to array
 import { useRouter } from 'next/router'
 import React, { useCallback,useEffect, useState } from 'react'
+//Dropdown Filter API
+//import { SummaryFilter } from 'components/new/SummaryFilter'
 //fetch year from db to have it as filter
 import { listYearSummary } from 'api/summary/listYearSummary'
 import { listAllSummary } from 'api/summary/listAllSummary'
@@ -201,6 +203,7 @@ export const SummaryChartStation = () => {
         
         return (
           <main>
+            {/* <SummaryFilter/> */}
             <ProductFilters 
               categories={Yearfilter}
               onFilterChange={handleFilterChange}/>

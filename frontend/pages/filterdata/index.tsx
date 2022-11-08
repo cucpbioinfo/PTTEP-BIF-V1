@@ -7,56 +7,7 @@ import { AssetDensityBarFilter } from 'components/new/AssetFilter'
 import { useRouter } from 'next/router'
 import { SummaryChartStation } from 'components/new/summarychartStation'
 import React, { useEffect, useState } from 'react'
-const dataimport = [
-  {
-    stationName: 'station_a',
-    year: '2019',
-    surfaceShannon: '3.09',
-    surfaceNumber: '47',
-    surfaceMax: '3.85',
-    surfaceEvenness: '0.8',
-    euphoticzoneShannon: '2.83',
-    euphoticzoneNumber: '53',
-    euphoticzoneMax: '3.97',
-    euphoticzoneEvenness: '0.71',
-  },
-  {
-    stationName: 'station_a',
-    year: '2022',
-    surfaceShannon: '3.01',
-    surfaceNumber: '47',
-    surfaceMax: '3.85',
-    surfaceEvenness: '0.7',
-    euphoticzoneShannon: '2.73',
-    euphoticzoneNumber: '53',
-    euphoticzoneMax: '3.97',
-    euphoticzoneEvenness: '0.75',
-  },
-  {
-    stationName: 'station_b',
-    year: '2019',
-    surfaceShannon: '2.09',
-    surfaceNumber: '47',
-    surfaceMax: '3.85',
-    surfaceEvenness: '0.8',
-    euphoticzoneShannon: '3.83',
-    euphoticzoneNumber: '53',
-    euphoticzoneMax: '3.97',
-    euphoticzoneEvenness: '0.71',
-  },
-  {
-    stationName: 'station_b',
-    year: '2022',
-    surfaceShannon: '1.51',
-    surfaceNumber: '47',
-    surfaceMax: '3.85',
-    surfaceEvenness: '0.7',
-    euphoticzoneShannon: '1.73',
-    euphoticzoneNumber: '53',
-    euphoticzoneMax: '3.97',
-    euphoticzoneEvenness: '0.75',
-  },
-] 
+
 const assetbar = () => {
   const router = useRouter()
   return (
