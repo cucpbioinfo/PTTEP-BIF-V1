@@ -4,7 +4,7 @@ import React, { useCallback,useEffect, useState } from 'react'
 //fetch year from db to have it as filter
 import { listYearSummary } from 'api/summary/listYearSummary'
 import { listAllSummary } from 'api/summary/listAllSummary'
-import  {Testcheckbox} from 'features/echart/testfilter'
+//import  {Testcheckbox} from 'features/echart/testfilter'
 export const SummaryChartStation = () => {
   const router = useRouter()
   //yearfilter
@@ -102,6 +102,113 @@ export const SummaryChartStation = () => {
     //     console.log(SummaryList);
     //   }
     //console.log(SummaryList)
+    /////////////////////////////////////////////////////
+    function ProductFilters(props) {
+        const { 
+          categories,
+          onFilterChange,
+        } = props
+        
+        return (
+          <section 
+            className="filters"
+            aria-labelledby="filters-header">
+            <header id="filters-header">
+              {'Filters'}
+            </header>
+            
+            <ul>
+              {categories.map(category => (
+                <li key={category}>
+                  <label>
+                    <input 
+                      onChange={onFilterChange}
+                      type="checkbox"
+                      value={category} />
+                    {category}
+                  </label>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )
+      }
+      
+      function Product(props) {
+        const { product } = props
+        
+        return (
+          <li
+            key={product.SummaryId}
+            className="product">
+            <div className="product-details">
+              <header>{product.stationName}</header>
+              <div className="category">{product.year}</div>
+            </div>
+          </li>
+        )
+      }
+      
+      function ProductsList(props) {
+        const { products } = props
+        
+        return (
+          <ul className="products">
+            {products.map(product => (
+              <Product product={product} />
+            ))}
+          </ul>
+        )
+      }
+
+
+
+      function Testcheckbox() {
+        const [state, setState] = useState({
+          products: SummaryList,
+          filters: new Set(),
+        })
+        
+        const handleFilterChange = useCallback(event => {
+          setState(previousState => {
+            let filters = new Set(previousState.filters)
+            // console.log("filters")
+            // console.log(filters)
+            let products = SummaryList
+            // console.log("products")
+            // console.log(products)
+            //console.log(event.target.checked)
+            if (event.target.checked) {
+              filters.add(event.target.value)
+
+            } else {
+              filters.delete(event.target.value)
+            }
+            
+            if (filters.size) {
+              products = products.filter(product => {
+                return filters.has(product.year)
+              })
+            }
+            // console.log(filters)
+            // console.log(products)
+            return {
+              filters,
+              products,
+            }
+          })
+        }, [setState])
+        
+        return (
+          <main>
+            <ProductFilters 
+              categories={Yearfilter}
+              onFilterChange={handleFilterChange}/>
+            <ProductsList products={state.products} />
+          </main>
+        )
+      }
+
     
   return (
     <>
@@ -114,7 +221,8 @@ export const SummaryChartStation = () => {
       {/* <div>{SummaryList.length}</div> */}
       {/* <SummaryFilterGraph data={testarray} datafilter={Yearfilter} /> */}
       {/* <<< END OF TEST DATA */}
-      <Testcheckbox filter={Yearfilter} datax={SummaryList} />
+      {/* <Testcheckbox filter={Yearfilter} datax={SummaryList} /> */}
+      <Testcheckbox/>
       {/* <SummaryFilterGraph /> */}
       {/* <YearFilters 
           categories={Yearfilter}
