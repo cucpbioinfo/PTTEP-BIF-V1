@@ -1,3 +1,4 @@
+import { Select } from 'antd'
 //to fetch data and make it to array
 import { useRouter } from 'next/router'
 import React, { useCallback,useEffect, useState } from 'react'
@@ -6,17 +7,130 @@ import React, { useCallback,useEffect, useState } from 'react'
 //fetch year from db to have it as filter
 import { listYearSummary } from 'api/summary/listYearSummary'
 import { listAllSummary } from 'api/summary/listAllSummary'
+//
+import { listAsset } from 'api/dashboard/listAsset'
+import { listPlatform } from 'api/dashboard/listPlatform'
+import { listStation } from 'api/dashboard/listStation'
+//
+import { SummaryBarStationYear } from 'features/echart/summarybarstationyear'
 //import  {Testcheckbox} from 'features/echart/testfilter'
+const { Option } = Select
 export const SummaryChartStation = () => {
   const router = useRouter()
+  const { locale } = router
   //yearfilter
   const [yearfiter, setYearFilter] = useState([])
   //summary array
   const [summary, setSummary] = useState([])
+  //
+  const [asset, setAsset] = useState([])
+  const [platform, setPlatform] = useState([])
+  const [station, setStation] = useState([])
+  //
+  const onFilterChange = (key: string, value?: string) => {
+    const url = {
+      pathname: router.pathname,
+      query: {
+        ...router.query,
+        [key]: value,
+      },
+    }
+    router.push(url, url, { locale })
+  }
 
-  interface IProps {}
-  interface IState {}
+  const fetchAsset = async () => {
+    const { data } = await listAsset()
+    setAsset(data)
+  }
+  const fetchPlatform = async (assetId?: string) => {
+    const { data } = await listPlatform(assetId)
+    setPlatform(data)
+  }
+  const fetchStation = async (platformId?: string) => {
+    const { data } = await listStation(platformId)
+    setStation(data)
+  }
+  //
+  function DropdownFilter(){
+    return (
+      <>
+      <div className="text-sm">
+        Asset
+      </div>
+      <div className="md:w-1/6 w-full">
+        <Select
+          placeholder="Asset"
+          onChange={(value: string | undefined) => {
+            onFilterChange('assetId', value)
+          }}
+        >
+          {asset.map((asset) => (
+            <Option
+              value={asset?.assetId}
+              key={asset?.assetId}
+            >
+              {asset?.assetName}
+            </Option>
+          ))}
+        </Select>
+      </div>
 
+      <div className="text-sm">
+        Platform
+      </div>
+      <div className="md:w-1/6 w-full">
+        <Select
+          placeholder="Platform"
+          onChange={(value: string | undefined) => {
+            onFilterChange('platformId', value)
+          }}
+        >
+          {platform.map((platform) => (
+            <Option
+              value={platform?.platformId}
+              key={platform?.platformId}
+            >
+              {platform?.platformName}
+            </Option>
+          ))}
+        </Select>
+      </div>
+
+      <div className="text-sm">
+        Station
+      </div>
+      <div className="md:w-1/5 w-full">
+        <Select
+          placeholder="Station"
+          onChange={(value: string | undefined) => {
+            onFilterChange('stationId', value)
+          }}
+        >
+          {station.map((station) => (
+            <Option
+              value={station?.stationId}
+              key={station?.stationId}
+            >
+              {station?.stationName}
+            </Option>
+          ))}
+        </Select>
+      </div>
+      </>
+    )
+  }
+  //
+  useEffect(() => {
+    fetchAsset()
+  }, [])
+  useEffect(() => {
+    fetchPlatform(router.query.assetId as string)
+  }, [router.query.assetId])
+  useEffect(() => {
+    fetchStation(router.query.platformId as string)
+  }, [router.query.platformId])
+  const Stationfilter = []
+  station.map((s) => (Stationfilter.push(s.stationName)))
   //make array of Yearfilter
    const Yearfilter = []
   const fetchYearFilter = async (platformId?: string) => {
@@ -174,12 +288,7 @@ export const SummaryChartStation = () => {
         const handleFilterChange = useCallback(event => {
           setState(previousState => {
             let filters = new Set(previousState.filters)
-            // console.log("filters")
-            // console.log(filters)
             let products = SummaryList
-            // console.log("products")
-            // console.log(products)
-            //console.log(event.target.checked)
             if (event.target.checked) {
               filters.add(event.target.value)
 
@@ -192,8 +301,6 @@ export const SummaryChartStation = () => {
                 return filters.has(product.year)
               })
             }
-            // console.log(filters)
-            // console.log(products)
             return {
               filters,
               products,
@@ -203,11 +310,15 @@ export const SummaryChartStation = () => {
         
         return (
           <main>
-            {/* <SummaryFilter/> */}
+            <DropdownFilter/>
             <ProductFilters 
               categories={Yearfilter}
               onFilterChange={handleFilterChange}/>
-            <ProductsList products={state.products} />
+            <a href="/filterdata">reset</a>
+            {/* <ProductsList products={state.products} /> */}
+            <SummaryBarStationYear type={"diversity"} dataimport={state.products}/>
+            <SummaryBarStationYear type={"evenness"} dataimport={state.products}/>
+            <SummaryBarStationYear type={"number"} dataimport={state.products}/>
           </main>
         )
       }
@@ -215,24 +326,7 @@ export const SummaryChartStation = () => {
     
   return (
     <>
-      <div>SummaryChartStation - test</div>
-      {/* <div>{Yearfilter[0]}</div>
-      <div>{summaryyear.length}</div>
-      <div>{summaryplatformName.length}</div>
-      <div>{summaryeuphoticzoneShannon.length}</div>
-      <div>{summaryeuphoticzoneEvenness.length}</div> */}
-      {/* <div>{SummaryList.length}</div> */}
-      {/* <SummaryFilterGraph data={testarray} datafilter={Yearfilter} /> */}
-      {/* <<< END OF TEST DATA */}
-      {/* <Testcheckbox filter={Yearfilter} datax={SummaryList} /> */}
       <Testcheckbox/>
-      {/* <SummaryFilterGraph /> */}
-      {/* <YearFilters 
-          categories={Yearfilter}
-          onFilterChange={handleFilterChange}/>
-        <ProductsList products={state.products} /> */}
-
-      
     </>
   )
 }

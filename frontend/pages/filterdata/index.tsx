@@ -14,7 +14,7 @@ const assetbar = () => {
     <PageLayout>
       {/* BarGraph
       <AssetDensityBarFilter onClick={() => router.push(`/species/${'a906251d-6916-4a2f-b035-129f6cb3d59f'}`)}/> */}
-      <SummaryFilter/>
+      {/* <SummaryFilter/> */}
       {/* <SummaryBarStationYear dataimport={dataimport}/>
       <Testcheckbox/> */}
       <SummaryChartStation/>

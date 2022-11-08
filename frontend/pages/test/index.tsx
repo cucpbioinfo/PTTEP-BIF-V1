@@ -194,25 +194,27 @@ import * as React from "react";
 import { CheckBoxTest } from 'features/test/checktest'
 import { AntdCheckBoxTest }  from 'features/test/antdCheck'
 
-interface MyFormValues {
-  permissions: {
-    orderChargeCards: boolean;
-    orderChargePoint: boolean;
-  };
-}
+// interface MyFormValues {
+//   permissions: {
+//     orderChargeCards: boolean;
+//     orderChargePoint: boolean;
+//   };
+// }
 
 export default function App() {
-  const [form] = Form.useForm<MyFormValues>();
+  // const [form] = Form.useForm<MyFormValues>();
 
-  const initialValues = {
-    permissions: {
-      orderChargeCards: false,
-      orderChargePoint: false
-    }
-  };
+  // const initialValues = {
+  //   permissions: {
+  //     orderChargeCards: false,
+  //     orderChargePoint: false
+  //   }
+  // };
 
   return (
-    <div className="App">
+    <>
+    test
+    {/* <div className="App">
       <Form form={form} onFinish={console.log} initialValues={initialValues}>
         <Form.Item
           name={["permissions", "orderChargePoint"]}
@@ -234,6 +236,7 @@ export default function App() {
       </Form>
       <CheckBoxTest/>
       <AntdCheckBoxTest/>
-    </div>
+    </div> */}
+    </>
   );
 }

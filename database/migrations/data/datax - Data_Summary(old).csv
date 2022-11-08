@@ -1,0 +1,10 @@
+No.,Year,Group,Identification,Asset,Platform,Station,SurfaceShannon,SurfaceNumber,SurfaceMax,SurfaceEvenness,Euphotic_zoneShannon,Euphotic_zoneNumber,Euphotic_zoneMax,Euphotic_zoneEvenness,AverageShannon,AverageNumber,AverageMax,AverageEvenness
+1,2022,Phytoplankton,Morphology,GBS,PPS,PPS1,3.09,47.00,3.85,0.80,2.83,53.00,3.97,0.71,3.04,58,4.06,0.75
+2,2022,Phytoplankton,Morphology,GBS,PPS,PPS2,2.88,33.00,3.50,0.82,2.80,49.00,3.89,0.72,3,55,4.01,0.75
+3,2022,Phytoplankton,Morphology,GBS,PPS,PPS3,2.79,34.00,3.53,0.79,3.18,38.00,3.64,0.87,3.14,46,3.83,0.82
+4,2021,Phytoplankton,Morphology,GBS,PPS,PPS1,3.09,47.00,3.85,0.80,2.83,53.00,3.97,0.71,3.04,58,4.06,0.75
+5,2021,Phytoplankton,Morphology,GBS,PPS,PPS2,2.88,33.00,3.50,0.82,2.80,49.00,3.89,0.72,3,55,4.01,0.75
+6,2021,Phytoplankton,Morphology,GBS,PPS,PPS3,2.79,34.00,3.53,0.79,3.18,38.00,3.64,0.87,3.14,46,3.83,0.82
+7,2020,Phytoplankton,Morphology,GBS,PPS,PPS1,3.09,47.00,3.85,0.80,2.83,53.00,3.97,0.71,3.04,58,4.06,0.75
+8,2020,Phytoplankton,Morphology,GBS,PPS,PPS2,2.88,33.00,3.50,0.82,2.80,49.00,3.89,0.72,3,55,4.01,0.75
+9,2020,Phytoplankton,Morphology,GBS,PPS,PPS3,2.79,34.00,3.53,0.79,3.18,38.00,3.64,0.87,3.14,46,3.83,0.82

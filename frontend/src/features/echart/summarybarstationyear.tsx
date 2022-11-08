@@ -9,7 +9,7 @@ import { Button , Checkbox , Select ,Table } from 'antd';
 import type { CheckboxValueType } from 'antd/es/checkbox/Group';
 
 // export const SummaryBarStationYear = ({summaryId,name,year,surface,zone}:any) => {
-  export const SummaryBarStationYear = ({dataimport}:any) => {
+  export const SummaryBarStationYear = ({type,dataimport}:any) => {
   interface IProps {}
   interface IState {}
  
@@ -19,7 +19,16 @@ import type { CheckboxValueType } from 'antd/es/checkbox/Group';
   const ZoneDiversityArr = []
   const SurfaceEvennessArr = []
   const ZoneEvennessArr = []
-
+  const SurfaceNumberArr = []
+  const ZoneNumberArr = []
+  const XBarName = []
+  var Dat1 = []
+  var Dat2 = []
+  var HeaderName = ""
+  const dataSourcediversity = []
+  const dataSourceevenness = []
+  const dataSourcenumber = []
+  var dataSource = []
   
   dataimport.map((data) => 
     (
@@ -28,149 +37,84 @@ import type { CheckboxValueType } from 'antd/es/checkbox/Group';
       SurfaceDiversityArr.push(data.surfaceShannon),
       ZoneDiversityArr.push(data.euphoticzoneShannon),
       SurfaceEvennessArr.push(data.surfaceEvenness),
-      ZoneEvennessArr.push(data.euphoticzoneEvenness)
+      ZoneEvennessArr.push(data.euphoticzoneEvenness),
+      SurfaceNumberArr.push(data.surfaceNumber),
+      ZoneNumberArr.push(data.euphoticzoneNumber),
+      XBarName.push(data.stationName+" "+data.year),
+
+      
+      dataSourcediversity.push({
+        key: data.summaryId,
+        name: data.stationName,
+        year: data.year,
+        surface: data.surfaceShannon,
+        euphotic_zone: data.euphoticzoneShannon
+      }),
+      dataSourceevenness.push({
+        key: data.summaryId,
+        name: data.stationName,
+        year: data.year,
+        surface: data.surfaceEvenness,
+        euphotic_zone: data.euphoticzoneEvenness
+      }),
+      dataSourcenumber.push({
+        key: data.summaryId,
+        name: data.stationName,
+        year: data.year,
+        surface: data.surfaceNumber,
+        euphotic_zone: data.euphoticzoneNumber
+      })
+
     )
   )
-  // const dataSource = [];
-  // const columns = [
-  //   {
-  //     title: 'Name',
-  //     dataIndex: 'name',
-  //     key: 'name',
-  //   },
-  //   {
-  //     title: 'Year',
-  //     dataIndex: 'year',
-  //     key: 'year',
-  //   },
-  //   {
-  //     title: 'Surface',
-  //     dataIndex: 'surface',
-  //     key: 'surface',
-  //   },
-  //   {
-  //     title: 'Euphotic Zone',
-  //     dataIndex: 'euphotic_zone',
-  //     key: 'euphotic_zone',
-  //   },
-  // ];
-  // dataSource.push({
-  //         key: summaryId,
-  //         name: name,
-  //         year: year,
-  //         surface: surface,
-  //         euphotic_zone: zone,
-  //       })
+if(type === "diversity"){
+  HeaderName = "Shannon index"
+  Dat1 = SurfaceDiversityArr;
+  Dat2 = ZoneDiversityArr;
+  dataSource = dataSourcediversity;
+}
+else if(type === "evenness"){
+  HeaderName = "Evenness Index"
+  Dat1 = SurfaceEvennessArr;
+  Dat2 = ZoneEvennessArr;
+  dataSource = dataSourceevenness;
+}
+else if(type === "number"){
+  HeaderName = "Number of Species"
+  Dat1 = SurfaceNumberArr;
+  Dat2 = ZoneNumberArr;
+  dataSource = dataSourcenumber;
+}
+  const columns = [
+    {
+      title: 'Name',
+      dataIndex: 'name',
+      key: 'name',
+    },
+    {
+      title: 'Year',
+      dataIndex: 'year',
+      key: 'year',
+    },
+    {
+      title: 'Surface',
+      dataIndex: 'surface',
+      key: 'surface',
+    },
+    {
+      title: 'Euphotic Zone',
+      dataIndex: 'euphotic_zone',
+      key: 'euphotic_zone',
+    },
+  ];
+  
   const colors = ['#5470C6', '#91CC75', '#EE6666'];
   class SummaryBar extends React.Component<IProps, IState> {
     
     getOption = () => ({
-  //     color: colors,
-
-  // tooltip: {
-  //   trigger: 'axis',
-  //   axisPointer: {
-  //     type: 'cross'
-  //   }
-  // },
-  // grid: {
-  //   right: '20%'
-  // },
-  // toolbox: {
-  //   feature: {
-  //     dataView: { show: true, readOnly: false },
-  //     restore: { show: true },
-  //     saveAsImage: { show: true }
-  //   }
-  // },
-  // legend: {
-  //   data: ['Evaporation', 'Precipitation', 'Temperature']
-  // },
-  // xAxis: [
-  //   {
-  //     type: 'category',
-  //     axisTick: {
-  //       alignWithLabel: true
-  //     },
-  //     // prettier-ignore
-  //     data: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
-  //   }
-  // ],
-  // yAxis: [
-  //   {
-  //     type: 'value',
-  //     name: 'Evaporation',
-  //     position: 'right',
-  //     alignTicks: true,
-  //     axisLine: {
-  //       show: true,
-  //       lineStyle: {
-  //         color: colors[0]
-  //       }
-  //     },
-  //     axisLabel: {
-  //       formatter: '{value} ml'
-  //     }
-  //   },
-  //   {
-  //     type: 'value',
-  //     name: 'Precipitation',
-  //     position: 'right',
-  //     alignTicks: true,
-  //     offset: 80,
-  //     axisLine: {
-  //       show: true,
-  //       lineStyle: {
-  //         color: colors[1]
-  //       }
-  //     },
-  //     axisLabel: {
-  //       formatter: '{value} ml'
-  //     }
-  //   },
-  //   {
-  //     type: 'value',
-  //     name: '温度',
-  //     position: 'left',
-  //     alignTicks: true,
-  //     axisLine: {
-  //       show: true,
-  //       lineStyle: {
-  //         color: colors[2]
-  //       }
-  //     },
-  //     axisLabel: {
-  //       formatter: '{value} °C'
-  //     }
-  //   }
-  // ],
-  // series: [
-  //   {
-  //     name: 'Evaporation',
-  //     type: 'bar',
-  //     data: [
-  //       2.0, 4.9, 7.0, 23.2, 25.6, 76.7, 135.6, 162.2, 32.6, 20.0, 6.4, 3.3
-  //     ]
-  //   },
-  //   {
-  //     name: 'Precipitation',
-  //     type: 'bar',
-  //     yAxisIndex: 1,
-  //     data: [
-  //       2.6, 5.9, 9.0, 26.4, 28.7, 70.7, 175.6, 182.2, 48.7, 18.8, 6.0, 2.3
-  //     ]
-  //   },
-  //   {
-  //     name: 'Temperature',
-  //     type: 'line',
-  //     yAxisIndex: 2,
-  //     data: [2.0, 2.2, 3.3, 4.5, 6.3, 10.2, 20.3, 23.4, 23.0, 16.5, 12.0, 6.2]
-  //   }
-  // ]
-      
+        
       title: {
-        text: StationNameArr
-        //subtext: DataXYear[0]
+        text: HeaderName
       },
       tooltip: {
         trigger: "item",
@@ -195,7 +139,7 @@ import type { CheckboxValueType } from 'antd/es/checkbox/Group';
       },
       xAxis: {
         type: "category",
-        data: YearArr
+        data: XBarName
       },
       yAxis: {
         type: "value",
@@ -213,7 +157,7 @@ import type { CheckboxValueType } from 'antd/es/checkbox/Group';
         {
           name: "Surface",
           type: "bar",
-          data: SurfaceDiversityArr,
+          data: Dat1,
           animationDuration: 250,
           label: {
             normal: {
@@ -225,7 +169,7 @@ import type { CheckboxValueType } from 'antd/es/checkbox/Group';
         {
           name: "Euphotic Zone",
           type: "bar",
-          data: ZoneDiversityArr,
+          data: Dat2,
           animationDuration: 250,
           label: {
             normal: {
@@ -239,16 +183,17 @@ import type { CheckboxValueType } from 'antd/es/checkbox/Group';
     });
 
     render() {
-      return <><ReactEcharts option={this.getOption()} />{555}</>;
+      return <><ReactEcharts option={this.getOption()} /></>;
     }
   }
+  
     return (
       
       <div>
   
         <SummaryBar/>
-        {/* <Table dataSource={dataSource} columns={columns} /> */}
-        
+        <Table dataSource={dataSource} columns={columns} />
+          
       </div>
 
     )
