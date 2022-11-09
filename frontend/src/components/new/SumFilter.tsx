@@ -51,22 +51,25 @@ export const SummaryBarFilter = (specId) => {
               <div>assetName: {assetName}</div>
               <div>platformName: {platformName}</div>
               <div>stationName: {stationName}</div> */}
-
+              <div className="flex border p-4 shadow rounded-md">
+                <div className="w-1/2 ">{stationName}</div>
+                <div className="w-1/2 text-right"><a href="/filterdata">view all</a></div>
+              </div>
               <div className="flex space-x-4 mt-6 ml-4 mr-4 mb-8">
                 <div className="w-1/3 border p-4 shadow rounded-md">
-                  <div className="w-full h-60 mb-1 border text-left">Evenness</div>
-                  <div>
-                    <DenBar densityId={summaryId} speciesName="Evenness" name={stationName} year={year} surface={surfaceEvenness} zone={euphoticzoneEvenness} />
-                  </div>
-                </div>
-                <div className="w-1/3 border p-4 shadow rounded-md">
-                  <div className="w-full h-60 mb-1 border text-left">Diversity</div>
+                  <div className="w-full h-60 mb-1 border text-left">Shannon Index</div>
                   <div>
                     <DenBar densityId={summaryId} speciesName="Diversity" name={stationName} year={year} surface={surfaceShannon} zone={euphoticzoneShannon} />
                   </div>
                 </div>
                 <div className="w-1/3 border p-4 shadow rounded-md">
-                  <div className="w-full h-60 mb-1 border text-left">Number</div>
+                  <div className="w-full h-60 mb-1 border text-left">Evenness Index</div>
+                  <div>
+                    <DenBar densityId={summaryId} speciesName="Evenness" name={stationName} year={year} surface={surfaceEvenness} zone={euphoticzoneEvenness} />
+                  </div>
+                </div>
+                <div className="w-1/3 border p-4 shadow rounded-md">
+                  <div className="w-full h-60 mb-1 border text-left">Number Of Species</div>
                   <div>
                     <DenBar densityId={summaryId} speciesName="Number Of Species" name={stationName} year={year} surface={surfaceNumber} zone={euphoticzoneNumber} />
                   </div>

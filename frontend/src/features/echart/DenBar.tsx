@@ -246,6 +246,14 @@ export const DenBar = ({densityId, speciesName,name,year,surface,zone}:any) => {
           saveAsImage: {}
         }
       },
+      // dataZoom: [
+      //   {
+      //     type: "slider"
+      //   },
+      //   {
+      //     type: "inside"
+      //   }
+      // ],
       xAxis: {
         type: "category",
         data: [year]
@@ -258,13 +266,25 @@ export const DenBar = ({densityId, speciesName,name,year,surface,zone}:any) => {
           name: "Surface",
           type: "bar",
           data: [surface],
-          animationDuration: 5000
+          animationDuration: 250,
+          label: {
+            normal: {
+                show: true,
+                position: 'top'
+              }
+          }
         },
         {
           name: "Euphotic Zone",
           type: "bar",
           data: [zone],
-          animationDuration: 5000
+          animationDuration: 250,
+          label: {
+            normal: {
+                show: true,
+                position: 'top'
+              }
+          }
         }
         
       ]
@@ -459,7 +479,7 @@ export const DenBar = ({densityId, speciesName,name,year,surface,zone}:any) => {
       
         <BarDensity/>
         
-        <Table dataSource={dataSource} columns={columns} />
+        {/* <Table dataSource={dataSource} columns={columns} /> */}
         {/* <Table dataSource={dataSource} columns={columns} />; */}
       </div>
     )
