@@ -144,7 +144,7 @@ else if(type === "number"){
       },
       yAxis: {
         type: "value",
-        name: "Y"
+        //name: "Y"
       },
       dataZoom: [
         {

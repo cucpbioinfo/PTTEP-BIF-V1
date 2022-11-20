@@ -118,6 +118,7 @@ const index = () => {
             <SummaryFilter/>
           </div> */}
           <div className="flex w-full h-24 border p-4 shadow rounded-md items-center">
+            <SummaryFilterGroup/>
             <SummaryFilterAsset/>
             <SummaryFilterPlatform/>
             <SummaryFilterStation/>
@@ -140,7 +141,7 @@ const index = () => {
       
           <div className="w-full h-60 mb-1 border text-left">
             <div className="md:w-full w-full">
-              <SummaryFilterGroup/>
+              
               {/* <Select
                 placeholder="Group"
                 onChange={(value: string | undefined) => {
@@ -189,4 +190,5 @@ const index = () => {
   )
 }
 
-export default PrivateRoute(index)
+//export default PrivateRoute(index)//Bypass
+export default index

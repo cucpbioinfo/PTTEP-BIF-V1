@@ -1,6 +1,7 @@
-import { Divider, Empty } from 'antd'
+import { Divider, Empty,Button } from 'antd'
 import { listSum } from 'api/species/listSum'
 import { DenBar } from 'features/echart/DenBar'
+import { SumBar } from 'features/echart/SumBar'
 import { SummaryFilter } from 'components/new/SummaryFilter'
 import { useRouter } from 'next/router'
 import React, { useEffect, useState } from 'react'
@@ -52,27 +53,34 @@ export const SummaryBarFilter = (specId) => {
               <div>platformName: {platformName}</div>
               <div>stationName: {stationName}</div> */}
               
-                <div className="flex">
-                  <div className="w-1/2 ">{stationName}</div>
-                  <div className="w-1/2 text-right"><a href="/summary">view all</a></div>
-                </div>
+                
+                  
                 <div className="flex space-x-4 mt-6 ml-4 mr-4 mb-8">
+                  <div className="flex w-full border p-4 shadow rounded-md">
+                    <div className="">{stationName}</div>
+                    <div className="mr-4"><Button type="primary" href="/summary" >View All</Button></div>
+                  </div>
+                </div>
+
+
+                <div className="flex space-x-4 mt-6 ml-4 mr-4 mb-8">
+                  
                   <div className="w-1/3 border p-4 shadow rounded-md">
                     <div className="w-full h-60 mb-1 border text-left">Shannon-Weiner Species Diversity Index</div>
                     <div>
-                      <DenBar densityId={summaryId} speciesName="Diversity" name={stationName} year={year} surface={surfaceShannon} zone={euphoticzoneShannon} />
+                      <SumBar densityId={summaryId} speciesName="Diversity" name={stationName} year={year} surface={surfaceShannon} zone={euphoticzoneShannon} />
                     </div>
                   </div>
                   <div className="w-1/3 border p-4 shadow rounded-md">
                     <div className="w-full h-60 mb-1 border text-left">Evenness Index</div>
                     <div>
-                      <DenBar densityId={summaryId} speciesName="Evenness" name={stationName} year={year} surface={surfaceEvenness} zone={euphoticzoneEvenness} />
+                      <SumBar densityId={summaryId} speciesName="Evenness" name={stationName} year={year} surface={surfaceEvenness} zone={euphoticzoneEvenness} />
                     </div>
                   </div>
                   <div className="w-1/3 border p-4 shadow rounded-md">
                     <div className="w-full h-60 mb-1 border text-left">Number Of Species</div>
                     <div>
-                      <DenBar densityId={summaryId} speciesName="Number Of Species" name={stationName} year={year} surface={surfaceNumber} zone={euphoticzoneNumber} />
+                      <SumBar densityId={summaryId} speciesName="No." name={stationName} year={year} surface={surfaceNumber} zone={euphoticzoneNumber} />
                     </div>
                   </div>
 

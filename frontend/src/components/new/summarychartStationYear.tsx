@@ -1,4 +1,4 @@
-import { Select } from 'antd'
+import { Select,Button,Tabs } from 'antd'
 //to fetch data and make it to array
 import { useRouter } from 'next/router'
 import React, { useCallback,useEffect, useState } from 'react'
@@ -18,6 +18,7 @@ const { Option } = Select
 export const SummaryChartStationYear = () => {
   const router = useRouter()
   const { locale } = router
+  const { TabPane } = Tabs
   //yearfilter
   const [yearfiter, setYearFilter] = useState([])
   //summary array
@@ -233,15 +234,15 @@ export const SummaryChartStationYear = () => {
               {'Filters'}
             </header>
             
-            <ul>
+            <ul className="flex m-2">
               {categories.map(category => (
-                <li key={category}>
+                <li className=" m-2" key={category}>
                   <label>
                     <input 
                       onChange={onFilterChange}
                       type="checkbox"
                       value={category} />
-                    {category}
+                    {" "+category.toUpperCase()}
                   </label>
                 </li>
               ))}
@@ -310,15 +311,23 @@ export const SummaryChartStationYear = () => {
         
         return (
           <main>
-            <DropdownFilter/>
+            {/* <DropdownFilter/> */}
             <ProductFilters 
               categories={Yearfilter}
               onFilterChange={handleFilterChange}/>
-            <a href="/filterdata">reset</a>
+            <Button type="primary" href="/summary">Clear</Button>
             {/* <ProductsList products={state.products} /> */}
-            <SummaryBarStationYear type={"diversity"} dataimport={state.products}/>
-            <SummaryBarStationYear type={"evenness"} dataimport={state.products}/>
-            <SummaryBarStationYear type={"number"} dataimport={state.products}/>
+            <Tabs defaultActiveKey="1">
+              <TabPane tab="Shannon-Weiner Species Diversity Index" key="1">
+                <SummaryBarStationYear type={"diversity"} dataimport={state.products}/>
+              </TabPane>
+              <TabPane tab="Evenness Index" key="2">
+                <SummaryBarStationYear type={"evenness"} dataimport={state.products}/>
+              </TabPane>
+              <TabPane tab="Number of Species" key="3">
+                <SummaryBarStationYear type={"number"} dataimport={state.products}/>
+              </TabPane>
+            </Tabs>
           </main>
         )
       }

@@ -33,7 +33,7 @@ export const SummaryFilterGroup = () => {
       <div className="text-sm">
         Major Group
       </div>
-      <div className="md:w-auto w-auto">
+      <div className="md:w-1/6 w-full">
         <Select
           placeholder="Major Group"
           onChange={(value: string | undefined) => {

@@ -126,7 +126,7 @@ import { Button , Checkbox , Select ,Table } from 'antd';
       },
       yAxis: {
         type: "value",
-        name: "Y"
+        //name: "Y"
       },
       dataZoom: [
         {

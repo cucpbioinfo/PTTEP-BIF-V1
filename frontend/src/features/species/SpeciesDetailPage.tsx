@@ -18,6 +18,11 @@ import { DensityBar } from 'features/echart/barDensity'
 import { AssetDensityBarFilter } from 'components/new/AssetFilter'
 import { PlatformDensityBarFilter } from 'components/new/PlatformFilter'
 import { DensityBarFilter } from 'components/new/Filter'
+import { SummaryFilterAsset } from 'components/new/SummaryFilter-asset'
+import { SummaryFilterPlatform } from 'components/new/SummaryFilter-platform' 
+import { SummaryFilterStation } from 'components/new/SummaryFilter-station'
+import { SummaryFilterYear } from 'components/new/SummaryFilter-year' 
+import { SummaryFilterGroup } from 'components/new/SummaryFilter-group'
 //import { AssetDensityBar } from 'features/echart/barAssetDensity'
 
 const { Panel } = Collapse
@@ -57,7 +62,6 @@ export const SpeciesDetailPage = ({ speciesId }) => {
   return (
     <PageLayout>
       <div className="text-2xl font-bold">
-        {/* <i>{species && species?.speciesName}</i> */}
         <i>{SpeciesSpliceFirst(species?.speciesName)}</i> {SpeciesSpliceSpecial(species?.speciesName)}
       </div>
       <div className="block md:grid md:grid-cols-2 mt-2 md:mt-4 md:gap-16">
@@ -73,30 +77,25 @@ export const SpeciesDetailPage = ({ speciesId }) => {
             </TabPane>
             <TabPane tab="Metrics" key="2">
               <Tabs defaultActiveKey="3">
-                <TabPane tab="Asset" key="1" >
+                {/* <TabPane tab="Asset" key="1" >
                   <AssetDensityBarFilter />
                 </TabPane>
                 <TabPane tab="Platform" key="2">
                   <PlatformDensityBarFilter/>
-                </TabPane>
+                </TabPane> */}
                 <TabPane tab="Station" key="3">
+                  <SummaryFilterAsset/>
+                  <SummaryFilterPlatform/>
+                  <SummaryFilterStation/>
+                  <SummaryFilterGroup/>
+                  <SummaryFilterYear/>
                   <DensityBarFilter />
-                  {/* <DensityBar SpeciesId={species?.speciesId}/> */}
                 </TabPane>
 
               </Tabs>
               
-              
-              {/* <DensityBar SpeciesId={species?.speciesId}/>
-              
-              <Pie SpeciesName={species?.speciesName}/>
-              <Bar2 SpeciesName={species?.speciesName}/> */}
-              
             </TabPane>
-            {/* 26 new eDNA tab */}
-            {/* <TabPane tab="eDNA" key="3">
-              similarlity index
-            </TabPane> */}
+
           </Tabs>
         </div>
       </div>

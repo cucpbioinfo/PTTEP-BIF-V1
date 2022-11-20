@@ -1,4 +1,4 @@
-import { Select } from 'antd'
+import { Select,Button } from 'antd'
 //to fetch data and make it to array
 import { useRouter } from 'next/router'
 import React, { useCallback,useEffect, useState } from 'react'
@@ -257,15 +257,15 @@ export const DensityStationYear = () => {
               {'Filters'}
             </header>
             
-            <ul>
+            <ul className="flex m-2">
               {categories.map(category => (
-                <li key={category}>
+                <li className=" m-2" key={category}>
                   <label>
                     <input 
                       onChange={onFilterChange}
                       type="checkbox"
                       value={category} />
-                    {category.toUpperCase()}
+                    {" "+category.toUpperCase()}
                   </label>
                 </li>
               ))}
@@ -334,11 +334,11 @@ export const DensityStationYear = () => {
         
         return (
           <main>
-            <DropdownFilter/>
+            {/* <DropdownFilter/> */}
             <ProductFilters 
               categories={Yearfilter}
               onFilterChange={handleFilterChange}/>
-            <a href="/filterdata">reset</a>
+            <Button type="primary" href="/density">Clear</Button>
             {/* <ProductsList products={state.products} /> */}
             <DensityBar dataimport={DensityList}/>
           </main>
