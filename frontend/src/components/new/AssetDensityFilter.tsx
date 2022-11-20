@@ -147,7 +147,7 @@ export const AssetDensityFilter = () => {
               value={asset?.assetId}
               key={asset?.assetId}
             >
-              {asset?.assetName}
+              {asset?.assetName.toUpperCase()}
             </Option>
           ))}
         </Select>

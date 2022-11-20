@@ -39,6 +39,7 @@ export const DensityBarFilter = (specId) => {
       <DensityFilter/>
       
       <Divider />
+      <a href="/density?speciesId=e1dced3d-653b-4f83-9ae8-b341c4d85523">View all</a>
 
       <div>{den.length === 0 && <Empty />}</div>
       <div>

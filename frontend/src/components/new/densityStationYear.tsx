@@ -6,22 +6,24 @@ import React, { useCallback,useEffect, useState } from 'react'
 //import { SummaryFilter } from 'components/new/SummaryFilter'
 //fetch year from db to have it as filter
 import { listYearSummary } from 'api/summary/listYearSummary'
-import { listAllSummary } from 'api/summary/listAllSummary'
+//import { listAllSummary } from 'api/summary/listAllSummary'
+
+import { listAllDensity } from 'api/density/listAllDensity'
 //
 import { listAsset } from 'api/dashboard/listAsset'
 import { listPlatform } from 'api/dashboard/listPlatform'
 import { listStation } from 'api/dashboard/listStation'
 //
-import { SummaryBarStationYear } from 'features/echart/summarybarstationyear'
+import { DensityBar } from 'features/echart/densitybar'
 //import  {Testcheckbox} from 'features/echart/testfilter'
 const { Option } = Select
-export const SummaryChartStation = () => {
+export const DensityStationYear = () => {
   const router = useRouter()
   const { locale } = router
   //yearfilter
   const [yearfiter, setYearFilter] = useState([])
-  //summary array
-  const [summary, setSummary] = useState([])
+  //density array
+  const [density, setDensity] = useState([])
   //
   const [asset, setAsset] = useState([])
   const [platform, setPlatform] = useState([])
@@ -157,29 +159,29 @@ export const SummaryChartStation = () => {
 //   const summaryeuphoticzoneNumber = []
 //   const summaryeuphoticzoneMax = []
 //   const summaryeuphoticzoneEvenness = []
-  const SummaryList = []
-  const fetchSummary = async () => {
+  const DensityList = []
+  const fetchDensity = async () => {
     const {
-        majorGroupId,
+        speciesId,
         assetId,
         platformId,
         stationId,
         year,
       } = router.query
-      const { data } = await listAllSummary({
-        majorGroupId: majorGroupId as string,
+      const { data } = await listAllDensity({
+        speciesId: speciesId as string,
         assetId: assetId as string,
         platformId: platformId as string,
         stationId: stationId as string,
         year: year as string,
       })
-      setSummary(data)
+      setDensity(data)
     }
     useEffect(() => {
-        fetchSummary()
+        fetchDensity()
       }, [router.query])
     
-      summary.map((sum) => (
+      density.map((den) => (
         // summaryyear.push(sum.year),
         // summarymajorGroupName.push(sum.majorGroupName),
         // summaryidentificationName.push(sum.identificationName),
@@ -194,26 +196,48 @@ export const SummaryChartStation = () => {
         // summaryeuphoticzoneNumber.push(sum.euphoticzoneNumber),
         // summaryeuphoticzoneMax.push(sum.euphoticzoneMax),
         // summaryeuphoticzoneEvenness.push(sum.euphoticzoneEvenness),
-        SummaryList.push(
+        DensityList.push(
             {
-                "summaryId": sum.summaryId,
-                "year": sum.year,
-                "majorGroupName": sum.majorGroupName,
-                "identificationName": sum.identificationName,
-                "assetName": sum.assetName,
-                "platformName": sum.platformName,
-                "stationName": sum.stationName,
-                "surfaceShannon": sum.surfaceShannon,
-                "surfaceNumber": sum.surfaceNumber,
-                "surfaceMax": sum.surfaceMax,
-                "surfaceEvenness": sum.surfaceEvenness,
-                "euphoticzoneShannon": sum.euphoticzoneShannon,
-                "euphoticzoneNumber": sum.euphoticzoneNumber,
-                "euphoticzoneMax": sum.euphoticzoneMax,
-                "euphoticzoneEvenness": sum.euphoticzoneEvenness
+                "densityId": den.summaryId,
+                "year": den.year,
+                "assetName": den.assetName,
+                "platformName": den.platformName,
+                "stationId": den.stationId,
+                "stationName": den.stationName,
+                "speciesId": den.speciesId,
+                "speciesName": den.speciesName,
+                "surface": den.surface,
+                "euphotic_zone": den.euphotic_zone  
             }
         )
     ))
+
+    const Datatest = [
+      {
+        "densityId": "densityId1",
+        "year": "2020",
+        "assetName": "assetName1",
+        "platformName": "platformName1",
+        "stationId": "stationId1",
+        "stationName": "stationName1",
+        "speciesId": "speciesId1",
+        "speciesName": "speciesName",
+        "surface": "1.5",
+        "euphotic_zone": "3.5"  
+    },
+    {
+      "densityId": "densityId2",
+      "year": "2020",
+      "assetName": "assetName2",
+      "platformName": "platformName2",
+      "stationId": "stationId2",
+      "stationName": "stationName2",
+      "speciesId": "speciesId2",
+      "speciesName": "speciesName2",
+      "surface": "3.5",
+      "euphotic_zone": "1.5"  
+    }
+    ]
     // if(SummaryList.length != 0){
     //     console.log(SummaryList);
     //   }
@@ -281,14 +305,14 @@ export const SummaryChartStation = () => {
 
       function Testcheckbox() {
         const [state, setState] = useState({
-          products: SummaryList,
+          products: DensityList,
           filters: new Set(),
         })
         
         const handleFilterChange = useCallback(event => {
           setState(previousState => {
             let filters = new Set(previousState.filters)
-            let products = SummaryList
+            let products = DensityList
             if (event.target.checked) {
               filters.add(event.target.value)
 
@@ -298,7 +322,7 @@ export const SummaryChartStation = () => {
             
             if (filters.size) {
               products = products.filter(product => {
-                return filters.has(product.stationName)
+                return filters.has(product.year)
               })
             }
             return {
@@ -312,13 +336,11 @@ export const SummaryChartStation = () => {
           <main>
             <DropdownFilter/>
             <ProductFilters 
-              categories={Stationfilter}
+              categories={Yearfilter}
               onFilterChange={handleFilterChange}/>
             <a href="/filterdata">reset</a>
             {/* <ProductsList products={state.products} /> */}
-            <SummaryBarStationYear type={"diversity"} dataimport={state.products}/>
-            <SummaryBarStationYear type={"evenness"} dataimport={state.products}/>
-            <SummaryBarStationYear type={"number"} dataimport={state.products}/>
+            <DensityBar dataimport={DensityList}/>
           </main>
         )
       }

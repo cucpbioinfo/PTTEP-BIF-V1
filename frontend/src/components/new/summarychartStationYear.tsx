@@ -15,7 +15,7 @@ import { listStation } from 'api/dashboard/listStation'
 import { SummaryBarStationYear } from 'features/echart/summarybarstationyear'
 //import  {Testcheckbox} from 'features/echart/testfilter'
 const { Option } = Select
-export const SummaryChartStation = () => {
+export const SummaryChartStationYear = () => {
   const router = useRouter()
   const { locale } = router
   //yearfilter
@@ -241,7 +241,7 @@ export const SummaryChartStation = () => {
                       onChange={onFilterChange}
                       type="checkbox"
                       value={category} />
-                    {category.toUpperCase()}
+                    {category}
                   </label>
                 </li>
               ))}
@@ -298,7 +298,7 @@ export const SummaryChartStation = () => {
             
             if (filters.size) {
               products = products.filter(product => {
-                return filters.has(product.stationName)
+                return filters.has(product.year)
               })
             }
             return {
@@ -312,7 +312,7 @@ export const SummaryChartStation = () => {
           <main>
             <DropdownFilter/>
             <ProductFilters 
-              categories={Stationfilter}
+              categories={Yearfilter}
               onFilterChange={handleFilterChange}/>
             <a href="/filterdata">reset</a>
             {/* <ProductsList products={state.products} /> */}

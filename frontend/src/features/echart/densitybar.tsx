@@ -1,95 +1,77 @@
 import React, { useEffect, useState } from 'react'
-import { listDensity } from 'api/species/listDensity'
-import { listAsset } from 'api/dashboard/listAsset'
-import { listPlatform } from 'api/dashboard/listPlatform'
-import { listStation } from 'api/dashboard/listStation'
 import ReactEcharts from 'echarts-for-react'
-import { useRouter } from 'next/router'
 import { Button , Checkbox , Select ,Table } from 'antd';
-import type { CheckboxValueType } from 'antd/es/checkbox/Group';
 
 // export const SummaryBarStationYear = ({summaryId,name,year,surface,zone}:any) => {
-  export const SummaryBarStationYear = ({type,dataimport}:any) => {
+  export const DensityBar = ({dataimport}:any) => {
   interface IProps {}
   interface IState {}
  
   const StationNameArr = []
   const YearArr = []
-  const SurfaceDiversityArr = []
-  const ZoneDiversityArr = []
-  const SurfaceEvennessArr = []
-  const ZoneEvennessArr = []
-  const SurfaceNumberArr = []
-  const ZoneNumberArr = []
+  const SurfaceDensityArr = []
+  const ZoneDensityArr = []
+
   const XBarName = []
   var Dat1 = []
   var Dat2 = []
   var HeaderName = ""
-  const dataSourcediversity = []
-  const dataSourceevenness = []
-  const dataSourcenumber = []
+  const dataSourcedensity = []
+
   var dataSource = []
   
+  function capitalizeFirstLetter(string) {
+    return string.charAt(0).toUpperCase() + string.slice(1);
+  }
+  function SpeciesSpliceFirst(string:string) {
+    let position = string.search(/sp./i);
+    let speciesName = string.substring(0, position);
+    let upperspeciesName = speciesName.charAt(0).toUpperCase() + speciesName.slice(1);
+    return upperspeciesName;
+  }
+  function SpeciesSpliceSpecial(string:string) {
+    let position = string.search(/sp./i);
+    let SpecialText = string.slice(position);
+    //let upperSpecialText = SpecialText.charAt(0).toUpperCase() + SpecialText.slice(1);
+    return SpecialText;
+  }
+
   dataimport.map((data) => 
     (
       StationNameArr.push(data.stationName),
       YearArr.push(data.year),
-      SurfaceDiversityArr.push(data.surfaceShannon),
-      ZoneDiversityArr.push(data.euphoticzoneShannon),
-      SurfaceEvennessArr.push(data.surfaceEvenness),
-      ZoneEvennessArr.push(data.euphoticzoneEvenness),
-      SurfaceNumberArr.push(data.surfaceNumber),
-      ZoneNumberArr.push(data.euphoticzoneNumber),
-      XBarName.push(data.stationName+" "+data.year),
+      SurfaceDensityArr.push(data.surface),
+      ZoneDensityArr.push(data.euphotic_zone),
+      XBarName.push(data.speciesName+" "+data.year),
 
       
-      dataSourcediversity.push({
+      dataSourcedensity.push({
         key: data.summaryId,
-        name: data.stationName.toUpperCase(),
+        name: capitalizeFirstLetter(data.speciesName),
+        station: data.stationName.toUpperCase(),
         year: data.year,
-        surface: data.surfaceShannon,
-        euphotic_zone: data.euphoticzoneShannon
-      }),
-      dataSourceevenness.push({
-        key: data.summaryId,
-        name: data.stationName.toUpperCase(),
-        year: data.year,
-        surface: data.surfaceEvenness,
-        euphotic_zone: data.euphoticzoneEvenness
-      }),
-      dataSourcenumber.push({
-        key: data.summaryId,
-        name: data.stationName.toUpperCase(),
-        year: data.year,
-        surface: data.surfaceNumber,
-        euphotic_zone: data.euphoticzoneNumber
+        surface: data.surface,
+        euphotic_zone: data.euphotic_zone
       })
 
     )
   )
-if(type === "diversity"){
-  HeaderName = "Shannon-Weiner Species Diversity Index"
-  Dat1 = SurfaceDiversityArr;
-  Dat2 = ZoneDiversityArr;
-  dataSource = dataSourcediversity;
-}
-else if(type === "evenness"){
-  HeaderName = "Evenness Index"
-  Dat1 = SurfaceEvennessArr;
-  Dat2 = ZoneEvennessArr;
-  dataSource = dataSourceevenness;
-}
-else if(type === "number"){
-  HeaderName = "Number of Species"
-  Dat1 = SurfaceNumberArr;
-  Dat2 = ZoneNumberArr;
-  dataSource = dataSourcenumber;
-}
+
+  HeaderName = "Density"
+  Dat1 = SurfaceDensityArr;
+  Dat2 = ZoneDensityArr;
+  dataSource = dataSourcedensity;
+
   const columns = [
     {
       title: 'Name',
       dataIndex: 'name',
       key: 'name',
+    },
+    {
+      title: 'station',
+      dataIndex: 'station',
+      key: 'station',
     },
     {
       title: 'Year',

@@ -42,6 +42,31 @@ func (densityController *DensityController) ListDensity(c *fiber.Ctx) error {
 	})
 }
 
+// alldensity
+func (densityController *DensityController) ListAllDensity(c *fiber.Ctx) error {
+	query := &types.ListDensityQuery{}
+	if err := c.QueryParser(query); err != nil {
+		return &fiber.Error{
+			Code:    400,
+			Message: "Invalid query",
+		}
+	}
+	density, err := densityController.DensityService.ListAllDensity(*query)
+	if err != nil {
+		return &fiber.Error{
+			Code:    400,
+			Message: "Fail to list alldensity",
+		}
+	}
+	return c.JSON(&types.ListDensityResponse{
+		BaseResponse: types.BaseResponse{
+			Ok:      true,
+			Message: "success",
+		},
+		Data: density,
+	})
+}
+
 // Platform platform
 type PlatformDensityController struct {
 	PlatformDensityService *services.PlatformDensityService

@@ -9,7 +9,7 @@ import { Button , Checkbox , Select ,Table } from 'antd';
 import type { CheckboxValueType } from 'antd/es/checkbox/Group';
 
 // export const SummaryBarStationYear = ({summaryId,name,year,surface,zone}:any) => {
-  export const SummaryBarStationYear = ({type,dataimport}:any) => {
+  export const SummaryBarStation = ({type,dataimport}:any) => {
   interface IProps {}
   interface IState {}
  
@@ -45,21 +45,21 @@ import type { CheckboxValueType } from 'antd/es/checkbox/Group';
       
       dataSourcediversity.push({
         key: data.summaryId,
-        name: data.stationName.toUpperCase(),
+        name: data.stationName,
         year: data.year,
         surface: data.surfaceShannon,
         euphotic_zone: data.euphoticzoneShannon
       }),
       dataSourceevenness.push({
         key: data.summaryId,
-        name: data.stationName.toUpperCase(),
+        name: data.stationName,
         year: data.year,
         surface: data.surfaceEvenness,
         euphotic_zone: data.euphoticzoneEvenness
       }),
       dataSourcenumber.push({
         key: data.summaryId,
-        name: data.stationName.toUpperCase(),
+        name: data.stationName,
         year: data.year,
         surface: data.surfaceNumber,
         euphotic_zone: data.euphoticzoneNumber

@@ -23,6 +23,11 @@ export const SpeciesOverviewTab = ({
         <div className="text-xl font-semibold">Method of Collection</div>
         <div>{methodName}</div>
       </div>
+      <div className="mb-6">
+        <div className="text-xl font-semibold">accession  </div>
+        <div>number@genbank : </div>
+      </div>
+      
     </div>
   )
 }

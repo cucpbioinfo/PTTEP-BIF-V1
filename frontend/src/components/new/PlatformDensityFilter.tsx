@@ -160,7 +160,7 @@ export const PlatformDensityFilter = () => {
               value={asset?.assetId}
               key={asset?.assetId}
             >
-              {asset?.assetName}
+              {asset?.assetName.toUpperCase()}
             </Option>
           ))}
         </Select>
@@ -181,7 +181,7 @@ export const PlatformDensityFilter = () => {
               value={platform?.platformId}
               key={platform?.platformId}
             >
-              {platform?.platformName}
+              {platform?.platformName.toUpperCase()}
             </Option>
           ))}
         </Select>

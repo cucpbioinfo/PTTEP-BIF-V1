@@ -178,7 +178,7 @@ export const SummaryFilter = () => {
               value={asset?.assetId}
               key={asset?.assetId}
             >
-              {asset?.assetName}
+              {asset?.assetName.toUpperCase()}
             </Option>
           ))}
         </Select>
@@ -199,7 +199,28 @@ export const SummaryFilter = () => {
               value={platform?.platformId}
               key={platform?.platformId}
             >
-              {platform?.platformName}
+              {platform?.platformName.toUpperCase()}
+            </Option>
+          ))}
+        </Select>
+      </div>
+
+      <div className="text-sm">
+        Station
+      </div>
+      <div className="md:w-1/5 w-full">
+        <Select
+          placeholder="Station"
+          onChange={(value: string | undefined) => {
+            onFilterChange('stationId', value)
+          }}
+        >
+          {station.map((station) => (
+            <Option
+              value={station?.stationId}
+              key={station?.stationId}
+            >
+              {station?.stationName.toUpperCase()}
             </Option>
           ))}
         </Select>
@@ -220,27 +241,6 @@ export const SummaryFilter = () => {
                 {year?.year}
               </Option>
             ))}
-        </Select>
-      </div>
-
-      <div className="text-sm">
-        Station
-      </div>
-      <div className="md:w-1/5 w-full">
-        <Select
-          placeholder="Station"
-          onChange={(value: string | undefined) => {
-            onFilterChange('stationId', value)
-          }}
-        >
-          {station.map((station) => (
-            <Option
-              value={station?.stationId}
-              key={station?.stationId}
-            >
-              {station?.stationName}
-            </Option>
-          ))}
         </Select>
       </div>
 

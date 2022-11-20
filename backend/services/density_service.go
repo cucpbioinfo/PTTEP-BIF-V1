@@ -38,6 +38,30 @@ func (densityService *DensityService) ListDensity(query types.ListDensityQuery) 
 	return densityList, nil
 }
 
+// alldensity
+func (densityService *DensityService) ListAllDensity(query types.ListDensityQuery) ([]types.DensityDto, error) {
+	density, err := densityService.DensityRepository.ListAllDensity(query)
+	if err != nil {
+		return make([]types.DensityDto, 0), err
+	}
+	densityList := make([]types.DensityDto, len(density))
+	for i, density := range density {
+		densityList[i] = types.DensityDto{
+			DensityID:     density.DensityID,
+			Year:          density.Year,
+			AssetName:     density.Asset.AssetName,
+			PlatformName:  density.Platform.PlatformName,
+			StationID:     density.StationID,
+			StationName:   density.Station.StationName,
+			SpeciesID:     density.SpeciesID,
+			SpeciesName:   density.SpeciesName,
+			Surface:       density.Surface,
+			Euphotic_zone: density.Euphotic_zone,
+		}
+	}
+	return densityList, nil
+}
+
 // Platform platform
 type PlatformDensityService struct {
 	PlatformDensityRepository *repositories.PlatformDensityRepository

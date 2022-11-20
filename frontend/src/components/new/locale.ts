@@ -14,16 +14,16 @@ export const NAVBAR_MENU_LIST = [
     //     en: 'Internal Data',
     //     href: '/internal-data'
     // },
-    {
-        th: 'ทดสอบ',
-        en: 'Testfilter',
-        href: '/filterdata'
-    },
-    {
-        th: 'ทดสอบ',
-        en: 'Test',
-        href: '/test'
-    },
+    // {
+    //     th: 'ทดสอบ',
+    //     en: 'Testfilter',
+    //     href: '/filterdata'
+    // },
+    // {
+    //     th: 'ทดสอบ',
+    //     en: 'Test',
+    //     href: '/test'
+    // },
     // {
     //     th: 'แดชบอร์ด',
     //     en: 'Dashboard',

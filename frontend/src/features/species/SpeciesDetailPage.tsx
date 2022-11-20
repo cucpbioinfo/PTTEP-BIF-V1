@@ -72,7 +72,7 @@ export const SpeciesDetailPage = ({ speciesId }) => {
               <SpeciesOverviewTab speciesDetail={species}/>
             </TabPane>
             <TabPane tab="Metrics" key="2">
-              <Tabs defaultActiveKey="1">
+              <Tabs defaultActiveKey="3">
                 <TabPane tab="Asset" key="1" >
                   <AssetDensityBarFilter />
                 </TabPane>
@@ -80,7 +80,7 @@ export const SpeciesDetailPage = ({ speciesId }) => {
                   <PlatformDensityBarFilter/>
                 </TabPane>
                 <TabPane tab="Station" key="3">
-                  <DensityBarFilter/>
+                  <DensityBarFilter />
                   {/* <DensityBar SpeciesId={species?.speciesId}/> */}
                 </TabPane>
 

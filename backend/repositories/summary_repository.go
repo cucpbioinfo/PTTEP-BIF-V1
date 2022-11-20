@@ -59,6 +59,9 @@ func (summaryRepository *SummaryRepository) ListAllSummary(query types.ListSumma
 	var summary []models.Summary
 	dbQuery := summaryRepository.pg.Model(&summary)
 
+	if query.Year != "" {
+		dbQuery.Where("year = ?", query.Year)
+	}
 	if query.MajorGroupID != uuid.Nil {
 		dbQuery.Where("major_group.major_group_id = ?", query.MajorGroupID)
 	}

@@ -339,7 +339,7 @@ export const DensityBar = ({SpeciesId}:Speciesprops) => {
               value={asset?.assetId}
               key={asset?.assetId}
             >
-              {asset?.assetName}
+              {asset?.assetName.toUpperCase()}
             </Option>
           ))
           }
@@ -354,7 +354,7 @@ export const DensityBar = ({SpeciesId}:Speciesprops) => {
               value={platform?.platformId}
               key={platform?.platformId}
             >
-              {platform?.platformName}
+              {platform?.platformName.toUpperCase()}
             </Option>
           ))
           }
@@ -369,7 +369,7 @@ export const DensityBar = ({SpeciesId}:Speciesprops) => {
               value={station?.stationId}
               key={station?.stationId}
             >
-              {station?.stationName}
+              {station?.stationName.toUpperCase()}
             </Option>
           ))
           }

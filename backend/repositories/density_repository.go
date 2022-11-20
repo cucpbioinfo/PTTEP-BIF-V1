@@ -62,6 +62,44 @@ func (densityRepository *DensityRepository) ListDensity(query types.ListDensityQ
 	return density, nil
 }
 
+// alldensity
+func (densityRepository *DensityRepository) ListAllDensity(query types.ListDensityQuery) ([]models.Density, error) {
+	var density []models.Density
+	dbQuery := densityRepository.pg.Model(&density)
+
+	if query.Year != "" {
+		dbQuery.Where("year = ?", query.Year)
+		//fmt.Println(query.Year)
+	}
+	if query.AssetID != uuid.Nil {
+		dbQuery.Where("asset.asset_id = ?", query.AssetID)
+		fmt.Println(query.AssetID)
+	}
+	if query.PlatformID != uuid.Nil {
+		dbQuery.Where("platform.platform_id = ?", query.PlatformID)
+		fmt.Println(query.PlatformID)
+	}
+	if query.StationID != uuid.Nil {
+		dbQuery.Where("station.station_id = ?", query.StationID)
+		fmt.Println(query.StationID)
+	}
+	if query.SpeciesID != uuid.Nil {
+		dbQuery.Where("density.species_id = ?", query.SpeciesID)
+		fmt.Println(query.SpeciesID)
+	}
+
+	err := dbQuery.
+		Relation("Asset").
+		Relation("Platform").
+		Relation("Station").
+		Select()
+	if err != nil {
+
+		return make([]models.Density, 0), err
+	}
+	return density, nil
+}
+
 // Platform platform
 type PlatformDensityRepository struct {
 	pg *pg.DB

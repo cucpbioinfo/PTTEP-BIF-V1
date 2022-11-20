@@ -40,9 +40,9 @@ export const AssetDensityBarFilter = (specId) => {
       <div>{aden.length === 0 && <Empty />}</div>
       <div>
         {aden.length !== 0 &&
-          aden.map(({ densityId ,speciesName,assetName, year, surface ,euphotic_zone }) => (
+          aden.map(({ densityId ,speciesId,speciesName,assetName, year, surface ,euphotic_zone }) => (
             <div>
-            <DenBar densityId={densityId} speciesName={speciesName} assetName={assetName} year={year} surface={surface} zone={euphotic_zone} />
+            <DenBar densityId={densityId} speciesId={speciesId} speciesName={speciesName} assetName={assetName} year={year} surface={surface} zone={euphotic_zone} />
             </div>
           ))}
       </div>

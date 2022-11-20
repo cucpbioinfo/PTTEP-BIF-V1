@@ -4,7 +4,7 @@ import { listAsset } from 'api/dashboard/listAsset'
 import { listPlatform } from 'api/dashboard/listPlatform'
 import { listStation } from 'api/dashboard/listStation'
 import ReactEcharts from 'echarts-for-react'
-import { useRouter } from 'next/router'
+//import { useRouter } from 'next/router'
 import { Button , Checkbox , Select ,Table } from 'antd';
 import type { CheckboxValueType } from 'antd/es/checkbox/Group';
 
@@ -15,10 +15,26 @@ import type { CheckboxValueType } from 'antd/es/checkbox/Group';
 //   zone:string
 // }
 
-export const DenBar = ({densityId, speciesName,name,year,surface,zone}:any) => {
+function capitalizeFirstLetter(string) {
+  return string.charAt(0).toUpperCase() + string.slice(1);
+}
+function SpeciesSpliceFirst(string:string) {
+  let position = string.search(/sp./i);
+  let speciesName = string.substring(0, position);
+  let upperspeciesName = speciesName.charAt(0).toUpperCase() + speciesName.slice(1);
+  return upperspeciesName;
+}
+function SpeciesSpliceSpecial(string:string) {
+  let position = string.search(/sp./i);
+  let SpecialText = string.slice(position);
+  //let upperSpecialText = SpecialText.charAt(0).toUpperCase() + SpecialText.slice(1);
+  return SpecialText;
+}
+
+export const DenBar = ({densityId, speciesId, speciesName,name,year,surface,zone}:any) => {
   interface IProps {}
   interface IState {}
-  
+  //const router = useRouter()
   // var DataXStation = new Array();
   // var DataXYear = new Array();
   // var DataXSurface = new Array();
@@ -223,11 +239,23 @@ export const DenBar = ({densityId, speciesName,name,year,surface,zone}:any) => {
   // console.log("data : " + DataXYear )
   // console.log("data : " + DataXSurface )
   // console.log("data : " + DataXZone )
+  //{SpeciesSpliceFirst(speciesName)} {SpeciesSpliceSpecial(speciesName)
   class BarDensity extends React.Component<IProps, IState> {
     getOption = () => ({
       title: {
         //text: speciesName
         //subtext: DataXYear[0]
+        text: SpeciesSpliceFirst(speciesName)+" "+SpeciesSpliceSpecial(speciesName),
+        //subtext: "Sub Title",
+        // left: "center",
+        // top: "center",
+        textStyle: {
+          // fontSize: 30,
+          fontStyle: "italic"
+        },
+        // subtextStyle: {
+        //   fontSize: 20
+        // }
       },
       tooltip: {
         trigger: "axis"
@@ -476,7 +504,7 @@ export const DenBar = ({densityId, speciesName,name,year,surface,zone}:any) => {
           defaultValue={['Apple']}
           onChange={onChange} /> 
       </> */}
-      
+      {/* <a onClick={() => router.push(`/filterdata?speciesId=${speciesId}`)}>See all</a> */}
         <BarDensity/>
         
         {/* <Table dataSource={dataSource} columns={columns} /> */}

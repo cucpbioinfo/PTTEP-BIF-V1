@@ -102,6 +102,8 @@ func StartServer() {
 	densityController := controllers.NewDensityController(densityService)
 	densityAPI := app.Group("/density")
 	densityAPI.Get("/", densityController.ListDensity)
+	alldensityAPI := app.Group("/alldensity")
+	alldensityAPI.Get("/", densityController.ListAllDensity)
 
 	platformdensityRepository := repositories.NewPlatformDensityRepository(dbConnection)
 	platformdensityService := services.NewPlatformDensityService(platformdensityRepository)
