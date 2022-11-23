@@ -34,6 +34,8 @@ function SpeciesSpliceSpecial(string:string) {
 export const SumBar = ({densityId, speciesId, speciesName,name,year,surface,zone}:any) => {
   interface IProps {}
   interface IState {}
+  // console.log(surface)
+  // console.log(zone)
   //const router = useRouter()
   // var DataXStation = new Array();
   // var DataXYear = new Array();

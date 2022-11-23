@@ -35,10 +35,10 @@ export const SummaryFilterPlatform = () => {
   
   return (
     <>
-      <div className="text-sm">
+      {/* <div className="text-sm">
         Platform
-      </div>
-      <div className="md:w-1/6 w-full">
+      </div> */}
+      <div className="md:w-1/6 w-full mr-2">
         <Select
           placeholder="Platform"
           onChange={(value: string | undefined) => {

@@ -32,10 +32,10 @@ export const SummaryFilterAsset = () => {
 
   return (
     <>
-      <div className="text-sm">
+      {/* <div className="text-sm">
         Asset
-      </div>
-      <div className="md:w-1/6 w-full">
+      </div> */}
+      <div className="md:w-1/6 w-full mr-2">
         <Select
           placeholder="Asset"
           onChange={(value: string | undefined) => {

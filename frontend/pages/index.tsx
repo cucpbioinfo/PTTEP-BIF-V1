@@ -117,12 +117,10 @@ const index = () => {
           {/* <div className="flex w-full h-24 border p-4 shadow rounded-md items-center">
             <SummaryFilter/>
           </div> */}
-          <div className="flex w-full h-24 border p-4 shadow rounded-md items-center">
-            <SummaryFilterGroup/>
-            <SummaryFilterAsset/>
-            <SummaryFilterPlatform/>
-            <SummaryFilterStation/>
-            <SummaryFilterYear/>
+          <div className="flex w-full p-4 border shadow rounded-md">  
+              <SummaryFilterAsset/>
+              {/* <SummaryFilterGroup/>
+              <SummaryFilterYear/> */}
           </div>
         </div>
 
@@ -190,5 +188,5 @@ const index = () => {
   )
 }
 
-export default PrivateRoute(index)//Bypass
-//export default index
+//export default PrivateRoute(index)//Bypass
+export default index

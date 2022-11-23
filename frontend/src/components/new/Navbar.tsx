@@ -48,10 +48,29 @@ export const Navbar = () => {
     <nav className="md:px-32 py-4 w-screen bg-primary px-8">
       <div className="flex justify-between items-center align-center">
         <Link href="/">
-          <div className="md:text-5xl text-4xl text-white">
-            <img className="h-48 w-48" src="logo/PTTEP-logo.png"/>
+          <div className="flex m-1 text-white divide-x">
+            <img className="h-32 w-32" src="/logo/PTTEP-logo_Sqr.png"/>
+            <div className="m-8">
+              <div className="ml-2 md:text-3xl">Biodiversity Information Facility</div>
+              <div className="ml-2 md:text-2xl">PTTEP-BIF</div>
+            </div>
           </div>
         </Link>
+        {/* <div className="flex text-white content-end">
+          <ul></ul>
+          <ul></ul>
+          <ul className="md:flex hidden flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
+            {NAVBAR_MENU_LIST.map((item) => (
+              <li
+                className="text-lg text-white cursor-pointer hover:underline"
+                onClick={() => router.push(item.href)}
+                key={item[router.locale]}
+              >
+                {item[router.locale]}
+              </li>
+            ))}
+          </ul>
+        </div> */}
         <div className="md:flex justify-around hidden">
           {isLogin ? (
             <Dropdown overlay={logoutDropdown} trigger={['click']}>

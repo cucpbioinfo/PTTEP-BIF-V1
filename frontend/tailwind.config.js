@@ -23,6 +23,7 @@ module.exports = {
           100: '#FAFAFA',
         },
         primary: "#126e82",
+        subprimary:"#25869c",
         secondary: "#51c4d3",
         tertiary: "#d8e3e7",
         "secondary-dark":"#132c33"

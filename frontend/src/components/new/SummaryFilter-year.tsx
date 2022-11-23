@@ -29,12 +29,12 @@ export const SummaryFilterYear = () => {
 
   return (
     <>
-      <div className="text-sm">
+      {/* <div className="text-sm">
         Year
-      </div>
-      <div className="md:w-1/6 w-full">
+      </div> */}
+      <div className="md:w-1/6 w-full mr-2">
         <Select
-            placeholder="year"
+            placeholder="Year"
             onChange={(value: string | undefined) => {
               onFilterChange('year', value)
             }}

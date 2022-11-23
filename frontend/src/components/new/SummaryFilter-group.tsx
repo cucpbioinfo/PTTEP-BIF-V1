@@ -30,10 +30,10 @@ export const SummaryFilterGroup = () => {
 
   return (
     <>
-      <div className="text-sm">
+      {/* <div className="text-sm">
         Major Group
-      </div>
-      <div className="md:w-1/6 w-full">
+      </div> */}
+      <div className="md:w-1/6 w-full mr-2">
         <Select
           placeholder="Major Group"
           onChange={(value: string | undefined) => {
