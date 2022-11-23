@@ -8,7 +8,6 @@ const SpeciesDetails = () => {
   return (
     <div>
       <SpeciesDetailPage speciesId={speciesId} />
-      test
     </div>
   )
 }

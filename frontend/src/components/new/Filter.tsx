@@ -1,4 +1,4 @@
-import { Divider, Empty } from 'antd'
+import { Divider, Empty ,Button } from 'antd'
 import { listDen } from 'api/species/listDen'
 import { DenBar } from 'features/echart/DenBar'
 import { DensityFilter } from 'components/new/DensityFilter'
@@ -8,7 +8,7 @@ import React, { useEffect, useState } from 'react'
 export const DensityBarFilter = (specId) => {
   const router = useRouter()
   const [den, setDen] = useState([])
-  
+  let sid = ""
   const fetchDen = async () => {
     const {
       speciesId,
@@ -33,13 +33,19 @@ export const DensityBarFilter = (specId) => {
     fetchDen()
   }, [router.query])
 
+  den.map(({ speciesId }) => (
+    sid = speciesId
+  ))
+
   return (
     <div>
       
       {/* <DensityFilter/> */}
       
       <Divider />
-      <a href="/density?speciesId=e1dced3d-653b-4f83-9ae8-b341c4d85523">View all</a>
+      {/* <a href="/density?speciesId=e1dced3d-653b-4f83-9ae8-b341c4d85523">View all</a> */}
+
+      <Button onClick={() => router.push(`/density?speciesId=${sid}`)}>See all</Button>
 
       <div>{den.length === 0 && <Empty />}</div>
       <div>
