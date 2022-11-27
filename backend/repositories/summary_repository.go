@@ -110,13 +110,16 @@ func (platformsummaryRepository *PlatformSummaryRepository) ListPlatformSummary(
 		dbQuery.Where("year = ?", query.Year)
 	}
 	if query.MajorGroupID != uuid.Nil {
-		dbQuery.Where("major_group_id = ?", query.MajorGroupID)
+		dbQuery.Where("major_group.major_group_id = ?", query.MajorGroupID)
 	}
 	if query.IdentificationID != uuid.Nil {
-		dbQuery.Where("identification_id = ?", query.IdentificationID)
+		dbQuery.Where("identification.identification_id = ?", query.IdentificationID)
 	}
 	if query.AssetID != uuid.Nil {
-		dbQuery.Where("asset_id = ?", query.AssetID)
+		dbQuery.Where("asset.asset_id = ?", query.AssetID)
+	}
+	if query.AssetID != uuid.Nil {
+		dbQuery.Where("platform.platform_id = ?", query.PlatformID)
 	}
 
 	err := dbQuery.
@@ -124,7 +127,7 @@ func (platformsummaryRepository *PlatformSummaryRepository) ListPlatformSummary(
 		Relation("Identification").
 		Relation("Asset").
 		Relation("Platform").
-		//Limit(1).
+		Limit(1).
 		Select()
 	if err != nil {
 		return make([]models.PlatformSummary, 0), err

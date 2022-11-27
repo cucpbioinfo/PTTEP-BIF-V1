@@ -1,9 +1,9 @@
 import { eDNAAxios } from 'api/const'
 import { ListSumStationQuery } from 'types/species'
 
-export const listAllSummary = async (params: ListSumStationQuery) => {
+export const listSumStation = async (params: ListSumStationQuery) => {
   const { data } = await (
-    await eDNAAxios.get('/allsummary', {
+    await eDNAAxios.get('/summary', {
       params: { ...params },
     })
   ).data

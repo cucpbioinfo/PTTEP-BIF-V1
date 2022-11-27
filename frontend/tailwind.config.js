@@ -28,6 +28,10 @@ module.exports = {
         tertiary: "#d8e3e7",
         "secondary-dark":"#132c33"
       },
+      spacing: {
+        '96': '24rem',
+        '128': '32rem',
+      }
     },
     variants: {
       borderStyle: ['hover'],

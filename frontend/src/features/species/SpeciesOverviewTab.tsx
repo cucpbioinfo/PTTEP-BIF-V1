@@ -33,12 +33,12 @@ export const SpeciesOverviewTab = ({
         </div>
         <div>{methodName}</div>
       </div>
-      <div className="mb-6">
+      {/* <div className="mb-6">
         <div className="text-xl font-semibold">
           Accession <Tooltip placement="top" title={AccessionInfo}><InfoCircleOutlined/></Tooltip>
         </div>
         <div>number@genbank : </div>
-      </div>
+      </div> */}
       
     </div>
   )

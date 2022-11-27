@@ -49,7 +49,7 @@ export const Navbar = () => {
       <div className="flex justify-between items-center align-center">
         <Link href="/">
           <div className="flex m-1 text-white divide-x">
-            <img className="h-32 w-32" src="/logo/PTTEP-logo_Sqr.png"/>
+            <img className="h-32 w-32" src="/logo/PTTEP-logo.png"/>
             <div className="m-8">
               <div className="ml-2 md:text-3xl">Biodiversity Information Facility</div>
               <div className="ml-2 md:text-2xl">PTTEP-BIF</div>

@@ -1,7 +1,7 @@
 import { eDNAAxios } from 'api/const'
-import { ListSumQuery } from 'types/species'
+import { ListSumAssetQuery } from 'types/species'
 
-export const listSum = async (params: ListSumQuery) => {
+export const listSumAsset = async (params: ListSumAssetQuery) => {
   const { data } = await (
     await eDNAAxios.get('/assetsummary', {
       params: { ...params },

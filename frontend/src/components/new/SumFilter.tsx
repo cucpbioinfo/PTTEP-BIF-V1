@@ -1,23 +1,20 @@
-import { Divider, Empty,Button,Tooltip } from 'antd'
-import { InfoCircleOutlined } from '@ant-design/icons';
-import { listSum } from 'api/species/listSum'
-import { DenBar } from 'features/echart/DenBar'
-import { SumBar } from 'features/echart/SumBar'
-import { SummaryFilter } from 'components/new/SummaryFilter'
-import { SummaryFilterYear } from 'components/new/SummaryFilter-year' 
-import { SummaryFilterGroup } from 'components/new/SummaryFilter-group'
+import { Divider, Empty,Button,Tooltip,Tabs } from 'antd'
+import { listSumAsset } from 'api/species/listSumAsset'
+import { listSumPlatform } from 'api/species/listSumPlatform'
+import { listSumStation } from 'api/species/listSumStation'
+import { SummaryBarDashboardAsset } from 'components/new/SumBarDashboardAsset';
+import { SummaryBarDashboardPlatform } from 'components/new/SumBarDashboardPlatform';
+import { SummaryBarDashboardStation } from 'components/new/SumBarDashboardStation';
 import { useRouter } from 'next/router'
 import React, { useEffect, useState } from 'react'
 
-const DiversityInfo = <span>Definition of Shannon-Weiner Species Diversity Index.</span>;
-const EvennessInfo = <span>Definition of about Evenness Index.</span>;
-const NumberInfo = <span>Definition of about Number of Species Index.</span>;
-
-export const SummaryBarFilter = (specId) => {
+export const SummaryBarFilter = () => {
   const router = useRouter()
-  const [sum, setSum] = useState([])
-  
-  const fetchSum = async () => {
+  const [suma, setSuma] = useState([])
+  const [sump, setSump] = useState([])
+  const [sums, setSums] = useState([])
+  const { TabPane } = Tabs
+  const fetchSuma = async () => {
     const {
       majorGroupId,
       assetId,
@@ -26,7 +23,7 @@ export const SummaryBarFilter = (specId) => {
       year,
       
     } = router.query
-    const { data } = await listSum({
+    const { data } = await listSumAsset({
       majorGroupId: majorGroupId as string,
       assetId: assetId as string,
       platformId: platformId as string,
@@ -34,87 +31,81 @@ export const SummaryBarFilter = (specId) => {
       year: year as string,
       
     })
-    setSum(data)
+    setSuma(data)
+  }
+  const fetchSump = async () => {
+    const {
+      majorGroupId,
+      assetId,
+      platformId,
+      stationId,
+      year,
+      
+    } = router.query
+    const { data } = await listSumPlatform({
+      majorGroupId: majorGroupId as string,
+      assetId: assetId as string,
+      platformId: platformId as string,
+      stationId: stationId as string,
+      year: year as string,
+      
+    })
+    setSump(data)
+  }
+  const fetchSums = async () => {
+    const {
+      majorGroupId,
+      assetId,
+      platformId,
+      stationId,
+      year,
+      
+    } = router.query
+    const { data } = await listSumStation({
+      majorGroupId: majorGroupId as string,
+      assetId: assetId as string,
+      platformId: platformId as string,
+      stationId: stationId as string,
+      year: year as string,
+      
+    })
+    setSums(data)
   }
 
   useEffect(() => {
-    fetchSum()
+    fetchSuma()
+  }, [router.query])
+  useEffect(() => {
+    fetchSump()
+  }, [router.query])
+  useEffect(() => {
+    fetchSums()
   }, [router.query])
 
-  return (
-    <div>
-      
-      {/* <SummaryFilter/>
-      
-      <Divider /> */}
-
-      <div>{sum.length === 0 && <Empty />}</div>
-      <div>
-        {sum.length !== 0 &&
-          sum.map(({ summaryId,year,majorGroupName,assetName,platformName,stationName,surfaceEvenness,euphoticzoneEvenness,surfaceShannon,euphoticzoneShannon,surfaceNumber,euphoticzoneNumber}) => (
-            <div>
-              {/* <div>id: {summaryId}</div>
-              <div>year: {year}</div>
-              <div>majorGroupName: {majorGroupName}</div>
-              <div>assetName: {assetName}</div>
-              <div>platformName: {platformName}</div>
-              <div>stationName: {stationName}</div> */}
-              
-                
-                  
-                <div className="flex space-x-4 mt-6 ml-4 mr-4 mb-8">
-                  <div className="flex w-full items-center border p-4 shadow rounded-md">
-                    <div className="flex w-full items-center divide-x mr-4">
-                      <div>
-                        <div className="mr-4 ml-2">{assetName.toUpperCase()}</div>
-                      </div>
-                      <div className="flex">
-                        <div className="ml-5"><SummaryFilterGroup/></div>
-                        <div className="ml-2"><SummaryFilterYear/></div>
-                      </div>
-                    </div>
-                    <div>
-                      <div className="mr-2"><Button type="primary" href="/summary" >View All</Button></div>
-                    </div>
-                  </div>
-                </div>
-
-
-                <div className="flex space-x-4 mt-6 ml-4 mr-4 mb-8">
-                  
-                  <div className="w-1/3 border p-4 shadow rounded-md">
-                    <div className="w-full h-60 mb-1 border text-left">
-                      Shannon-Weiner Species Diversity Index <Tooltip placement="top" title={DiversityInfo}><InfoCircleOutlined/></Tooltip>
-                    </div>
-                    <div>
-                      <SumBar densityId={summaryId} speciesName="Diversity" name={stationName} year={year} surface={surfaceShannon} zone={euphoticzoneShannon} />
-                    </div>
-                  </div>
-                  <div className="w-1/3 border p-4 shadow rounded-md">
-                    <div className="w-full h-60 mb-1 border text-left">
-                      Evenness Index <Tooltip placement="top" title={EvennessInfo}><InfoCircleOutlined/></Tooltip>
-                    </div>
-                    <div>
-                      <SumBar densityId={summaryId} speciesName="Evenness" name={stationName} year={year} surface={surfaceEvenness} zone={euphoticzoneEvenness} />
-                    </div>
-                  </div>
-                  <div className="w-1/3 border p-4 shadow rounded-md">
-                    <div className="w-full h-60 mb-1 border text-left">
-                      Number Of Species <Tooltip placement="top" title={NumberInfo}><InfoCircleOutlined/></Tooltip>
-                    </div>
-                    <div>
-                      <SumBar densityId={summaryId} speciesName="No." name={stationName} year={year} surface={surfaceNumber} zone={euphoticzoneNumber} />
-                    </div>
-                  </div>
-
-                </div>
-              
-
+  const SepType = () => {
     
-            </div>
-          ))}
-      </div>
-  
-      </div>
+    return (
+      <>
+        <div className="mt-1 ml-4 mr-4 mb-8">
+          <Tabs defaultActiveKey="1">
+            <TabPane tab="Asset" key="1">
+              <SummaryBarDashboardAsset/>
+            </TabPane>
+            <TabPane tab="Platform" key="2">
+              <SummaryBarDashboardPlatform/>
+            </TabPane>
+            <TabPane tab="Station" key="3">
+              <SummaryBarDashboardStation/>
+            </TabPane>
+          </Tabs>
+        </div>
+      </>
+    )
+  }
+
+  return (
+    <>
+      <SepType/>
+    </>
   )
 }

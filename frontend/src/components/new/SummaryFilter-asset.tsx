@@ -1,4 +1,4 @@
-import { Select } from 'antd'
+import { Select, Button } from 'antd'
 import { listAsset } from 'api/dashboard/listAsset'
 import { useRouter } from 'next/router'
 import React, { useEffect, useState } from 'react'
@@ -32,9 +32,6 @@ export const SummaryFilterAsset = () => {
 
   return (
     <>
-      {/* <div className="text-sm">
-        Asset
-      </div> */}
       <div className="md:w-1/6 w-full mr-2">
         <Select
           placeholder="Asset"

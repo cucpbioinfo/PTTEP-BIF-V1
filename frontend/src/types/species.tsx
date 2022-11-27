@@ -48,7 +48,27 @@ export class ListDenQuery {
   // pageSize: number
 }
 
-export class ListSumQuery {
+export class ListSumAssetQuery {
+  majorGroupId?: string
+  assetId?: string
+  platformId?: string
+  stationId?: string
+  year?: string
+  // pageNumber: number
+  // pageSize: number
+}
+
+export class ListSumPlatformQuery {
+  majorGroupId?: string
+  assetId?: string
+  platformId?: string
+  stationId?: string
+  year?: string
+  // pageNumber: number
+  // pageSize: number
+}
+
+export class ListSumStationQuery {
   majorGroupId?: string
   assetId?: string
   platformId?: string

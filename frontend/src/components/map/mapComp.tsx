@@ -7,7 +7,7 @@ const defaultMapConfig = {
     fullscreenControl: false
   },
   mapContainerStyle: {
-    height: "40vh",
+    height: "36vh",
     width: "100%"
   }
 }; 

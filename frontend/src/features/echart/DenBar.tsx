@@ -246,6 +246,7 @@ export const DenBar = ({densityId, speciesId, speciesName,name,year,surface,zone
         //text: speciesName
         //subtext: DataXYear[0]
         text: SpeciesSpliceFirst(speciesName)+" "+SpeciesSpliceSpecial(speciesName),
+        // "<div className='flex'><div className='italic'>A</div> <div className='not-italic'>B</div></div>"
         //subtext: "Sub Title",
         // left: "center",
         // top: "center",

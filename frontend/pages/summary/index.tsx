@@ -17,15 +17,7 @@ const assetbar = () => {
   return (
     <PageLayout>
       <Tabs defaultActiveKey="1">
-        <TabPane tab="SummaryChartStationYear" key="1" >
-          <SummaryFilterGroup/>
-          <SummaryFilterAsset/>
-          <SummaryFilterPlatform/>
-          <SummaryFilterStation/>
-          {/* <SummaryFilterYear/> */}
-          <SummaryChartStationYear />
-        </TabPane>
-        <TabPane tab="SummaryChartStation" key="2">
+      <TabPane tab="SummaryChartStation" key="1">
           <SummaryFilterGroup/>
           <SummaryFilterAsset/>
           <SummaryFilterPlatform/>
@@ -33,6 +25,15 @@ const assetbar = () => {
           <SummaryFilterYear/>
           <SummaryChartStation/>
         </TabPane>
+        <TabPane tab="SummaryChartStationYear" key="2" >
+          <SummaryFilterGroup/>
+          <SummaryFilterAsset/>
+          <SummaryFilterPlatform/>
+          <SummaryFilterStation/>
+          {/* <SummaryFilterYear/> */}
+          <SummaryChartStationYear />
+        </TabPane>
+        
       </Tabs>
     </PageLayout>
   )
