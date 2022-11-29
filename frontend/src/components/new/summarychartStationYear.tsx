@@ -230,13 +230,13 @@ export const SummaryChartStationYear = () => {
           <section 
             className="filters"
             aria-labelledby="filters-header">
-            <header id="filters-header">
+            {/* <header id="filters-header">
               {'Filters'}
-            </header>
+            </header> */}
             
-            <ul className="flex m-2">
+            <ul className="w-2/3 grid grid-cols-8 gap-1 place-content-start mb-4">
               {categories.map(category => (
-                <li className=" m-2" key={category}>
+                <li className="" key={category}>
                   <label>
                     <input 
                       onChange={onFilterChange}
@@ -315,7 +315,9 @@ export const SummaryChartStationYear = () => {
             <ProductFilters 
               categories={Yearfilter}
               onFilterChange={handleFilterChange}/>
-            <Button type="primary" href="/summary">Clear</Button>
+              <div>
+                <Button type="primary" href="/summarystationyear">Clear</Button>
+              </div>
             {/* <ProductsList products={state.products} /> */}
             <Tabs defaultActiveKey="1">
               <TabPane tab="Shannon-Weiner Species Diversity Index" key="1">

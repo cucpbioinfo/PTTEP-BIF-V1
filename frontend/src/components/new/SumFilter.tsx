@@ -94,9 +94,9 @@ export const SummaryBarFilter = () => {
             <TabPane tab="Platform" key="2">
               <SummaryBarDashboardPlatform/>
             </TabPane>
-            <TabPane tab="Station" key="3">
+            {/* <TabPane tab="Station" key="3">
               <SummaryBarDashboardStation/>
-            </TabPane>
+            </TabPane> */}
           </Tabs>
         </div>
       </>

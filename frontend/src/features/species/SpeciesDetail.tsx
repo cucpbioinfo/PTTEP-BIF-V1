@@ -7,18 +7,22 @@ import { SPECIES_DETAILS_KEYS } from './locale'
 function capitalizeFirstLetter(string) {
   return string.charAt(0).toUpperCase() + string.slice(1);
 }
-function SpeciesSpliceFirst(string:string) {
-  let position = string.search(/sp./i);
-  let speciesName = string.substring(0, position);
-  let upperspeciesName = speciesName.charAt(0).toUpperCase() + speciesName.slice(1);
-  return upperspeciesName;
-}
-function SpeciesSpliceSpecial(string:string) {
-  let position = string.search(/sp./i);
-  let SpecialText = string.slice(position);
-  //let upperSpecialText = SpecialText.charAt(0).toUpperCase() + SpecialText.slice(1);
-  return SpecialText;
-}
+
+function SpeciesSplice(string:string) {
+  if(string.search(/sp./i)==-1){
+    let touppercase = string.charAt(0).toUpperCase() + string.slice(1);
+    return <><i>{touppercase}</i></>;
+  }
+  else
+  {
+    let position = string.search(/sp./i);
+    let speciesName = string.substring(0, position);
+    let upperspeciesName = speciesName.charAt(0).toUpperCase() + speciesName.slice(1);
+    let SpecialText = string.slice(position);
+    return <><i>{upperspeciesName}</i> {SpecialText}</>;
+  }
+  }
+
 export const SpeciesDetail = ({
   speciesDetail,
 }: {
@@ -68,7 +72,7 @@ export const SpeciesDetail = ({
       <Descriptions.Item
         label={SPECIES_DETAILS_KEYS[router.locale].speciesName}
       >
-        <i>{SpeciesSpliceFirst(speciesName)}</i> {SpeciesSpliceSpecial(speciesName)}
+        {SpeciesSplice(speciesName)}
       </Descriptions.Item>
     </Descriptions>
   )

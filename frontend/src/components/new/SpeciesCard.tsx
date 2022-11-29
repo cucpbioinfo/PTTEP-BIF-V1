@@ -7,6 +7,21 @@ interface SpeciesCardProps {
   onClick?: () => void
 }
 
+function SpeciesSplice(string:string) {
+if(string.search(/sp./i)==-1){
+  let touppercase = string.charAt(0).toUpperCase() + string.slice(1);
+  return <><i>{touppercase}</i></>;
+}
+else
+{
+  let position = string.search(/sp./i);
+  let speciesName = string.substring(0, position);
+  let upperspeciesName = speciesName.charAt(0).toUpperCase() + speciesName.slice(1);
+  let SpecialText = string.slice(position);
+  return <><i>{upperspeciesName}</i> {SpecialText}</>;
+}
+}
+
 export const SpeciesCard = ({
   speciesName,
   genusName,
@@ -23,9 +38,9 @@ export const SpeciesCard = ({
         className="w-full object-cover"
       />
       <div className="mt-4">
-        <h3 className="text-xl">Species Name: {speciesName}</h3>
-        <h2 className="text-lg">Genus: {genusName}</h2>
-        <h2 className="text-lg">Family: {familyName}</h2>
+        <h3 className="text-xl">Scientific Same : {SpeciesSplice(speciesName)}</h3>
+        <h2 className="text-lg">Genus : {SpeciesSplice(genusName)}</h2>
+        <h2 className="text-lg">Family : {familyName}</h2>
       </div>
     </div>
   )

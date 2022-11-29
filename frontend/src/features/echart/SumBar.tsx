@@ -15,20 +15,19 @@ import type { CheckboxValueType } from 'antd/es/checkbox/Group';
 //   zone:string
 // }
 
-function capitalizeFirstLetter(string) {
-  return string.charAt(0).toUpperCase() + string.slice(1);
+function SpeciesSplice(string:string) {
+if(string.search(/sp./i)==-1){
+  let touppercase = string.charAt(0).toUpperCase() + string.slice(1);
+  return <><i>{touppercase}</i></>;
 }
-function SpeciesSpliceFirst(string:string) {
+else
+{
   let position = string.search(/sp./i);
   let speciesName = string.substring(0, position);
   let upperspeciesName = speciesName.charAt(0).toUpperCase() + speciesName.slice(1);
-  return upperspeciesName;
-}
-function SpeciesSpliceSpecial(string:string) {
-  let position = string.search(/sp./i);
   let SpecialText = string.slice(position);
-  //let upperSpecialText = SpecialText.charAt(0).toUpperCase() + SpecialText.slice(1);
-  return SpecialText;
+  return <><i>{upperspeciesName}</i> {SpecialText}</>;
+}
 }
 
 export const SumBar = ({densityId, speciesId, speciesName,name,year,surface,zone}:any) => {

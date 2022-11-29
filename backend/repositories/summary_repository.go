@@ -118,7 +118,7 @@ func (platformsummaryRepository *PlatformSummaryRepository) ListPlatformSummary(
 	if query.AssetID != uuid.Nil {
 		dbQuery.Where("asset.asset_id = ?", query.AssetID)
 	}
-	if query.AssetID != uuid.Nil {
+	if query.PlatformID != uuid.Nil {
 		dbQuery.Where("platform.platform_id = ?", query.PlatformID)
 	}
 

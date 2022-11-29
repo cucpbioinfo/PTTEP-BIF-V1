@@ -9,16 +9,16 @@ export const NAVBAR_MENU_LIST = [
         en: 'Classification',
         href: '/species'
     },
-    {
-        th: 'Summary Data by Station',
-        en: 'Summary Data by Station',
-        href: '/summarystation'
-    },
-    {
-        th: 'Summary Data by Year',
-        en: 'Summary Data by Year',
-        href: '/summarystationyear'
-    },
+    // {
+    //     th: 'Summary Data by Station',
+    //     en: 'Summary Data by Station',
+    //     href: '/summarystation'
+    // },
+    // {
+    //     th: 'Summary Data by Year',
+    //     en: 'Summary Data by Year',
+    //     href: '/summarystationyear'
+    // },
     // {
     //     th: 'ทดสอบ',
     //     en: 'Test',

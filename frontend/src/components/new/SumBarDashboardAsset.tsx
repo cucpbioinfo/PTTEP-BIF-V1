@@ -72,7 +72,7 @@ export const SummaryBarDashboardAsset = () => {
                   </div>
                 </div>
                 <div>
-                  <div className="mr-2"><Button type="primary" href="/summary" >View All</Button></div>
+                  <div className="mr-2"><Button type="primary" href="/summarystation" >View All</Button></div>
                 </div>
             </div>
                 <div className="flex space-x-4">
