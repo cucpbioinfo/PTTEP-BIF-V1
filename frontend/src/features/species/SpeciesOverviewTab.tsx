@@ -33,6 +33,12 @@ export const SpeciesOverviewTab = ({
         </div>
         <div>{methodName}</div>
       </div>
+      <div className="mb-6">
+        <div className="text-xl font-semibold">
+          IUCN Status <Tooltip placement="top" title={MethodInfo}><InfoCircleOutlined/></Tooltip>
+        </div>
+        <div></div>
+      </div>
       {/* <div className="mb-6">
         <div className="text-xl font-semibold">
           Accession <Tooltip placement="top" title={AccessionInfo}><InfoCircleOutlined/></Tooltip>

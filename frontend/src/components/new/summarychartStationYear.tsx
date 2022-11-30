@@ -316,7 +316,7 @@ export const SummaryChartStationYear = () => {
               categories={Yearfilter}
               onFilterChange={handleFilterChange}/>
               <div>
-                <Button type="primary" href="/summarystationyear">Clear</Button>
+                <div className="mr-2"><Button type="primary" href="/summarystationyear" >Clear</Button></div>
               </div>
             {/* <ProductsList products={state.products} /> */}
             <Tabs defaultActiveKey="1">

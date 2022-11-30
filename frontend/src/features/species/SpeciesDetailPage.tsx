@@ -69,24 +69,16 @@ export const SpeciesDetailPage = ({ speciesId }) => {
               <SpeciesOverviewTab speciesDetail={species}/>
             </TabPane>
             <TabPane tab="Metrics" key="2">
-              <Tabs defaultActiveKey="3">
-                {/* <TabPane tab="Asset" key="1" >
-                  <AssetDensityBarFilter />
-                </TabPane>
-                <TabPane tab="Platform" key="2">
-                  <PlatformDensityBarFilter/>
-                </TabPane> */}
-                <TabPane tab="Station" key="3">
-                  <SummaryFilterAsset/>
-                  <SummaryFilterPlatform/>
-                  <SummaryFilterStation/>
-                  <SummaryFilterGroup/>
-                  <SummaryFilterYear/>
-                  <DensityBarFilter />
-                </TabPane>
-
-              </Tabs>
-              
+              <div className="flex m-2">
+                <SummaryFilterAsset/>
+                <SummaryFilterPlatform/>
+                <SummaryFilterStation/>
+              </div>
+              <div className="flex m-2">
+                {/* <SummaryFilterGroup/> */}
+                <SummaryFilterYear/>
+              </div>
+              <DensityBarFilter />
             </TabPane>
 
           </Tabs>

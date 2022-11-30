@@ -248,7 +248,7 @@ export const AssetDensityBar = ({SpeciesId}:Speciesprops) => {
         trigger: "axis"
       },
       legend: {
-        data: ["Surface", "Euphotic Zone"]
+        data: ["At Surface", "At Euphotic Zone"]
       },
       grid: {
         left: "3%",

@@ -82,12 +82,12 @@ import { Button , Checkbox , Select ,Table } from 'antd';
       key: 'year',
     },
     {
-      title: 'Surface',
+      title: 'At Surface',
       dataIndex: 'surface',
       key: 'surface',
     },
     {
-      title: 'Euphotic Zone',
+      title: 'At Euphotic Zone',
       dataIndex: 'euphotic_zone',
       key: 'euphotic_zone',
     },
@@ -110,7 +110,7 @@ import { Button , Checkbox , Select ,Table } from 'antd';
         }
       },
       legend: {
-        data: ["Surface", "Euphotic Zone"]
+        data: ["At Surface", "At Euphotic Zone"]
       },
       grid: {
         left: "3%",

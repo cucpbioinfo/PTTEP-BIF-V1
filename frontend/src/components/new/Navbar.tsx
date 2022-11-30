@@ -51,8 +51,8 @@ export const Navbar = () => {
           <div className="flex m-1 text-white divide-x">
             <img className="h-32 w-32" src="/logo/PTTEP-logo.png"/>
             <div className="m-8">
-              <div className="ml-2 md:text-3xl">Biodiversity Information Facility</div>
-              <div className="ml-2 md:text-2xl">PTTEP-BIF</div>
+              <div className="ml-2 md:text-3xl">PTTEP-BIF</div>
+              <div className="ml-2 md:text-2xl">Biodiversity Information Facility</div>
             </div>
           </div>
         </Link>
@@ -86,7 +86,7 @@ export const Navbar = () => {
               {LOGIN_TEXT[router.locale]}
             </div>
           )}
-          <div className="ml-8 text-2xl text-white">
+          {/* <div className="ml-8 text-2xl text-white">
             <span
               className={classNames(
                 {
@@ -111,7 +111,7 @@ export const Navbar = () => {
             >
               TH
             </span>
-          </div>
+          </div> */}
         </div>
         <div className="md:hidden">
           <MenuOutlined

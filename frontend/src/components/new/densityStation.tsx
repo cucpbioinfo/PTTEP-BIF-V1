@@ -346,7 +346,9 @@ export const DensityStation = () => {
             <ProductFilters 
               categories={Stationfilter}
               onFilterChange={handleFilterChange}/>
-            <Button type="primary" href='/density'>Clear</Button>
+              <div>
+                <div className="mr-2"><Button type="primary" href="/density" >Clear</Button></div>
+              </div>
             {/* <ProductsList products={state.products} /> */}
             <DensityBar dataimport={state.products}/>
           </main>

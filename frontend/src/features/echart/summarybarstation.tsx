@@ -40,26 +40,26 @@ import type { CheckboxValueType } from 'antd/es/checkbox/Group';
       ZoneEvennessArr.push(data.euphoticzoneEvenness),
       SurfaceNumberArr.push(data.surfaceNumber),
       ZoneNumberArr.push(data.euphoticzoneNumber),
-      XBarName.push(data.stationName+" "+data.year),
+      XBarName.push(data.stationName.toUpperCase()),
 
       
       dataSourcediversity.push({
         key: data.summaryId,
-        name: data.stationName,
+        name: data.stationName.toUpperCase(),
         year: data.year,
         surface: data.surfaceShannon,
         euphotic_zone: data.euphoticzoneShannon
       }),
       dataSourceevenness.push({
         key: data.summaryId,
-        name: data.stationName,
+        name: data.stationName.toUpperCase(),
         year: data.year,
         surface: data.surfaceEvenness,
         euphotic_zone: data.euphoticzoneEvenness
       }),
       dataSourcenumber.push({
         key: data.summaryId,
-        name: data.stationName,
+        name: data.stationName.toUpperCase(),
         year: data.year,
         surface: data.surfaceNumber,
         euphotic_zone: data.euphoticzoneNumber
@@ -97,12 +97,12 @@ else if(type === "number"){
       key: 'year',
     },
     {
-      title: 'Surface',
+      title: 'At Surface',
       dataIndex: 'surface',
       key: 'surface',
     },
     {
-      title: 'Euphotic Zone',
+      title: 'At Euphotic Zone',
       dataIndex: 'euphotic_zone',
       key: 'euphotic_zone',
     },
@@ -125,7 +125,7 @@ else if(type === "number"){
         }
       },
       legend: {
-        data: ["Surface", "Euphotic Zone"]
+        data: ["At Surface", "At Euphotic Zone"]
       },
       grid: {
         left: "3%",
@@ -156,7 +156,7 @@ else if(type === "number"){
       ],
       series: [
         {
-          name: "Surface",
+          name: "At Surface",
           type: "bar",
           data: Dat1,
           animationDuration: 250,
@@ -168,7 +168,7 @@ else if(type === "number"){
           }
         },
         {
-          name: "Euphotic Zone",
+          name: "At Euphotic Zone",
           type: "bar",
           data: Dat2,
           animationDuration: 250,

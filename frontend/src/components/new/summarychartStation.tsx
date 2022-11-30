@@ -12,6 +12,7 @@ import { listAsset } from 'api/dashboard/listAsset'
 import { listPlatform } from 'api/dashboard/listPlatform'
 import { listStation } from 'api/dashboard/listStation'
 //
+import { SummaryBarStation } from 'features/echart/summarybarstation'
 import { SummaryBarStationYear } from 'features/echart/summarybarstationyear'
 //import  {Testcheckbox} from 'features/echart/testfilter'
 const { Option } = Select
@@ -315,11 +316,13 @@ export const SummaryChartStation = () => {
             <ProductFilters 
               categories={Stationfilter}
               onFilterChange={handleFilterChange}/>
-            <Button type="primary" href="/summarystation">Clear</Button>
+              <div>
+                <div className="mr-2"><Button type="primary" href="/summarystation" >Clear</Button></div>
+              </div>
             {/* <ProductsList products={state.products} /> */}
             <Tabs defaultActiveKey="1">
               <TabPane tab="Shannon-Weiner Species Diversity Index" key="1">
-                <SummaryBarStationYear type={"diversity"} dataimport={state.products}/>
+                <SummaryBarStation type={"diversity"} dataimport={state.products}/>
               </TabPane>
               <TabPane tab="Evenness Index" key="2">
                 <SummaryBarStationYear type={"evenness"} dataimport={state.products}/>

@@ -262,7 +262,7 @@ export const SumBar = ({densityId, speciesId, speciesName,name,year,surface,zone
         trigger: "axis"
       },
       legend: {
-        data: ["Surface", "Euphotic Zone"]
+        data: ["At Surface", "At Euphotic Zone"]
       },
       grid: {
         left: "3%",
@@ -292,7 +292,7 @@ export const SumBar = ({densityId, speciesId, speciesName,name,year,surface,zone
       },
       series: [
         {
-          name: "Surface",
+          name: "At Surface",
           type: "bar",
           data: [surface],
           animationDuration: 250,
@@ -304,7 +304,7 @@ export const SumBar = ({densityId, speciesId, speciesName,name,year,surface,zone
           }
         },
         {
-          name: "Euphotic Zone",
+          name: "At Euphotic Zone",
           type: "bar",
           data: [zone],
           animationDuration: 250,

@@ -4,7 +4,7 @@ import ReactEcharts from 'echarts-for-react'
 function SpeciesSplice(string:string) {
   if(string.search(/sp./i)==-1){
     let touppercase = string.charAt(0).toUpperCase() + string.slice(1);
-    return <><i>{touppercase}</i></>;
+    return <>{touppercase}</>;
   }
   else
   {
@@ -12,7 +12,7 @@ function SpeciesSplice(string:string) {
     let speciesName = string.substring(0, position);
     let upperspeciesName = speciesName.charAt(0).toUpperCase() + speciesName.slice(1);
     let SpecialText = string.slice(position);
-    return <><i>{upperspeciesName}</i> {SpecialText}</>;
+    return {upperspeciesName}+" "+{SpecialText};
   }
   }
 
@@ -56,7 +56,7 @@ export const DenBar = ({densityId, speciesId, speciesName,name,year,surface,zone
       title: {
         //text: speciesName
         //subtext: DataXYear[0]
-        text: SpeciesSplice(speciesName),
+        text: speciesName.charAt(0).toUpperCase() + speciesName.slice(1),
         // "<div className='flex'><div className='italic'>A</div> <div className='not-italic'>B</div></div>"
         //subtext: "Sub Title",
         // left: "center",
@@ -73,7 +73,7 @@ export const DenBar = ({densityId, speciesId, speciesName,name,year,surface,zone
         trigger: "axis"
       },
       legend: {
-        data: ["Surface", "Euphotic Zone"]
+        data: ["At Surface", "At Euphotic Zone"]
       },
       grid: {
         left: "3%",
@@ -103,7 +103,7 @@ export const DenBar = ({densityId, speciesId, speciesName,name,year,surface,zone
       },
       series: [
         {
-          name: "Surface",
+          name: "At Surface",
           type: "bar",
           data: [surface],
           animationDuration: 250,
@@ -115,7 +115,7 @@ export const DenBar = ({densityId, speciesId, speciesName,name,year,surface,zone
           }
         },
         {
-          name: "Euphotic Zone",
+          name: "At Euphotic Zone",
           type: "bar",
           data: [zone],
           animationDuration: 250,

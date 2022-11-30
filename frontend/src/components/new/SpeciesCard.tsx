@@ -21,6 +21,9 @@ else
   return <><i>{upperspeciesName}</i> {SpecialText}</>;
 }
 }
+function ToUpperSplice(string:string) {
+    let touppercase = string.charAt(0).toUpperCase() + string.slice(1);
+    return <>{touppercase}</>;}
 
 export const SpeciesCard = ({
   speciesName,
@@ -38,9 +41,9 @@ export const SpeciesCard = ({
         className="w-full object-cover"
       />
       <div className="mt-4">
-        <h3 className="text-xl">Scientific Same : {SpeciesSplice(speciesName)}</h3>
+        <h3 className="text-xl">Scientific Name : {SpeciesSplice(speciesName)}</h3>
         <h2 className="text-lg">Genus : {SpeciesSplice(genusName)}</h2>
-        <h2 className="text-lg">Family : {familyName}</h2>
+        <h2 className="text-lg">Family : {ToUpperSplice(familyName)}</h2>
       </div>
     </div>
   )

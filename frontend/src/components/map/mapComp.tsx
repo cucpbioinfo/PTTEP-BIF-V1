@@ -18,8 +18,10 @@ export default function GMap() {
       <LoadScript
         googleMapsApiKey={process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY}
       >
-        <GoogleMap {...defaultMapConfig} center={{ lat: 0, lng: 0 }} zoom={3}>
-          <Marker position={{ lat: 0, lng: 0 }} draggable={true} />
+        <GoogleMap {...defaultMapConfig} center={{ lat: 7.494726, lng: 102.612209 }} zoom={7}>
+          <Marker position={{ lat: 7.494726, lng: 102.612209 }} draggable={false} />
+          <Marker position={{ lat: 8.263407, lng: 102.519507 }} draggable={false} />
+          <Marker position={{ lat: 8.147704, lng: 102.255313 }} draggable={false} />
 
         </GoogleMap>
       </LoadScript>

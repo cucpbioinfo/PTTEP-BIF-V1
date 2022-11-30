@@ -20,13 +20,17 @@ const index = () => {
     <PageLayout>
       <div className="w-3/4 h-full m-auto">
         <div className="flex space-x-4 mt-6 ml-4 mr-4 mb-4">
-          <div className="flex w-full p-4 border shadow rounded-md">  
+          <div className="flex justify-between w-full p-4 border shadow rounded-md">  
               <SummaryFilterAsset/>
               {/* <DashboardFilter/> */}
               {/* <SummaryFilterYear/>  */}
-              <div className="mr-2">
-        <Button onClick={() => router.push(`/`)}>clear</Button>
-      </div> 
+              <div>
+                  <div className="mr-2"><Button type="primary" href="/" >Clear</Button></div>
+                </div>
+              {/* <div className="mr-2">
+                <Button onClick={() => router.push(`/`)}>clear</Button>
+              </div>  */}
+              
           </div>
         </div>
         <div className="flex space-x-4 h-full mt-6 ml-4 mr-4 mb-4">
@@ -41,8 +45,8 @@ const index = () => {
             <div className="w-full h-auto mb-1 text-left ">
               <div className="md:w-full w-full"></div> 
                 <DashboardRightPanalPlatform/>
-                <Divider/>
-                <DashboardRightPanalStation/>
+                {/* <Divider/> */}
+                {/* <DashboardRightPanalStation/> */}
             </div>
           </div>
         </div>

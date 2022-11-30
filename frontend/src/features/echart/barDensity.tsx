@@ -146,12 +146,12 @@ export const DensityBar = ({SpeciesId}:Speciesprops) => {
       key: 'year',
     },
     {
-      title: 'Surface',
+      title: 'At Surface',
       dataIndex: 'surface',
       key: 'surface',
     },
     {
-      title: 'Euphotic Zone',
+      title: 'At Euphotic Zone',
       dataIndex: 'euphotic_zone',
       key: 'euphotic_zone',
     },
@@ -226,7 +226,7 @@ export const DensityBar = ({SpeciesId}:Speciesprops) => {
         trigger: "axis"
       },
       legend: {
-        data: ["Surface", "Euphotic Zone"]
+        data: ["At Surface", "At Euphotic Zone"]
       },
       grid: {
         left: "3%",
@@ -248,13 +248,13 @@ export const DensityBar = ({SpeciesId}:Speciesprops) => {
       },
       series: [
         {
-          name: "Surface",
+          name: "At Surface",
           type: "bar",
           data: DataXSurface,
           animationDuration: 5000
         },
         {
-          name: "Euphotic Zone",
+          name: "At Euphotic Zone",
           type: "bar",
           data: DataXZone,
           animationDuration: 5000

@@ -26,7 +26,7 @@ export const DashboardRightPanalPlatform = () => {
                       {platform.map((platform) => (
                         <div className="flex">
                           <div className="w-3/4 m-auto">
-                            <a onClick={() => router.push(`/?assetId=${router.query.assetId}&platformId=${platform?.platformId}&stationId=${router.query.stationId}`)}>
+                            <a onClick={() => router.push(`/?platformId=${platform?.platformId}`)}>
                               <div className="font-bold">{platform?.platformName.toUpperCase()}</div>
                             </a>
                           </div>

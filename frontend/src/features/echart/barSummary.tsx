@@ -62,7 +62,7 @@ class BarSummary extends React.Component<IProps, IState> {
       trigger: "axis"
     },
     legend: {
-      data: ["Surface", "Euphotic Zone"]
+      data: ["At Surface", "At Euphotic Zone"]
     },
     grid: {
       left: "3%",
