@@ -246,7 +246,7 @@ export const SumBar = ({densityId, speciesId, speciesName,name,year,surface,zone
       title: {
         //text: speciesName
         //subtext: DataXYear[0]
-        text: speciesName,
+        //text: speciesName,
         //subtext: "Sub Title",
         // left: "center",
         // top: "center",
@@ -272,7 +272,7 @@ export const SumBar = ({densityId, speciesId, speciesName,name,year,surface,zone
       },
       toolbox: {
         feature: {
-          saveAsImage: {}
+          //saveAsImage: {}
         }
       },
       // dataZoom: [

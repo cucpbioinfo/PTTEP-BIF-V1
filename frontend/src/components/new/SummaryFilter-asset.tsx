@@ -32,7 +32,7 @@ export const SummaryFilterAsset = () => {
 
   return (
     <>
-      <div className="md:w-1/6 w-full mr-2">
+      <div className="md:w-1/3 w-full mr-2">
         <Select
           placeholder="Asset"
           onChange={(value: string | undefined) => {

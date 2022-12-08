@@ -3,7 +3,7 @@ import { ListDenQuery } from 'types/species'
 
 export const listDen = async (params: ListDenQuery) => {
   const { data } = await (
-    await eDNAAxios.get('/assetdensity', {
+    await eDNAAxios.get('/density', {
       params: { ...params },
     })
   ).data

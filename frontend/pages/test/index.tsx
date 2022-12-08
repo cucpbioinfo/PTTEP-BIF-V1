@@ -189,10 +189,13 @@
 
 // export default Checkbox;
 
-import { Button, Checkbox, Form } from "antd";
+import { Button, Checkbox, Form,Divider,Tooltip} from "antd";
 import * as React from "react";
 import { CheckBoxTest } from 'features/test/checktest'
 import { AntdCheckBoxTest }  from 'features/test/antdCheck'
+import { DefEvenness,DefDiversity,DefNumber,DefSam } from "components/new/DefInfo";
+import { InfoCircleOutlined } from '@ant-design/icons';
+
 
 // interface MyFormValues {
 //   permissions: {
@@ -213,7 +216,27 @@ export default function App() {
 
   return (
     <>
-    test
+    <DefDiversity/>
+    <Divider/>
+    <DefEvenness/>
+    <Divider/>
+    <DefNumber/>
+    <Divider/>
+    <b>Sampling levels</b>
+    <DefSam/>
+    <Divider/>
+    <div className="flex w-full items-center">
+      <div className="flex w-full items-center divide-x mr-4">
+        <div>
+          <div className="mr-4 ml-2"></div>
+        </div>
+      </div>
+      <div>
+        <div className="mr-2">
+          <Tooltip placement="top" title="def"><InfoCircleOutlined/></Tooltip>
+        </div>
+      </div>
+    </div>
     {/* <div className="App">
       <Form form={form} onFinish={console.log} initialValues={initialValues}>
         <Form.Item

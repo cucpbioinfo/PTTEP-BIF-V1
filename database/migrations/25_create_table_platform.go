@@ -12,6 +12,8 @@ const createTablePlatformSQL = `
 		"platform_id" UUID NOT NULL PRIMARY KEY UNIQUE DEFAULT uuid_generate_v4(),
 		"platform_name" varchar(500) UNIQUE NOT NULL,
 		"asset_id" UUID NOT NULL,
+		"latitude" float DEFAULT NULL,
+		"longitude" float DEFAULT NULL,
 		"created_at" TIMESTAMPTZ DEFAULT NOW(),
 		"updated_at" TIMESTAMPTZ DEFAULT NOW(),
 		"deleted_at" TIMESTAMPTZ DEFAULT NULL

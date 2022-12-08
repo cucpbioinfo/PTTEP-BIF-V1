@@ -13,6 +13,8 @@ const createTableStationSQL = `
 		"station_name" varchar(500) UNIQUE NOT NULL,
 		"asset_id" UUID NOT NULL,
 		"platform_id" UUID NOT NULL,
+		"latitude" float DEFAULT NULL,
+		"longitude" float DEFAULT NULL,
 		"created_at" TIMESTAMPTZ DEFAULT NOW(),
 		"updated_at" TIMESTAMPTZ DEFAULT NOW(),
 		"deleted_at" TIMESTAMPTZ DEFAULT NULL

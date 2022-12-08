@@ -33,7 +33,7 @@ const index = () => {
               
           </div>
         </div>
-        <div className="flex space-x-4 h-full mt-6 ml-4 mr-4 mb-4">
+        <div className="flex space-x-4 h-full mt-2 ml-4 mr-4 mb-4">
           <div className="flex w-2/3 border p-4 shadow rounded-md items-center">
             <div className="w-full text-left">
               <div className="h-auto w-full">

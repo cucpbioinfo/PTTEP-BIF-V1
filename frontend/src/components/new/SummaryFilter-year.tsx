@@ -32,7 +32,7 @@ export const SummaryFilterYear = () => {
       {/* <div className="text-sm">
         Year
       </div> */}
-      <div className="md:w-1/6 w-full mr-2">
+      <div className="md:w-1/4 w-full mr-2">
         <Select
             placeholder="Year"
             onChange={(value: string | undefined) => {

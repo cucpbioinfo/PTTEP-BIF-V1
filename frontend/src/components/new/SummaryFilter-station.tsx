@@ -36,7 +36,7 @@ export const SummaryFilterStation = () => {
       {/* <div className="text-sm">
         Station
       </div> */}
-      <div className="md:w-1/6 w-full mr-2">
+      <div className="md:w-1/3 w-full mr-2">
         <Select
           placeholder="Station"
           onChange={(value: string | undefined) => {

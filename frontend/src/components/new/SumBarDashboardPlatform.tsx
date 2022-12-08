@@ -67,7 +67,7 @@ export const SummaryBarDashboardPlatform = () => {
                     <div className="mr-4 ml-2">{assetName.toUpperCase()}</div>
                   </div>
                   <div>
-                    <div className="mr-4 ml-2">{platformName.toUpperCase()}</div>
+                    <div className="mr-4 ml-2"><b>{platformName.toUpperCase()}</b></div>
                   </div>
                   
                   <div className="flex">
@@ -79,32 +79,104 @@ export const SummaryBarDashboardPlatform = () => {
                   <div className="mr-2"><Button type="primary" href="/summarystation" >View All</Button></div>
                 </div>
             </div>
-
                 <div className="flex space-x-4">
-                  <div className="w-1/3 border p-4 shadow rounded-md">
-                    <div className="w-full h-60 mb-1 border text-left">
-                      Shannon-Weiner Species Diversity Index <Tooltip placement="top" title={DiversityInfo}><InfoCircleOutlined/></Tooltip>
+                  {/* ------------------------------------------------------------- */}
+                  <div className="w-1/3 border p-3 shadow rounded-md">
+                    <div className="flex w-full items-center">
+                      
+                      <div className="flex w-full items-center divide-x mr-4">
+                        <div>
+                          <div className="mr-4 ml-2"></div>
+                        </div>
+                      </div>
+                      <div>
+                        <div className="mr-2">
+                          <Tooltip placement="top" title="def"><InfoCircleOutlined/></Tooltip>
+                        </div>
+                      </div>
+
                     </div>
+
+                    <div className="w-full text-lg text-left">
+                      <b>Shannon-Weiner Species Diversity Index</b>
+                    </div>
+                    <br/>
                     <div>
                       <SumBar densityId={summaryId} speciesName="Diversity" name={stationName} year={year} surface={surfaceShannon} zone={euphoticzoneShannon} />
                     </div>
                   </div>
-                  <div className="w-1/3 border p-4 shadow rounded-md">
+                  {/* ------------------------------------------------------------- */}
+                  <div className="w-1/3 border p-3 shadow rounded-md">
+                    <div className="flex w-full items-center">
+                      
+                      <div className="flex w-full items-center divide-x mr-4">
+                        <div>
+                          <div className="mr-4 ml-2"></div>
+                        </div>
+                      </div>
+                      <div>
+                        <div className="mr-2">
+                          <Tooltip placement="top" title={EvennessInfo}><InfoCircleOutlined/></Tooltip>
+                        </div>
+                      </div>
+
+                    </div>
+
+                    <div className="w-full text-lg text-left">
+                      <b>Evenness Index</b>
+                    </div>
+                    <br/>
+                    <div>
+                      <SumBar densityId={summaryId} speciesName="Evenness" name={stationName} year={year} surface={surfaceEvenness} zone={euphoticzoneEvenness} />
+                    </div>
+                  </div>
+                  {/* ------------------------------------------------------------- */}
+                  <div className="w-1/3 border p-3 shadow rounded-md">
+                    <div className="flex w-full items-center">
+                      
+                      <div className="flex w-full items-center divide-x mr-4">
+                        <div>
+                          <div className="mr-4 ml-2"></div>
+                        </div>
+                      </div>
+                      <div>
+                        <div className="mr-2">
+                          <Tooltip placement="top" title={NumberInfo}><InfoCircleOutlined/></Tooltip>
+                        </div>
+                      </div>
+
+                    </div>
+
+                    <div className="w-full text-lg text-left">
+                      <b>Number of Species</b>
+                    </div>
+                    <br/>
+                    <div>
+                      <SumBar densityId={summaryId} speciesName="No." name={stationName} year={year} surface={surfaceNumber} zone={euphoticzoneNumber} />
+                    </div>
+                  </div>
+                  {/* ------------------------------------------------------------- */}
+                  
+
+                  {/* <div className="w-1/3 border p-4 shadow rounded-md">
                     <div className="w-full h-60 mb-1 border text-left">
                       Evenness Index <Tooltip placement="top" title={EvennessInfo}><InfoCircleOutlined/></Tooltip>
                     </div>
                     <div>
                       <SumBar densityId={summaryId} speciesName="Evenness" name={stationName} year={year} surface={surfaceEvenness} zone={euphoticzoneEvenness} />
                     </div>
-                  </div>
-                  <div className="w-1/3 border p-4 shadow rounded-md">
+                  </div> */}
+
+
+                  {/* <div className="w-1/3 border p-4 shadow rounded-md">
                     <div className="w-full h-60 mb-1 border text-left">
                       Number of Species <Tooltip placement="top" title={NumberInfo}><InfoCircleOutlined/></Tooltip>
                     </div>
                     <div>
                       <SumBar densityId={summaryId} speciesName="No." name={stationName} year={year} surface={surfaceNumber} zone={euphoticzoneNumber} />
                     </div>
-                  </div>
+                  </div> */}
+                  
                 </div>
           </div>
 

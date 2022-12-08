@@ -1,21 +1,6 @@
 import React from 'react'
 import ReactEcharts from 'echarts-for-react'
 
-function SpeciesSplice(string:string) {
-  if(string.search(/sp./i)==-1){
-    let touppercase = string.charAt(0).toUpperCase() + string.slice(1);
-    return <>{touppercase}</>;
-  }
-  else
-  {
-    let position = string.search(/sp./i);
-    let speciesName = string.substring(0, position);
-    let upperspeciesName = speciesName.charAt(0).toUpperCase() + speciesName.slice(1);
-    let SpecialText = string.slice(position);
-    return {upperspeciesName}+" "+{SpecialText};
-  }
-  }
-
 export const DenBar = ({densityId, speciesId, speciesName,name,year,surface,zone}:any) => {
   interface IProps {}
   interface IState {}
@@ -62,7 +47,7 @@ export const DenBar = ({densityId, speciesId, speciesName,name,year,surface,zone
         // left: "center",
         // top: "center",
         textStyle: {
-          // fontSize: 30,
+           fontSize: 30,
           fontStyle: "italic"
         },
         // subtextStyle: {
@@ -81,11 +66,11 @@ export const DenBar = ({densityId, speciesId, speciesName,name,year,surface,zone
         bottom: "3%",
         containLabel: true
       },
-      toolbox: {
-        feature: {
-          saveAsImage: {}
-        }
-      },
+      // toolbox: {
+      //   feature: {
+      //     saveAsImage: {}
+      //   }
+      // },
       // dataZoom: [
       //   {
       //     type: "slider"

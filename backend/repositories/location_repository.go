@@ -41,3 +41,43 @@ func (locationRepository *LocationRepository) ListLocation(query types.ListLocat
 	}
 	return location, nil
 }
+
+// Continued Here
+func (locationRepository *LocationRepository) ListLocationAsset(query types.ListLocationQuery) ([]models.Location, error) {
+	var location []models.Location
+	dbQuery := locationRepository.pg.Model(&location)
+
+	err := dbQuery.
+		Relation("Asset").
+		Select()
+	if err != nil {
+		return make([]models.Location, 0), err
+	}
+	return location, nil
+}
+
+func (locationRepository *LocationRepository) ListLocationSelect(query types.ListLocationQuery) ([]models.Location, error) {
+	var location []models.Location
+	dbQuery := locationRepository.pg.Model(&location)
+
+	if query.AssetID != uuid.Nil {
+		dbQuery.Where("location.asset_id = ?", query.AssetID)
+	}
+	if query.PlatformID != uuid.Nil {
+		dbQuery.Where("location.platform_id = ?", query.PlatformID)
+	}
+	if query.StationID != uuid.Nil {
+		dbQuery.Where("location.station_id = ?", query.StationID)
+	}
+
+	err := dbQuery.
+		Relation("Asset").
+		Relation("Platform").
+		Relation("Station").
+		Limit(1).
+		Select()
+	if err != nil {
+		return make([]models.Location, 0), err
+	}
+	return location, nil
+}

@@ -19,11 +19,11 @@ export const NAVBAR_MENU_LIST = [
     //     en: 'Summary Data by Year',
     //     href: '/summarystationyear'
     // },
-    // {
-    //     th: 'ทดสอบ',
-    //     en: 'Test',
-    //     href: '/test'
-    // },
+    {
+        th: 'ทดสอบ',
+        en: 'Test',
+        href: '/test'
+    },
     // {
     //     th: 'แดชบอร์ด',
     //     en: 'Dashboard',

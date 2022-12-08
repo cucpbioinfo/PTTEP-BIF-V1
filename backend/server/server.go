@@ -198,6 +198,13 @@ func StartServer() {
 	locationRepository := repositories.NewLocationRepository(dbConnection)
 	locationService := services.NewLocationService(locationRepository)
 	locationController := controllers.NewLocationController(locationService)
+	locationAPI := app.Group("/location")
+	locationAPI.Get("/", locationController.ListLocation)
+	//
+	locationAssetAPI := app.Group("/assetlocation")
+	locationAssetAPI.Get("/", locationController.ListLocationAsset)
+	locationPlatformAPI := app.Group("/platformlocation")
+	locationPlatformAPI.Get("/", locationController.ListLocationPlatform)
 
 	// projectRepository := repositories.NewProjectRepository(dbConnection)
 	// projectService := services.NewProjectService(projectRepository)
@@ -290,9 +297,6 @@ func StartServer() {
 
 	stationAPI := app.Group("/station")
 	stationAPI.Get("/", stationController.ListStation)
-
-	locationAPI := app.Group("/location")
-	locationAPI.Get("/", locationController.ListLocation)
 
 	evennessAPI := app.Group("/evenness")
 	evennessAPI.Get("/", evennessController.ListEvenness)
