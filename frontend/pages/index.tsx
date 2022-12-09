@@ -42,12 +42,14 @@ const index = () => {
             </div>
           </div>
           <div className="w-1/3 border p-1 shadow rounded-md items-center h-96 overflow-y-auto">
-            <div className="w-full h-auto mb-1 text-left ">
-              <div className="md:w-full w-full"></div> 
-                <DashboardRightPanalPlatform/>
+            {/* <div className="w-full h-auto mb-1 text-left ">
+              <div className="md:w-full w-full"></div>  */}
+                <div className="m-auto p-2 w-full">
+                  <DashboardRightPanalPlatform/>
+                </div>
                 {/* <Divider/> */}
                 {/* <DashboardRightPanalStation/> */}
-            </div>
+            {/* </div> */}
           </div>
         </div>
         <SummaryBarFilter/>

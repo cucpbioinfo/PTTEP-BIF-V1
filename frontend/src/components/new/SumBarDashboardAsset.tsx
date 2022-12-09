@@ -10,30 +10,7 @@ import { SummaryFilterYear } from 'components/new/SummaryFilter-year'
 import { SummaryFilterGroup } from 'components/new/SummaryFilter-group'
 import { useRouter } from 'next/router'
 import React, { useEffect, useState } from 'react'
-import { DefDiversity } from "components/new/DefInfo";
-
-const DiversityInfo = <span>The Shannon-Weiner Species Diversity Index is an index that is commonly used to characterize species diversity in a community. 
-This index accounts for both abundance and evenness of the species present. A large number of species can increase diversity. 
-Similarly, increasing the uniformity of individual distribution among species will also increase diversity. If each individual 
-belongs to a different species, the diversity index is the largest. In contrast, if there is/are dominant species (1 or more species), 
-the diversity index will be decreased.
-
-The Shannon-Weiner Species Diversity Index is calculated by taking the number of each species, the proportion each species 
-is of the total number of individuals, and sums the proportion times the natural log of the proportion for each species. 
-The formula is as follows
-
-Where H’ is the species diversity index, 
-s is the number of species
-pi is the proportion of individuals of each species belonging to the ith species of the total number of individuals.
-
-References
-https://www.marinespecies.org/introduced/wiki/Measurements_of_biodiversity#Shannon-Wiener_diversity_index
-Nolan, K.A. and J.E. Callahan. 2006. Beachcomber biology: The Shannon-Weiner Species Diversity Index. 
-Pages 334-338, in Tested Studies for Laboratory Teaching, Volume 27 
-(M.A. O'Donnell, Editor). Proceedings of the 27th Workshop/Conference of the Association for Biology Laboratory Education (ABLE), 383 pages.<a>Link</a></span>;
-
-const EvennessInfo = <span>Definition of about Evenness Index.</span>;
-const NumberInfo = <span>Definition of about Number of Species Index.</span>;
+import { Diversityinfo,Evennessinfo,Numberinfo,Surfaceinfo,Euphoticinfo } from './DefInfo'
 
 export const SummaryBarDashboardAsset = () => {
   const router = useRouter()
@@ -107,7 +84,7 @@ export const SummaryBarDashboardAsset = () => {
                       </div>
                       <div>
                         <div className="mr-2">
-                          <Tooltip placement="top" title="def"><InfoCircleOutlined/></Tooltip>
+                          <Diversityinfo/>
                         </div>
                       </div>
 
@@ -132,7 +109,7 @@ export const SummaryBarDashboardAsset = () => {
                       </div>
                       <div>
                         <div className="mr-2">
-                          <Tooltip placement="top" title={EvennessInfo}><InfoCircleOutlined/></Tooltip>
+                          <Evennessinfo/>
                         </div>
                       </div>
 
@@ -157,7 +134,7 @@ export const SummaryBarDashboardAsset = () => {
                       </div>
                       <div>
                         <div className="mr-2">
-                          <Tooltip placement="top" title={NumberInfo}><InfoCircleOutlined/></Tooltip>
+                          <Numberinfo/>
                         </div>
                       </div>
 

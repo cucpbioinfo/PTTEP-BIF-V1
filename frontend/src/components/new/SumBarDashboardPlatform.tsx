@@ -10,10 +10,7 @@ import { SummaryFilterYear } from 'components/new/SummaryFilter-year'
 import { SummaryFilterGroup } from 'components/new/SummaryFilter-group'
 import { useRouter } from 'next/router'
 import React, { useEffect, useState } from 'react'
-
-const DiversityInfo = <span>Definition of Shannon-Weiner Species Diversity Index.</span>;
-const EvennessInfo = <span>Definition of about Evenness Index.</span>;
-const NumberInfo = <span>Definition of about Number of Species Index.</span>;
+import { Diversityinfo,Evennessinfo,Numberinfo,Surfaceinfo,Euphoticinfo } from './DefInfo'
 
 export const SummaryBarDashboardPlatform = () => {
   const router = useRouter()
@@ -91,7 +88,7 @@ export const SummaryBarDashboardPlatform = () => {
                       </div>
                       <div>
                         <div className="mr-2">
-                          <Tooltip placement="top" title="def"><InfoCircleOutlined/></Tooltip>
+                          <Diversityinfo/>
                         </div>
                       </div>
 
@@ -116,7 +113,7 @@ export const SummaryBarDashboardPlatform = () => {
                       </div>
                       <div>
                         <div className="mr-2">
-                          <Tooltip placement="top" title={EvennessInfo}><InfoCircleOutlined/></Tooltip>
+                          <Evennessinfo/>
                         </div>
                       </div>
 
@@ -141,7 +138,7 @@ export const SummaryBarDashboardPlatform = () => {
                       </div>
                       <div>
                         <div className="mr-2">
-                          <Tooltip placement="top" title={NumberInfo}><InfoCircleOutlined/></Tooltip>
+                          <Numberinfo/>
                         </div>
                       </div>
 

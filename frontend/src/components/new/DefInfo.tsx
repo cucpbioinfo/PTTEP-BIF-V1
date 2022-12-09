@@ -50,6 +50,46 @@ export const Diversityinfo = () => {
     </>
   )
 }
+export const Evennessinfo = () => {
+  const DivInfo = <>
+    <p><b>Pielou’s evenness index</b> was proposed by Pielou (1966). This index refers to how close in numbers each species in an environment is.</p>
+    </>;
+  return(
+    <>
+      <Tooltip placement="top" title={DivInfo}><InfoCircleOutlined/></Tooltip>
+    </>
+  )
+}
+export const Numberinfo = () => {
+  const DivInfo = <>
+    <p><b>Numbers of species</b> is a counted number of total species found in each area/study station.<a href="">Read more...</a></p> 
+  </>;
+  return(
+    <>
+      <Tooltip placement="top" title={DivInfo}><InfoCircleOutlined/></Tooltip>
+    </>
+  )
+}
+export const Surfaceinfo = () => {
+  const DivInfo = <>
+    <p><b>1 meter below sea surface</b><a href="">Read more...</a></p> 
+  </>;
+  return(
+    <>
+      <Tooltip placement="top" title={DivInfo}><InfoCircleOutlined/></Tooltip>
+    </>
+  )
+}
+export const Euphoticinfo = () => {
+  const DivInfo = <>
+    <p><b>Euphotic depth</b> Euphotic zone depth, reflects the depth where photosynthetic available radiation (PAR) is 1% of its surface value.<a href="">Read more...</a></p> 
+  </>;
+  return(
+    <>
+      <Tooltip placement="top" title={DivInfo}><InfoCircleOutlined/></Tooltip>
+    </>
+  )
+}
 
 export const DefDiversity = () => {
   return (
