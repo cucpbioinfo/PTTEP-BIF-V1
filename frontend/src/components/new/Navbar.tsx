@@ -45,12 +45,12 @@ export const Navbar = () => {
   }
 
   return (
-    <nav className="md:px-32 py-4 w-screen bg-primary px-8">
+    <nav className="md:px-32 py-1 w-screen bg-primary px-8">
       <div className="flex justify-between items-center align-center">
         <Link href="/">
           <div className="flex m-1 text-white divide-x">
             <img className="h-32 w-32" src="/logo/PTTEP-logo.png"/>
-            <div className="m-8">
+            <div className="m-4">
               <div className="ml-2 md:text-3xl">PTTEP-BIF</div>
               <div className="ml-2 md:text-2xl">Biodiversity Information Facility</div>
             </div>

@@ -25,7 +25,7 @@ func (platformRepository *PlatformRepository) ListPlatform(query types.ListPlatf
 		dbQuery.Where("platform.asset_id = ?", query.AssetID)
 	}
 
-	err := dbQuery.Select()
+	err := dbQuery.Order("platform_name ASC").Select()
 	if err != nil {
 		return make([]models.Platform, 0), err
 	}

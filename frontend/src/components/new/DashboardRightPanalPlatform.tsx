@@ -21,7 +21,7 @@ export const DashboardRightPanalPlatform = () => {
 
   return (
     <>
-      <div className="font-bold">Platform</div>
+      <div className="font-bold">Location</div>
       <div className="w-full p-1 rounded-md">
         {platform.map((platform) => (
           <div className="flex">

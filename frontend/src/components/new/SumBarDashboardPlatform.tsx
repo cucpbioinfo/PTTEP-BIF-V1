@@ -64,10 +64,10 @@ export const SummaryBarDashboardPlatform = () => {
                 <div className="flex w-full items-center divide-x mr-4">
                   
                   <div>
-                    <div className="mr-4 ml-2">{assetName.toUpperCase()}</div>
+                    <div className="mr-4 ml-2">Asset : {assetName.toUpperCase()}</div>
                   </div>
                   <div>
-                    <div className="mr-4 ml-2"><b>{platformName.toUpperCase()}</b></div>
+                    <div className="mr-4 ml-2"><b>Location : {platformName.toUpperCase()}</b></div>
                   </div>
                   
                   <div className="flex">

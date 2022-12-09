@@ -33,7 +33,7 @@ export const LoginPage = () => {
   return (
     <div className="pt-48 bg-tertiary h-screen">
       <div className="text-center">
-        <Logo>eDNA</Logo>
+        <Logo>PTTEP-BIF</Logo>
         <div className="text-secondary-dark font-bold text-xl">
           {LOGIN_PAGE_TEXT[router.locale].login}
         </div>

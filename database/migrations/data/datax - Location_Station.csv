@@ -17,8 +17,8 @@ ART,AWP1N,AWP1N-3,8.554093,102.299769
 G2N,WP37,WP37-1,8.142877,102.260081
 G2N,WP37,WP37-2,8.144485,102.258492
 G2N,WP37,WP37-3,8.147704,102.255313
-REF_in,Ref_in,Ref_in,0,0
-Losin,Losin,Losin1,0,0
-Losin,Losin,Losin2,0,0
-Losin,Losin,Losin3,0,0
-Ref_Losin,Ref_Losin,Ref_Losin,0,0
+REF_Infield,REF_Infield,REF_Infield,0,0
+Losin Island,Losin Island,Losin Island1,0,0
+Losin Island,Losin Island,Losin Island2,0,0
+Losin Island,Losin Island,Losin Island3,0,0
+REF_Losin Island,REF_Losin Island,REF_Losin Island,0,0

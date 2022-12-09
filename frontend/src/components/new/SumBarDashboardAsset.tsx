@@ -83,7 +83,7 @@ export const SummaryBarDashboardAsset = () => {
                 <div className="flex w-full items-center divide-x mr-4">
                   
                   <div>
-                    <div className="mr-4 ml-2"><b>{assetName.toUpperCase()}</b></div>
+                    <div className="mr-4 ml-2"><b>Asset : {assetName.toUpperCase()}</b></div>
                   </div>
                   
                   <div className="flex">

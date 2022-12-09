@@ -1,5 +1,6 @@
 import React from 'react'
 import { InfoCircleOutlined } from '@ant-design/icons';
+import { Tooltip} from "antd";
 // const DiversityDefInfo = <>
 // <p><b>The Shannon-Weiner Species Diversity Index</b> is an index that is commonly used to characterize species diversity in a community. 
 // This index accounts for both abundance and evenness of the species present. A large number of species can increase diversity. 
@@ -22,30 +23,33 @@ import { InfoCircleOutlined } from '@ant-design/icons';
 // (M.A. O'Donnell, Editor). Proceedings of the 27th Workshop/Conference of the Association for Biology Laboratory Education (ABLE), 383 pages.</p>
 // </>;
 
-const EvennessDefInfo = <>
-<p><b>Pielou’s evenness index</b> was proposed by Pielou (1966). This index refers to how close in numbers each species in an environment is. The Pielou index J′ is defined as
+// const EvennessDefInfo = <>
+// <p><b>Pielou’s evenness index</b> was proposed by Pielou (1966). This index refers to how close in numbers each species in an environment is. The Pielou index J′ is defined as
 
-<img className="" src="/def/EvennessIndex.png"></img>
+// <img className="" src="/def/EvennessIndex.png"></img>
 
-Where J' is constrained between 0 and 1. 
-H’ is the Shannon species diversity index
-S is the total number of species.
-If all species are represented in equal numbers in the sample, then J′=1. If one species strongly dominates J′ is close to zero.</p>
+// Where J' is constrained between 0 and 1. 
+// H’ is the Shannon species diversity index
+// S is the total number of species.
+// If all species are represented in equal numbers in the sample, then J′=1. If one species strongly dominates J′ is close to zero.</p>
 
-<br/>
-<p><b>References</b>
-<a href="https://www.marinespecies.org/introduced/wiki/Measurements_of_biodiversity#Shannon-Wiener_diversity_index"> https://www.marinespecies.org/introduced/wiki/Measurements_of_biodiversity#Shannon-Wiener_diversity_index </a>
-<a href="https://en.wikipedia.org/wiki/Species_evenness"> https://en.wikipedia.org/wiki/Species_evenness </a>
-</p>
-</>;
-
-
-
-
-
-
-
-
+// <br/>
+// <p><b>References</b>
+// <a href="https://www.marinespecies.org/introduced/wiki/Measurements_of_biodiversity#Shannon-Wiener_diversity_index"> https://www.marinespecies.org/introduced/wiki/Measurements_of_biodiversity#Shannon-Wiener_diversity_index </a>
+// <a href="https://en.wikipedia.org/wiki/Species_evenness"> https://en.wikipedia.org/wiki/Species_evenness </a>
+// </p>
+// </>;
+export const Diversityinfo = () => {
+  const DivInfo = <>
+    <p><b>The Shannon-Weiner Species Diversity Index</b> is an index that is commonly used to characterize species diversity in a community. 
+      This index accounts for both abundance and evenness of the species present. <a href="">Read more...</a></p> 
+  </>;
+  return(
+    <>
+      <Tooltip placement="top" title={DivInfo}><InfoCircleOutlined/></Tooltip>
+    </>
+  )
+}
 
 export const DefDiversity = () => {
   return (

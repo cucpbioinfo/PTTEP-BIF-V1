@@ -20,9 +20,9 @@ export const NAVBAR_MENU_LIST = [
     //     href: '/summarystationyear'
     // },
     {
-        th: 'ทดสอบ',
-        en: 'Test',
-        href: '/test'
+        th: 'อ้างอิง',
+        en: 'References',
+        href: '/ref'
     },
     // {
     //     th: 'แดชบอร์ด',

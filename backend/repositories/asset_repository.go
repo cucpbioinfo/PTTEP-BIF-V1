@@ -19,7 +19,7 @@ func (assetRepository *AssetRepository) ListAsset() ([]models.Asset, error) {
 	var assets []models.Asset
 	dbQuery := assetRepository.pg.Model(&assets)
 
-	err := dbQuery.Select()
+	err := dbQuery.Order("asset_name ASC").Select()
 	if err != nil {
 		return make([]models.Asset, 0), err
 	}

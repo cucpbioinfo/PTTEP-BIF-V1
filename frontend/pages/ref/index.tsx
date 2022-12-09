@@ -193,7 +193,7 @@ import { Button, Checkbox, Form,Divider,Tooltip} from "antd";
 import * as React from "react";
 import { CheckBoxTest } from 'features/test/checktest'
 import { AntdCheckBoxTest }  from 'features/test/antdCheck'
-import { DefEvenness,DefDiversity,DefNumber,DefSam } from "components/new/DefInfo";
+import { DefEvenness,DefDiversity,DefNumber,DefSam,Diversityinfo } from "components/new/DefInfo";
 import { InfoCircleOutlined } from '@ant-design/icons';
 
 
@@ -237,6 +237,7 @@ export default function App() {
         </div>
       </div>
     </div>
+    <Diversityinfo/>
     {/* <div className="App">
       <Form form={form} onFinish={console.log} initialValues={initialValues}>
         <Form.Item
