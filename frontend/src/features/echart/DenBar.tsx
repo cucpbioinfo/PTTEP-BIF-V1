@@ -47,7 +47,6 @@ export const DenBar = ({densityId, speciesId, speciesName,name,year,surface,zone
         // left: "center",
         // top: "center",
         textStyle: {
-           fontSize: 30,
           fontStyle: "italic"
         },
         // subtextStyle: {

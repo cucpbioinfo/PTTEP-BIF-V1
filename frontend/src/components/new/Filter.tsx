@@ -5,7 +5,7 @@ import { DensityFilter } from 'components/new/DensityFilter'
 import { useRouter } from 'next/router'
 import React, { useEffect, useState } from 'react'
 import { InfoCircleOutlined } from '@ant-design/icons';
-import { Diversityinfo } from './DefInfo'
+import { Densityinfo } from './DefInfo'
 
 export const DensityBarFilter = () => {
   const router = useRouter()
@@ -103,10 +103,23 @@ export const DensityBarFilter = () => {
                 </div>
               </div>
             </div> */}
-
+            <div className="flex w-full items-center">
+              <div className="flex w-full items-center divide-x mr-4">
+                <div>
+                  <div className="mr-4 ml-2"></div>
+                </div>
+              </div>
+              <div>
+                <div className="mr-2">
+                  <Densityinfo/>
+                </div>
+              </div>
+            </div>
+            
             <div className="w-full text-lg text-left">
               <b>Density</b>
             </div>
+            
             {/* {console.log(SpeciesSplice(speciesName))}
             <div>{SpeciesSplice(speciesName)}</div> */}
             {/* <div>{SpeciesSplice(JSON.stringify(speciesName))}</div> */}

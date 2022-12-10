@@ -42,7 +42,13 @@ import { Tooltip} from "antd";
 export const Diversityinfo = () => {
   const DivInfo = <>
     <p><b>The Shannon-Weiner Species Diversity Index</b> is an index that is commonly used to characterize species diversity in a community. 
-      This index accounts for both abundance and evenness of the species present. <a href="">Read more...</a></p> 
+      This index accounts for both abundance and evenness of the species present.</p> 
+    <br/>
+    <p><b>Surface depth</b> 1 meter below sea surface</p>
+    <p><b>Euphotic depth</b> Euphotic zone depth, reflects the depth where photosynthetic available radiation (PAR) is 1% of its surface value.</p>
+    <br/>
+    <a href="/ref">Read more</a>
+    
   </>;
   return(
     <>
@@ -53,6 +59,28 @@ export const Diversityinfo = () => {
 export const Evennessinfo = () => {
   const DivInfo = <>
     <p><b>Pielou’s evenness index</b> was proposed by Pielou (1966). This index refers to how close in numbers each species in an environment is.</p>
+    <br/>
+    <p><b>Surface depth</b> 1 meter below sea surface</p>
+    <p><b>Euphotic depth</b> Euphotic zone depth, reflects the depth where photosynthetic available radiation (PAR) is 1% of its surface value.</p>
+    <br/>
+    <a href="/ref">Read more</a>
+    
+    </>;
+  return(
+    <>
+      <Tooltip placement="top" title={DivInfo}><InfoCircleOutlined/></Tooltip>
+    </>
+  )
+}
+export const Densityinfo = () => {
+  const DivInfo = <>
+    <p><b>Density</b> </p>
+    <br/>
+    <p><b>Surface depth</b> 1 meter below sea surface</p>
+    <p><b>Euphotic depth</b> Euphotic zone depth, reflects the depth where photosynthetic available radiation (PAR) is 1% of its surface value.</p>
+    <br/>
+    <a href="/ref">Read more</a>
+    
     </>;
   return(
     <>
@@ -62,7 +90,13 @@ export const Evennessinfo = () => {
 }
 export const Numberinfo = () => {
   const DivInfo = <>
-    <p><b>Numbers of species</b> is a counted number of total species found in each area/study station.<a href="">Read more...</a></p> 
+    <p><b>Numbers of species</b> is a counted number of total species found in each area/study station.</p> 
+    <br/>
+    <p><b>Surface depth</b> 1 meter below sea surface</p>
+    <p><b>Euphotic depth</b> Euphotic zone depth, reflects the depth where photosynthetic available radiation (PAR) is 1% of its surface value.</p>
+    <br/>
+    <a href="/ref">Read more</a>
+    
   </>;
   return(
     <>
@@ -118,6 +152,28 @@ export const DefDiversity = () => {
 }
 
 export const DefEvenness = () => {
+  return (
+    <>
+      <p><b>Pielou’s evenness index</b> was proposed by Pielou (1966). This index refers to how close in numbers each species in an environment is. The Pielou index J′ is defined as
+
+      <img className="" src="/def/EvennessIndex.png"></img>
+
+      Where J' is constrained between 0 and 1. 
+      H’ is the Shannon species diversity index
+      S is the total number of species.
+      If all species are represented in equal numbers in the sample, then J′=1. If one species strongly dominates J′ is close to zero.</p>
+
+      <br/>
+      <p><b>References</b><p/>
+      <p><a href="https://www.marinespecies.org/introduced/wiki/Measurements_of_biodiversity#Shannon-Wiener_diversity_index"> https://www.marinespecies.org/introduced/wiki/Measurements_of_biodiversity#Shannon-Wiener_diversity_index </a></p>
+      <p><a href="https://en.wikipedia.org/wiki/Species_evenness"> https://en.wikipedia.org/wiki/Species_evenness </a></p>
+      </p>
+    </>
+  )
+}
+
+//Density
+export const DefDensity = () => {
   return (
     <>
       <p><b>Pielou’s evenness index</b> was proposed by Pielou (1966). This index refers to how close in numbers each species in an environment is. The Pielou index J′ is defined as
