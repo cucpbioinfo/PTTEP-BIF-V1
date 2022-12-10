@@ -6,11 +6,13 @@ import React, { useEffect, useState } from 'react'
 const { Option } = Select
 export const SummaryFilterAsset = () => {
   const router = useRouter()
+  const {asPath} = useRouter()
   const { locale } = router
 
   const [asset, setAsset] = useState([])
   
   const onFilterChange = (key: string, value?: string) => {
+    router.query.view = "asset"
     const url = {
       pathname: router.pathname,
       query: {
@@ -18,6 +20,7 @@ export const SummaryFilterAsset = () => {
         [key]: value,
       },
     }
+    //console.log(router.query.view)
     router.push(url, url, { locale })
   }
 

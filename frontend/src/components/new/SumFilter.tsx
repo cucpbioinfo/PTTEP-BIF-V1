@@ -81,13 +81,19 @@ export const SummaryBarFilter = () => {
   useEffect(() => {
     fetchSums()
   }, [router.query])
-let DefaultSelected = "1"
+
+  function SetDefaultTabs(params:any) {
+    if(params!="platform")
+      {return "1";}
+    else
+      {return "2";}
+  }
+
   const SepType = () => {
-    
     return (
       <>
         <div className="mt-1 ml-4 mr-4 mb-8">
-          <Tabs defaultActiveKey={DefaultSelected}>
+          <Tabs defaultActiveKey={SetDefaultTabs(router.query.view)}>
             <TabPane tab="Asset" key="1">
               <SummaryBarDashboardAsset/>
             </TabPane>
