@@ -24,11 +24,11 @@ export const NAVBAR_MENU_LIST = [
         en: 'References',
         href: '/ref'
     },
-    {
-        th: 'test',
-        en: 'test',
-        href: '/test'
-    },
+    // {
+    //     th: 'test',
+    //     en: 'test',
+    //     href: '/test'
+    // },
     // {
     //     th: 'แดชบอร์ด',
     //     en: 'Dashboard',

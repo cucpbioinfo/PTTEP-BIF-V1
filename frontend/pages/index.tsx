@@ -58,5 +58,5 @@ const index = () => {
   )
 }
 
-//export default PrivateRoute(index)//Bypass
-export default index
+export default PrivateRoute(index)//Bypass
+//export default index
