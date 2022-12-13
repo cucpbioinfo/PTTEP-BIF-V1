@@ -74,7 +74,7 @@ export const Evennessinfo = () => {
 }
 export const Densityinfo = () => {
   const DivInfo = <>
-    <p><b>Density</b> </p>
+    <p><b>Density</b> the quantity of organisms per unit volume, unit area, or unit length.</p>
     <br/>
     <p><b>Surface depth</b> 1 meter below sea surface</p>
     <p><b>Euphotic depth</b> Euphotic zone depth, reflects the depth where photosynthetic available radiation (PAR) is 1% of its surface value.</p>
@@ -88,6 +88,7 @@ export const Densityinfo = () => {
     </>
   )
 }
+
 export const Numberinfo = () => {
   const DivInfo = <>
     <p><b>Numbers of species</b> is a counted number of total species found in each area/study station.</p> 
@@ -176,19 +177,19 @@ export const DefEvenness = () => {
 export const DefDensity = () => {
   return (
     <>
-      <p><b>Pielou’s evenness index</b> was proposed by Pielou (1966). This index refers to how close in numbers each species in an environment is. The Pielou index J′ is defined as
-
-      <img className="" src="/def/EvennessIndex.png"></img>
-
-      Where J' is constrained between 0 and 1. 
-      H’ is the Shannon species diversity index
-      S is the total number of species.
-      If all species are represented in equal numbers in the sample, then J′=1. If one species strongly dominates J′ is close to zero.</p>
+      <p><b>Density</b> the quantity of organisms per unit volume, unit area, or unit length.</p>
+      <br/>
+      <ul>
+        <li><b>Density of phytoplankton</b> the quantity of phytoplankton cells per liter.</li>
+        <li><b>Density of zooplankton</b> the quantity of zooplankton individuals per 100 cubic meter.</li>
+        <li><b>Density of nekton</b> the quantity of nekton individuals per 100 cubic meter.</li>
+        <li><b>Density of benthos</b> the quantity of benthos individuals per square meter.</li>
+      </ul>
+      
 
       <br/>
       <p><b>References</b><p/>
-      <p><a href="https://www.marinespecies.org/introduced/wiki/Measurements_of_biodiversity#Shannon-Wiener_diversity_index"> https://www.marinespecies.org/introduced/wiki/Measurements_of_biodiversity#Shannon-Wiener_diversity_index </a></p>
-      <p><a href="https://en.wikipedia.org/wiki/Species_evenness"> https://en.wikipedia.org/wiki/Species_evenness </a></p>
+      <p><a href="https://www.merriam-webster.com/dictionary/density"> https://www.merriam-webster.com/dictionary/density </a></p>
       </p>
     </>
   )

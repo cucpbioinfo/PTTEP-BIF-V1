@@ -3,7 +3,7 @@ import { PrivateRoute } from 'components/PrivateRoute'
 import { Divider,Button } from 'antd'
 import { useRouter } from 'next/router'
 import React from 'react'
-import { DefDiversity,DefEvenness,DefNumber,DefSam } from 'components/new/DefInfo'
+import { DefDiversity,DefEvenness,DefNumber,DefSam,DefDensity } from 'components/new/DefInfo'
 /////
 
 const index = () => {
@@ -18,6 +18,8 @@ const index = () => {
         <DefEvenness/>
         <Divider/>
         <DefNumber/>
+        <Divider/>
+        <DefDensity/>
         <Divider/>
         <DefSam/>
       </div>
