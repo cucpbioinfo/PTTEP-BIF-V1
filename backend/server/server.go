@@ -200,11 +200,16 @@ func StartServer() {
 	locationController := controllers.NewLocationController(locationService)
 	locationAPI := app.Group("/location")
 	locationAPI.Get("/", locationController.ListLocation)
+	centerlocationAPI := app.Group("/centerlocation")
+	centerlocationAPI.Get("/", locationController.ListCenterAssetLocation)
 	//
+	// locationAssetAPI := app.Group("/assetlocation")
+	// locationAssetAPI.Get("/", locationController.ListLocationAsset)
 	locationAssetAPI := app.Group("/assetlocation")
-	locationAssetAPI.Get("/", locationController.ListLocationAsset)
+	locationAssetAPI.Get("/", locationController.ListAssetLocation)
 	locationPlatformAPI := app.Group("/platformlocation")
 	locationPlatformAPI.Get("/", locationController.ListLocationPlatform)
+	//
 
 	// projectRepository := repositories.NewProjectRepository(dbConnection)
 	// projectService := services.NewProjectService(projectRepository)

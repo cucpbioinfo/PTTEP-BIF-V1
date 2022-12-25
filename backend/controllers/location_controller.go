@@ -87,3 +87,51 @@ func (locationController *LocationController) ListLocationPlatform(c *fiber.Ctx)
 		Data: location,
 	})
 }
+
+func (locationController *LocationController) ListAssetLocation(c *fiber.Ctx) error {
+	query := &types.ListLocationAssetQuery{}
+	if err := c.QueryParser(query); err != nil {
+		return &fiber.Error{
+			Code:    400,
+			Message: "Invalid query",
+		}
+	}
+	location, err := locationController.LocationService.ListAssetLocation(*query)
+	if err != nil {
+		return &fiber.Error{
+			Code:    400,
+			Message: "Fail to list asset location",
+		}
+	}
+	return c.JSON(&types.ListLocationAssetResponse{
+		BaseResponse: types.BaseResponse{
+			Ok:      true,
+			Message: "success",
+		},
+		Data: location,
+	})
+}
+
+func (locationController *LocationController) ListCenterAssetLocation(c *fiber.Ctx) error {
+	query := &types.ListLocationAssetQuery{}
+	if err := c.QueryParser(query); err != nil {
+		return &fiber.Error{
+			Code:    400,
+			Message: "Invalid query",
+		}
+	}
+	location, err := locationController.LocationService.ListCenterAssetLocation(*query)
+	if err != nil {
+		return &fiber.Error{
+			Code:    400,
+			Message: "Fail to list Center location",
+		}
+	}
+	return c.JSON(&types.ListLocationAssetResponse{
+		BaseResponse: types.BaseResponse{
+			Ok:      true,
+			Message: "success",
+		},
+		Data: location,
+	})
+}

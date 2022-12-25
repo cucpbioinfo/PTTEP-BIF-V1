@@ -81,3 +81,40 @@ func (locationRepository *LocationRepository) ListLocationSelect(query types.Lis
 	}
 	return location, nil
 }
+
+func (locationRepository *LocationRepository) ListAssetLocation(query types.ListLocationAssetQuery) ([]models.AssetLocation, error) {
+	var location []models.AssetLocation
+	dbQuery := locationRepository.pg.Model(&location)
+
+	// if query.AssetID != uuid.Nil {
+	// 	dbQuery.Where("asset_location.asset_id = ?", query.AssetID)
+	// }
+
+	err := dbQuery.
+		Relation("Asset").
+		Order("asset_name ASC").
+		Select()
+	if err != nil {
+		return make([]models.AssetLocation, 0), err
+	}
+	return location, nil
+}
+
+func (locationRepository *LocationRepository) ListCenterAssetLocation(query types.ListLocationAssetQuery) ([]models.AssetLocation, error) {
+	var location []models.AssetLocation
+	dbQuery := locationRepository.pg.Model(&location)
+
+	if query.AssetID != uuid.Nil {
+		dbQuery.Where("asset_location.asset_id = ?", query.AssetID)
+	}
+
+	err := dbQuery.
+		Relation("Asset").
+		Order("asset_name ASC").
+		Limit(1).
+		Select()
+	if err != nil {
+		return make([]models.AssetLocation, 0), err
+	}
+	return location, nil
+}

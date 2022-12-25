@@ -1794,3 +1794,69 @@ func GetUserData() ([]UserData, error) {
 	}
 	return users, nil
 }
+
+type AssetLocationData struct {
+	Asset     string `csv:"Asset"`
+	Latitude  string `csv:"Latitude"`
+	Longitude string `csv:"Longitude"`
+}
+
+func GetAssetLocationData() ([]LocationData, error) {
+	locations := []LocationData{}
+	filename := "./data/datax - Location_Asset.csv"
+
+	in, err := os.Open(filename)
+	if err != nil {
+		return locations, err
+	}
+
+	defer in.Close()
+
+	if err := gocsv.UnmarshalFile(in, &locations); err != nil {
+		return locations, err
+	}
+
+	for i, location := range locations {
+		locations[i] = LocationData{
+			Asset:     FormatData(location.Asset),
+			Latitude:  FormatData(location.Latitude),
+			Longitude: FormatData(location.Longitude),
+		}
+	}
+
+	return locations, nil
+}
+
+type PlatformLocationData struct {
+	Asset     string `csv:"Asset"`
+	Platform  string `csv:"Platform"`
+	Latitude  string `csv:"Latitude"`
+	Longitude string `csv:"Longitude"`
+}
+
+func GetPlatformLocationData() ([]LocationData, error) {
+	locations := []LocationData{}
+	filename := "./data/datax - Location_Platform.csv"
+
+	in, err := os.Open(filename)
+	if err != nil {
+		return locations, err
+	}
+
+	defer in.Close()
+
+	if err := gocsv.UnmarshalFile(in, &locations); err != nil {
+		return locations, err
+	}
+
+	for i, location := range locations {
+		locations[i] = LocationData{
+			Asset:     FormatData(location.Asset),
+			Platform:  FormatData(location.Platform),
+			Latitude:  FormatData(location.Latitude),
+			Longitude: FormatData(location.Longitude),
+		}
+	}
+
+	return locations, nil
+}

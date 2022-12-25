@@ -19,6 +19,7 @@ type LocationDto struct {
 
 type LocationAssetDto struct {
 	LocationID uuid.UUID `json:"locationId"`
+	AssetID    uuid.UUID `json:"assetId"`
 	AssetName  string    `json:"assetName"`
 	Latitude   string    `json:"latitude"`
 	Longitude  string    `json:"longitude"`
@@ -36,6 +37,10 @@ type ListLocationQuery struct {
 	AssetID    uuid.UUID `json:"assetId"`
 	PlatformID uuid.UUID `json:"platformId"`
 	StationID  uuid.UUID `json:"astationId"`
+}
+
+type ListLocationAssetQuery struct {
+	AssetID uuid.UUID `json:"assetId"`
 }
 
 type ListLocationResponse struct {

@@ -68,3 +68,39 @@ func (locationService *LocationService) ListLocationPlatform(query types.ListLoc
 	}
 	return locationList, nil
 }
+
+func (locationService *LocationService) ListAssetLocation(query types.ListLocationAssetQuery) ([]types.LocationAssetDto, error) {
+	location, err := locationService.LocationRepository.ListAssetLocation(query)
+	if err != nil {
+		return make([]types.LocationAssetDto, 0), err
+	}
+	locationList := make([]types.LocationAssetDto, len(location))
+	for i, location := range location {
+		locationList[i] = types.LocationAssetDto{
+			LocationID: location.LocationID,
+			AssetID:    location.AssetID,
+			AssetName:  location.Asset.AssetName,
+			Latitude:   location.Latitude,
+			Longitude:  location.Longitude,
+		}
+	}
+	return locationList, nil
+}
+
+func (locationService *LocationService) ListCenterAssetLocation(query types.ListLocationAssetQuery) ([]types.LocationAssetDto, error) {
+	location, err := locationService.LocationRepository.ListCenterAssetLocation(query)
+	if err != nil {
+		return make([]types.LocationAssetDto, 0), err
+	}
+	locationList := make([]types.LocationAssetDto, len(location))
+	for i, location := range location {
+		locationList[i] = types.LocationAssetDto{
+			LocationID: location.LocationID,
+			AssetID:    location.AssetID,
+			AssetName:  location.Asset.AssetName,
+			Latitude:   location.Latitude,
+			Longitude:  location.Longitude,
+		}
+	}
+	return locationList, nil
+}
