@@ -1764,3 +1764,33 @@ func GetAssetSummariesData() ([]AssetSummaryData, error) {
 
 	return SummaryList, nil
 }
+
+type UserData struct {
+	Email    string `csv:"email"`
+	Password string `csv:"password"`
+}
+
+func GetUserData() ([]UserData, error) {
+	users := []UserData{}
+	filename := "./data/datax - Username.csv"
+
+	in, err := os.Open(filename)
+	if err != nil {
+		return users, err
+	}
+
+	defer in.Close()
+
+	if err := gocsv.UnmarshalFile(in, &users); err != nil {
+		return users, err
+	}
+
+	for i, userdat := range users {
+		users[i] = UserData{
+			Email:    FormatData(userdat.Email),
+			Password: userdat.Password,
+		}
+		//fmt.Println(FormatData(userdat.Password))
+	}
+	return users, nil
+}
