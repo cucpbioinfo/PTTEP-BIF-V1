@@ -235,9 +235,10 @@ export const SummaryChartStation = () => {
               {'Filters'}
             </header> */}
             
-            <ul className="w-2/3 grid grid-cols-6 gap-1 place-content-start mb-4">
+            {/* <ul className="w-2/3 grid grid-cols-6 gap-1 place-content-start mb-4"> */}
+            <ul className="w-full grid grid-cols-6 gap-1 place-content-start mb-4">
               {categories.map(category => (
-                <li className="" key={category}>
+                <li className="text-ellipsis overflow-hidden" key={category}>
                   <label>
                     <input 
                       onChange={onFilterChange}
