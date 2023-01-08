@@ -15,6 +15,7 @@ const createTableAssetLocationSQL = `
 
 		"latitude" float NOT NULL,
 		"longitude" float NOT NULL,
+		"type" varchar(5) DEFAULT NULL,
 
 		"created_at" TIMESTAMPTZ DEFAULT NOW(),
 		"updated_at" TIMESTAMPTZ DEFAULT NOW(),
@@ -57,12 +58,13 @@ func init() {
 
 		for _, location := range Locations {
 			insertlocationSQL := fmt.Sprintf(`
-			INSERT INTO public."assetlocation"("asset_id","latitude","longitude") VALUES(
+			INSERT INTO public."assetlocation"("asset_id","latitude","longitude","type") VALUES(
 			(SELECT asset_id from public."asset" WHERE asset_name = '%s' LIMIT 1),
-			'%s','%s');`,
+			'%s','%s','%s');`,
 				location.Asset,
 				location.Latitude,
-				location.Longitude)
+				location.Longitude,
+				location.Type)
 			_, err := db.Exec(insertlocationSQL)
 			if err != nil {
 				fmt.Println(insertlocationSQL)

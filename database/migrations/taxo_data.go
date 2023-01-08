@@ -980,15 +980,22 @@ type LocationData struct {
 	Station   string `csv:"Station"`
 	Latitude  string `csv:"Latitude"`
 	Longitude string `csv:"Longitude"`
+	Type      string `csv:"Type"`
 }
 
 type AssetData struct {
-	Asset string
+	Asset     string
+	Latitude  string
+	Longitude string
+	Type      string
 }
 
 type PlatformData struct {
-	Asset    string
-	Platform string
+	Asset     string
+	Platform  string
+	Latitude  string
+	Longitude string
+	Type      string
 }
 
 type StationData struct {
@@ -997,6 +1004,7 @@ type StationData struct {
 	Station   string
 	Latitude  string
 	Longitude string
+	Type      string
 }
 
 func GetLocationData() ([]LocationData, error) {
@@ -1021,6 +1029,7 @@ func GetLocationData() ([]LocationData, error) {
 			Station:   FormatData(location.Station),
 			Latitude:  FormatData(location.Latitude),
 			Longitude: FormatData(location.Longitude),
+			Type:      FormatData(location.Type),
 		}
 	}
 
@@ -1065,8 +1074,11 @@ func GetPlatformData() ([]PlatformData, error) {
 
 	for _, platform := range platforms {
 		PlatformData := PlatformData{
-			Asset:    platform.Asset,
-			Platform: platform.Platform,
+			Asset:     platform.Asset,
+			Platform:  platform.Platform,
+			Latitude:  platform.Latitude,
+			Longitude: platform.Longitude,
+			Type:      platform.Type,
 		}
 		PlatformSet[PlatformData] = exists
 	}
@@ -1821,6 +1833,7 @@ func GetAssetLocationData() ([]LocationData, error) {
 			Asset:     FormatData(location.Asset),
 			Latitude:  FormatData(location.Latitude),
 			Longitude: FormatData(location.Longitude),
+			Type:      FormatData(location.Type),
 		}
 	}
 
@@ -1832,6 +1845,7 @@ type PlatformLocationData struct {
 	Platform  string `csv:"Platform"`
 	Latitude  string `csv:"Latitude"`
 	Longitude string `csv:"Longitude"`
+	Type      string `csv:"Type"`
 }
 
 func GetPlatformLocationData() ([]LocationData, error) {
@@ -1855,6 +1869,7 @@ func GetPlatformLocationData() ([]LocationData, error) {
 			Platform:  FormatData(location.Platform),
 			Latitude:  FormatData(location.Latitude),
 			Longitude: FormatData(location.Longitude),
+			Type:      FormatData(location.Type),
 		}
 	}
 

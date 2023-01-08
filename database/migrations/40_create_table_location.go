@@ -6,7 +6,7 @@ import (
 	"github.com/go-pg/migrations/v8"
 )
 
-////No.,Species,Year,Asset,Platform,Station,Surface,Euphotic_zone
+// //No.,Species,Year,Asset,Platform,Station,Surface,Euphotic_zone
 const createTableLocationSQL = `
 	CREATE TABLE IF NOT EXISTS public."location"
 	(
@@ -16,6 +16,7 @@ const createTableLocationSQL = `
 		"station_id" UUID NOT NULL,
 		"latitude" float NOT NULL,
 		"longitude" float NOT NULL,
+		"type" varchar(5) DEFAULT NULL,
 
 		"created_at" TIMESTAMPTZ DEFAULT NOW(),
 		"updated_at" TIMESTAMPTZ DEFAULT NOW(),
@@ -74,16 +75,17 @@ func init() {
 
 		for _, location := range Locations {
 			insertlocationSQL := fmt.Sprintf(`
-			INSERT INTO public."location"("asset_id", "platform_id","station_id","latitude","longitude") VALUES(
+			INSERT INTO public."location"("asset_id", "platform_id","station_id","latitude","longitude","type") VALUES(
 			(SELECT asset_id from public."asset" WHERE asset_name = '%s' LIMIT 1),
 			(SELECT platform_id from public."platform" WHERE platform_name = '%s' LIMIT 1),
 			(SELECT station_id from public."station" WHERE station_name = '%s' LIMIT 1),
-			'%s','%s');`,
+			'%s','%s','%s');`,
 				location.Asset,
 				location.Platform,
 				location.Station,
 				location.Latitude,
-				location.Longitude)
+				location.Longitude,
+				location.Type)
 			_, err := db.Exec(insertlocationSQL)
 			if err != nil {
 				fmt.Println(insertlocationSQL)

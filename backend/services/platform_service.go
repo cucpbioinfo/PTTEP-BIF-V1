@@ -25,6 +25,27 @@ func (platformService *PlatformService) ListPlatform(query types.ListPlatformQue
 		platformList[i] = types.PlatformDto{
 			PlatformID:   platform.PlatformID,
 			PlatformName: platform.PlatformName,
+			Latitude:     platform.Latitude,
+			Longitude:    platform.Longitude,
+			Type:         platform.Type,
+		}
+	}
+	return platformList, nil
+}
+
+func (platformService *PlatformService) ListRefPlatform(query types.ListPlatformQuery) ([]types.PlatformDto, error) {
+	platform, err := platformService.PlatformRepository.ListRefPlatform(query)
+	if err != nil {
+		return make([]types.PlatformDto, 0), err
+	}
+	platformList := make([]types.PlatformDto, len(platform))
+	for i, platform := range platform {
+		platformList[i] = types.PlatformDto{
+			PlatformID:   platform.PlatformID,
+			PlatformName: platform.PlatformName,
+			Latitude:     platform.Latitude,
+			Longitude:    platform.Longitude,
+			Type:         platform.Type,
 		}
 	}
 	return platformList, nil

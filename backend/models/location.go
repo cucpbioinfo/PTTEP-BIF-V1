@@ -11,6 +11,7 @@ type Location struct {
 	LocationID uuid.UUID `pg:"location_id,pk"`
 	Latitude   string    `pg:"latitude"`
 	Longitude  string    `pg:"longitude"`
+	Type       string    `pg:"type"`
 
 	AssetID    uuid.UUID `pg:"asset_id"`
 	Asset      *Asset    `pg:"rel:has-one"`
@@ -29,6 +30,7 @@ type AssetLocation struct {
 	LocationID uuid.UUID `pg:"assetlocation_id,pk"`
 	Latitude   string    `pg:"latitude"`
 	Longitude  string    `pg:"longitude"`
+	Type       string    `pg:"type"`
 
 	AssetID uuid.UUID `pg:"asset_id"`
 	Asset   *Asset    `pg:"rel:has-one"`

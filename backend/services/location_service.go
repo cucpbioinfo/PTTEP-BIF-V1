@@ -46,6 +46,7 @@ func (locationService *LocationService) ListLocationAsset(query types.ListLocati
 			AssetName:  location.Asset.AssetName,
 			Latitude:   location.Latitude,
 			Longitude:  location.Longitude,
+			Type:       location.Type,
 		}
 	}
 	return locationList, nil
@@ -64,6 +65,7 @@ func (locationService *LocationService) ListLocationPlatform(query types.ListLoc
 			PlatformName: location.Platform.PlatformName,
 			Latitude:     location.Latitude,
 			Longitude:    location.Longitude,
+			Type:         location.Type,
 		}
 	}
 	return locationList, nil
@@ -82,6 +84,7 @@ func (locationService *LocationService) ListAssetLocation(query types.ListLocati
 			AssetName:  location.Asset.AssetName,
 			Latitude:   location.Latitude,
 			Longitude:  location.Longitude,
+			Type:       location.Type,
 		}
 	}
 	return locationList, nil

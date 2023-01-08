@@ -15,6 +15,7 @@ type LocationDto struct {
 	StationName  string    `json:"stationName"`
 	Latitude     string    `json:"latitude"`
 	Longitude    string    `json:"longitude"`
+	Type         string    `json:"type"`
 }
 
 type LocationAssetDto struct {
@@ -23,6 +24,7 @@ type LocationAssetDto struct {
 	AssetName  string    `json:"assetName"`
 	Latitude   string    `json:"latitude"`
 	Longitude  string    `json:"longitude"`
+	Type       string    `json:"type"`
 }
 
 type LocationPlatformDto struct {
@@ -31,6 +33,7 @@ type LocationPlatformDto struct {
 	PlatformName string    `json:"platformName"`
 	Latitude     string    `json:"latitude"`
 	Longitude    string    `json:"longitude"`
+	Type         string    `json:"type"`
 }
 
 type ListLocationQuery struct {

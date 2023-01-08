@@ -39,3 +39,27 @@ func (platformController *PlatformController) ListPlatform(c *fiber.Ctx) error {
 		Data: platform,
 	})
 }
+
+func (platformController *PlatformController) ListRefPlatform(c *fiber.Ctx) error {
+	query := &types.ListPlatformQuery{}
+	if err := c.QueryParser(query); err != nil {
+		return &fiber.Error{
+			Code:    400,
+			Message: "Invalid query",
+		}
+	}
+	platform, err := platformController.PlatformService.ListRefPlatform(*query)
+	if err != nil {
+		return &fiber.Error{
+			Code:    400,
+			Message: "Fail to list platform",
+		}
+	}
+	return c.JSON(&types.ListPlatformResponse{
+		BaseResponse: types.BaseResponse{
+			Ok:      true,
+			Message: "success",
+		},
+		Data: platform,
+	})
+}

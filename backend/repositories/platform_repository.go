@@ -25,7 +25,22 @@ func (platformRepository *PlatformRepository) ListPlatform(query types.ListPlatf
 		dbQuery.Where("platform.asset_id = ?", query.AssetID)
 	}
 
-	err := dbQuery.Order("platform_name ASC").Select()
+	err := dbQuery.Where("platform.type = ?", "nor").Order("platform_name ASC").Select()
+	if err != nil {
+		return make([]models.Platform, 0), err
+	}
+	return platform, nil
+}
+
+func (platformRepository *PlatformRepository) ListRefPlatform(query types.ListPlatformQuery) ([]models.Platform, error) {
+	var platform []models.Platform
+	dbQuery := platformRepository.pg.Model(&platform)
+
+	if query.AssetID != uuid.Nil {
+		dbQuery.Where("platform.asset_id = ?", query.AssetID)
+	}
+
+	err := dbQuery.Where("platform.type = ?", "ref").Order("platform_name ASC").Select()
 	if err != nil {
 		return make([]models.Platform, 0), err
 	}

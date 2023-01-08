@@ -14,6 +14,7 @@ const createTablePlatformSQL = `
 		"asset_id" UUID NOT NULL,
 		"latitude" float DEFAULT NULL,
 		"longitude" float DEFAULT NULL,
+		"type" varchar(5) DEFAULT NULL,
 		"created_at" TIMESTAMPTZ DEFAULT NOW(),
 		"updated_at" TIMESTAMPTZ DEFAULT NOW(),
 		"deleted_at" TIMESTAMPTZ DEFAULT NULL
@@ -53,7 +54,7 @@ func init() {
 		}
 
 		fmt.Println("[Migration] Seeding table platform...")
-		Platforms, err := GetPlatformData()
+		Platforms, err := GetPlatformLocationData()
 		if err != nil {
 			fmt.Println("Cannot get platform data")
 			return err
@@ -61,10 +62,13 @@ func init() {
 
 		for _, platform := range Platforms {
 			insertPlatformSQL := fmt.Sprintf(`
-			INSERT INTO public."platform"("platform_name","asset_id") 
-			VALUES('%s',(SELECT asset_id from public."asset" WHERE asset_name = '%s' LIMIT 1))`,
+			INSERT INTO public."platform"("platform_name","asset_id","latitude","longitude","type") 
+			VALUES('%s',(SELECT asset_id from public."asset" WHERE asset_name = '%s' LIMIT 1),'%s','%s','%s')`,
 				platform.Platform,
-				platform.Asset)
+				platform.Asset,
+				platform.Latitude,
+				platform.Longitude,
+				platform.Type)
 			_, err := db.Exec(insertPlatformSQL)
 			if err != nil {
 				return err

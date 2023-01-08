@@ -11,6 +11,9 @@ type PlatformCreateBody struct {
 type PlatformDto struct {
 	PlatformID   uuid.UUID `json:"platformId"`
 	PlatformName string    `json:"platformName"`
+	Latitude     string    `json:"latitude"`
+	Longitude    string    `json:"longitude"`
+	Type         string    `json:"type"`
 }
 
 type ListPlatformQuery struct {

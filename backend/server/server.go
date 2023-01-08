@@ -299,6 +299,8 @@ func StartServer() {
 
 	platformAPI := app.Group("/platform")
 	platformAPI.Get("/", platformController.ListPlatform)
+	refplatformAPI := app.Group("/refplatform")
+	refplatformAPI.Get("/", platformController.ListRefPlatform)
 
 	stationAPI := app.Group("/station")
 	stationAPI.Get("/", stationController.ListStation)
